@@ -2,7 +2,7 @@ from .app import db
 
 
 class CrimeWeather(db.Model):
-    __tablename__ = 'pets'
+    __tablename__ = 'crimeweather'
 
     id = db.Column(db.Integer, primary_key=True)
     city = db.Column(db.String(64))

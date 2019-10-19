@@ -6,6 +6,7 @@ from flask import (
     jsonify,
     request,
     redirect)
+import sqlite3
 
 #################################################
 # Flask Setup
@@ -21,8 +22,28 @@ app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') or "s
 # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '')
 db = SQLAlchemy(app)
 
-from .models import Pet
+# from .models import CrimeWeather
+#import models
 
+# ==========
+class CrimeWeather(db.Model):
+    __tablename__ = 'combine'
+
+    id = db.Column(db.Integer, primary_key=True)
+    city = db.Column(db.String(30))
+    code = db.Column(db.String(10))
+    startdate = db.Column(db.String(30))#(db.DateTime)
+    starttime = db.Column(db.Integer)
+    latitude = db.Column(db.Float)
+    longitude = db.Column(db.Float)
+    # crime_desc = db.Column(db.String())
+    mapping = db.Column(db.String(50))
+    weather = db.Column(db.String(50))
+
+    def __repr__(self):
+        return '<CrimeWeather %r>' % (self.name)
+
+# ==========
 
 # create route that renders index.html template
 @app.route("/")
@@ -33,33 +54,45 @@ def home():
 # Query the database and send the jsonified results
 @app.route("/send", methods=["GET", "POST"])
 def send():
-    if request.method == "POST":
-        name = request.form["petName"]
-        lat = request.form["petLat"]
-        lon = request.form["petLon"]
+    # if request.method == "POST":
+    #     name = request.form["petName"]
+    #     lat = request.form["petLat"]
+    #     lon = request.form["petLon"]
 
-        pet = Pet(name=name, lat=lat, lon=lon)
-        db.session.add(pet)
-        db.session.commit()
-        return redirect("/", code=302)
+    #     pet = Pet(name=name, lat=lat, lon=lon)
+    #     db.session.add(pet)
+    #     db.session.commit()
+    #     return redirect("/", code=302)
 
     return render_template("form.html")
 
 
-@app.route("/api/pals")
+@app.route("/api")
 def crimeweather():
-    results = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.date,CrimeWeather.time,
-    CrimeWeather.lat,CrimeWeather.lon,CrimeWeather.crime_desc,CrimeWeather.mapping,CrimeWeather.weather).all()
+    result = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
+    CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).first()#.all()
 
-    city = [result[0] for result in results]
-    code = [result[1] for result in results]
-    date = [result[2] for result in results]
-    time = [result[3] for result in results]
-    lat = [result[4] for result in results]
-    lon = [result[5] for result in results]
-    crime_desc = [result[6] for result in results]
-    mapping = [result[7] for result in results]
-    weather = [result[8] for result in results]
+    # Uncomment these and comment the duplicates below if .all() is selected
+
+    # city = [result[0] for result in results]
+    # code = [result[1] for result in results]
+    # date = [result[2] for result in results]
+    # time = [result[3] for result in results]
+    # lat = [result[4] for result in results]
+    # lon = [result[5] for result in results]
+    # # crime_desc = [result[6] for result in results]
+    # mapping = [result[6] for result in results]
+    # weather = [result[7] for result in results]
+
+    city = result[0]
+    code = result[1]
+    date = result[2]
+    time = result[3]
+    lat = result[4]
+    lon = result[5]
+    mapping = result[6]
+    weather = result[7]
+
 
     crimeweather_data = [{
         "location":{
@@ -68,7 +101,7 @@ def crimeweather():
             "lon":lon
         },
         "crime":{
-            "crime_desc":crime_desc,
+            # "crime_desc":crime_desc,
             "mapping":mapping,
             "code":code
         },
@@ -78,9 +111,10 @@ def crimeweather():
         },
         "weather":weather
     }]
+    print(crimeweather_data)
 
     return jsonify(crimeweather_data)
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
