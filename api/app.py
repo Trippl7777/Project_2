@@ -8,26 +8,18 @@ from flask import (
     redirect)
 import sqlite3
 
-#################################################
 # Flask Setup
-#################################################
 app = Flask(__name__)
 
-#################################################
 # Database Setup
-#################################################
-
 from flask_sqlalchemy import SQLAlchemy
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') or "sqlite:///db.sqlite"
 # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '')
 db = SQLAlchemy(app)
 
-# from .models import CrimeWeather
-#import models
-
 # ==========
 class CrimeWeather(db.Model):
-    __tablename__ = 'combine'
+    __tablename__ = 'combined'
 
     id = db.Column(db.Integer, primary_key=True)
     city = db.Column(db.String(30))
@@ -36,14 +28,13 @@ class CrimeWeather(db.Model):
     starttime = db.Column(db.Integer)
     latitude = db.Column(db.Float)
     longitude = db.Column(db.Float)
-    # crime_desc = db.Column(db.String())
     mapping = db.Column(db.String(50))
     weather = db.Column(db.String(50))
 
     def __repr__(self):
         return '<CrimeWeather %r>' % (self.name)
 
-# ==========
+# ========== OLD FLASK TEMPLATE CODE
 
 # create route that renders index.html template
 @app.route("/")
@@ -66,21 +57,19 @@ def send():
 
     return render_template("form.html")
 
-
+# ========== NEW API CODE ==========
 @app.route("/api")
 def crimeweather():
     result = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
     CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).first()#.all()
 
     # Uncomment these and comment the duplicates below if .all() is selected
-
     # city = [result[0] for result in results]
     # code = [result[1] for result in results]
     # date = [result[2] for result in results]
     # time = [result[3] for result in results]
     # lat = [result[4] for result in results]
     # lon = [result[5] for result in results]
-    # # crime_desc = [result[6] for result in results]
     # mapping = [result[6] for result in results]
     # weather = [result[7] for result in results]
 
@@ -93,7 +82,6 @@ def crimeweather():
     mapping = result[6]
     weather = result[7]
 
-
     crimeweather_data = [{
         "location":{
             "city":city,
@@ -101,7 +89,6 @@ def crimeweather():
             "lon":lon
         },
         "crime":{
-            # "crime_desc":crime_desc,
             "mapping":mapping,
             "code":code
         },
@@ -111,10 +98,84 @@ def crimeweather():
         },
         "weather":weather
     }]
-    print(crimeweather_data)
 
     return jsonify(crimeweather_data)
 
+@app.route("/api/<city>")
+def crimeweather_state(city):
+    result = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
+    CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).filter(CrimeWeather.city == city).first()#.all()
+
+    # Uncomment these and comment the duplicates below if .all() is selected
+    # city = [result[0] for result in results]
+    # code = [result[1] for result in results]
+    # date = [result[2] for result in results]
+    # time = [result[3] for result in results]
+    # lat = [result[4] for result in results]
+    # lon = [result[5] for result in results]
+    # mapping = [result[6] for result in results]
+    # weather = [result[7] for result in results]
+
+    city = result[0]
+    code = result[1]
+    date = result[2]
+    time = result[3]
+    lat = result[4]
+    lon = result[5]
+    mapping = result[6]
+    weather = result[7]
+
+    crimeweather_data = [{
+        "location":{
+            "city":city,
+            "lat":lat,
+            "lon":lon
+        },
+        "crime":{
+            "mapping":mapping,
+            "code":code
+        },
+        "time":{
+            "date":date,
+            "hour":time
+        },
+        "weather":weather
+    }]
+
+    return jsonify(crimeweather_data)
+
+@app.route("/api/data")
+def crimeweather_full():
+    results = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
+    CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).all()
+
+    city = [result[0] for result in results]
+    code = [result[1] for result in results]
+    date = [result[2] for result in results]
+    time = [result[3] for result in results]
+    lat = [result[4] for result in results]
+    lon = [result[5] for result in results]
+    mapping = [result[6] for result in results]
+    weather = [result[7] for result in results]
+
+    crimeweather_data = [{
+        "location":{
+            "city":city,
+            "lat":lat,
+            "lon":lon
+        },
+        "crime":{
+            "mapping":mapping,
+            "code":code
+        },
+        "time":{
+            "date":date,
+            "hour":time
+        },
+        "weather":weather
+    }]
+
+    return jsonify(crimeweather_data)
 
 if __name__ == "__main__":
     app.run(debug=True)
