@@ -144,7 +144,9 @@ def crimeweather_state(city):
 
     return jsonify(crimeweather_data)
 
-@app.route("/api/data")
+@app.route("/api/data") 
+# !!!WARNING!!! Navigating to this path may cause a timeout/overload error.
+#   If you want subqueries, please filter the data before in order to possibly avoid these errors!
 def crimeweather_full():
     results = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
     CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).all()
