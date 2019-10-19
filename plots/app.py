@@ -27,35 +27,75 @@ Base = automap_base()
 # reflect the tables
 Base.prepare(db.engine, reflect=True)
 
+chart = "Year"
+crime = "All"
+weather = "All"
+
 @app.route("/")
 def index():
     """Return the homepage."""
     return render_template("index.html")
 
-@app.route("/names")
-def names():
+@app.route("/chartroute")
+def chartroute():
     """Return a list of selector names."""
     selectors = ["Year", "Month", "DayofWeek", "StartTime"]
-    print(selectors)
-    #print(selectors)
+    
+    return jsonify(selectors)
+
+@app.route("/crimeroute")
+def crimeroute():
+    """Return a list of selector names."""
+    selectors = ["All", "Auto-Theft", "Other", "Property", "Theft", "Violation", "Violence"]
+    
+    return jsonify(selectors)
+
+@app.route("/weatherroute")
+def weatherroute():
+    """Return a list of selector names."""
+    selectors = ["All", "Clear", "Mostly Cloudy", "Overcast", "Partly Cloudy", "Rain", "Snow"]
+
     return jsonify(selectors)
 
 @app.route("/samples/<sample>")
 def samples(sample):
     """Return summarized data by selected sample."""
     data = {}
-    cities = ["atlanta", "boston", "chicago", "denver", "los_angeles"]
+    words = sample.split("1")
+    cities = ["base", "atlanta", "boston", "chicago", "denver", "los_angeles"]
     for i in range(len(cities)):
-        stmt1 = "SELECT " + sample +", SUM(Count) FROM crime"
-        stmt2 = " WHERE City = " + "'" + cities[i] + "'"
-        stmt3 = " GROUP BY " + sample
-        stmt = stmt1 + stmt2 + stmt3
-        df = pd.read_sql_query(stmt, db.session.bind)
-        df["ratio"] = df.iloc[:,1] / df["SUM(Count)"].sum()
-        print(cities[i])
-        data.update({cities[i] : {"xAxis": df.iloc[:,0].tolist(), "yAxis": df.iloc[:,2].tolist()}})
+        if (cities[i] == "base") :
+            stmt1 = "SELECT " + words[0] +", SUM(Count) FROM crime"
+            stmt5 = " GROUP BY " + words[0]
+            stmt6 = " ORDER BY " + words[0]
+            stmt = stmt1 + stmt5 + stmt6
+            print(stmt)
+            df = pd.read_sql_query(stmt, db.session.bind)
+            df["ratio"] = df.iloc[:,1] * 0
+            data.update({cities[i] : {"xAxis": df.iloc[:,0].tolist(), "yAxis": df.iloc[:,2].tolist()}})
 
-    print(cities)
+        else:
+            stmt1 = "SELECT " + words[0] +", SUM(Count) FROM crime"
+            stmt2 = " WHERE City = " + "'" + cities[i] + "'"
+            
+            if (words[1] == "All"):
+                stmt3 = ""
+            else:
+                stmt3 = " AND MapCrime = '" + words[1] + "'"
+            
+            if (words[2] == "All"):
+                stmt4 = ""
+            else:
+                stmt4 = " AND MapWeather = '" + words[2] + "'"
+            
+            stmt5 = " GROUP BY " + words[0]
+            stmt6 = " ORDER BY " + words[0]
+            stmt = stmt1 + stmt2 + stmt3 + stmt4 + stmt5 + stmt6
+            print(stmt)
+            df = pd.read_sql_query(stmt, db.session.bind)
+            df["ratio"] = df.iloc[:,1] / df["SUM(Count)"].sum()
+            data.update({cities[i] : {"xAxis": df.iloc[:,0].tolist(), "yAxis": df.iloc[:,2].tolist()}})
+
     return jsonify(data)
 
 if __name__ == "__main__":
