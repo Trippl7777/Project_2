@@ -1,0 +1,25 @@
+﻿Mapping,MapCrime
+Burglary,Theft
+Violence,Violence
+Other,Other
+Auto-Theft,Auto-Theft
+Verbal,Other
+M/V,Violation
+Vandalism,Property
+Property,Property
+Robbery,Theft
+Fraud,Other
+Drugs,Other
+Violation,Violation
+B&E,Theft
+Investigate ,Other
+Medical,Other
+Rape,Violence
+Warrant,Other
+Sexual,Violence
+Killing,Violence
+Arson,Violence
+Interference,Other
+Kidnapping,Violence
+VAL,Other
+Towed,Other
