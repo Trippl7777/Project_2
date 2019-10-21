@@ -34,7 +34,7 @@ function buildLines(sample) {
 
     // Define our plot layout
     var layout = {
-      title: {text: 'Crimes (' + crime + ') - Weather (' + weather + ')', font: {family: 'Arial', size: 20, color: 'black'}},
+      title: {text: 'Crimes (' + crime + ') - City (' + city + ')', font: {family: 'Arial', size: 20, color: 'black'}},
       xaxis: {type: 'category', title: {text: chart, font: {family: 'Arial', size: 14, color: 'black'}}},
       yaxis: {title: {text: yLabel, font: {family: 'Arial', size: 14, color: 'black'}}}
     };
