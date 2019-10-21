@@ -37,7 +37,7 @@ The first plot shows the crime information by each city along the following indi
     Weather Selector: Clear, Mostly Cloudy, Overcast, Partly Cloudy, Rain, Snow
     Measure Selector: Percentage, Per Capita, Count
 
-    ![Plot1](images/plot1.png)
+![Plot1](images/plot1.png)
 
 The first plot shows the crime information by each weather group along the following indicators:
     Chart Type: Year, Month, DayofWeek, StartTime
@@ -45,7 +45,7 @@ The first plot shows the crime information by each weather group along the follo
     City Selector: Atlanta, Boston, Chicago, Denver, and Los Angeles
     Measure Selector: Percentage, Per Capita, Count
 
-    ![Plot1](images/plot2.png)
+![Plot1](images/plot2.png)
 
 
 
