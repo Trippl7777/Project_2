@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crime Data Sunburst</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Prevent favicon issue -->
+  <link rel="icon" href="data:,">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Crime Data Dashboard</h1>
+        <p>Use the interactive Sunburst chart below:</p>
+      </div>
+    </div>
+    <!-- <div class="row">
+        <div class="col-md-2">
+            <div class="row">
+                <div class="well">
+                 <h5>Weather Types: </h5>
+                 <ul id="checkers" style="list-style-type: none"> -->
+                   <!-- insert checkboes for type of weather -->
+                 <!-- </ul>
+                </div>
+            </div>
+        </div> -->
+      <div class="col-md-12 responsive">
+        <div id="sunburst"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="https://cdn.plot.ly/plotly-1.49.5.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+</body>
+
+</html>

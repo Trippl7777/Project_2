@@ -1,0 +1,1523 @@
+,ids,labels,parents,values
+0,Weather-Atlanta,Atlanta,,141625
+1,Weather-Boston,Boston,,329762
+2,Weather-Denver,Denver,,446283
+3,Weather-Chicago,Chicago,,864007
+4,Weather-Los Angeles,Los Angeles,,1090415
+5,Atlanta-Partly Cloudy,Partly Cloudy,Weather-Atlanta,33083
+6,Atlanta-Possible Drizzle,Possible Drizzle,Weather-Atlanta,3347
+7,Atlanta-Mostly Cloudy,Mostly Cloudy,Weather-Atlanta,23352
+8,Atlanta-Overcast,Overcast,Weather-Atlanta,18632
+9,Atlanta-Clear,Clear,Weather-Atlanta,42811
+10,Atlanta-Light Rain,Light Rain,Weather-Atlanta,3798
+11,Atlanta-Drizzle,Drizzle,Weather-Atlanta,1728
+12,Atlanta-Foggy,Foggy,Weather-Atlanta,2742
+13,Atlanta-Rain,Rain,Weather-Atlanta,1238
+14,Atlanta-Possible Light Rain,Possible Light Rain,Weather-Atlanta,614
+15,Atlanta-Humid and Partly Cloudy,Humid and Partly Cloudy,Weather-Atlanta,3187
+16,Atlanta-Possible Drizzle and Humid,Possible Drizzle and Humid,Weather-Atlanta,424
+17,Atlanta-Humid and Mostly Cloudy,Humid and Mostly Cloudy,Weather-Atlanta,4012
+18,Atlanta-Humid and Overcast,Humid and Overcast,Weather-Atlanta,798
+19,Atlanta-Humid,Humid,Weather-Atlanta,1114
+20,Atlanta-Light Rain and Humid,Light Rain and Humid,Weather-Atlanta,207
+21,Atlanta-Possible Light Rain and Humid,Possible Light Rain and Humid,Weather-Atlanta,198
+22,Atlanta-Rain and Humid,Rain and Humid,Weather-Atlanta,61
+23,Atlanta-Possible Light Sleet,Possible Light Sleet,Weather-Atlanta,11
+24,Atlanta-Humid and Foggy,Humid and Foggy,Weather-Atlanta,93
+25,Atlanta-Possible Flurries,Possible Flurries,Weather-Atlanta,47
+26,Atlanta-Heavy Rain,Heavy Rain,Weather-Atlanta,25
+27,Atlanta-Drizzle and Humid,Drizzle and Humid,Weather-Atlanta,53
+28,Atlanta-Light Snow,Light Snow,Weather-Atlanta,28
+29,Atlanta-Light Sleet,Light Sleet,Weather-Atlanta,19
+30,Atlanta-Possible Light Snow,Possible Light Snow,Weather-Atlanta,3
+31,Partly Cloudy-Auto-Theft,Auto-Theft,Atlanta-Partly Cloudy,4456
+32,Partly Cloudy-Robbery,Robbery,Atlanta-Partly Cloudy,2291
+33,Partly Cloudy-Violence,Violence,Atlanta-Partly Cloudy,2636
+34,Partly Cloudy-Burglary,Burglary,Atlanta-Partly Cloudy,23569
+35,Partly Cloudy-Killing,Killing,Atlanta-Partly Cloudy,131
+36,Possible Drizzle-Auto-Theft,Auto-Theft,Atlanta-Possible Drizzle,436
+37,Possible Drizzle-Robbery,Robbery,Atlanta-Possible Drizzle,219
+38,Possible Drizzle-Violence,Violence,Atlanta-Possible Drizzle,222
+39,Possible Drizzle-Burglary,Burglary,Atlanta-Possible Drizzle,2462
+40,Possible Drizzle-Killing,Killing,Atlanta-Possible Drizzle,8
+41,Mostly Cloudy-Auto-Theft,Auto-Theft,Atlanta-Mostly Cloudy,3275
+42,Mostly Cloudy-Robbery,Robbery,Atlanta-Mostly Cloudy,1372
+43,Mostly Cloudy-Violence,Violence,Atlanta-Mostly Cloudy,1776
+44,Mostly Cloudy-Burglary,Burglary,Atlanta-Mostly Cloudy,16864
+45,Mostly Cloudy-Killing,Killing,Atlanta-Mostly Cloudy,65
+46,Overcast-Auto-Theft,Auto-Theft,Atlanta-Overcast,2324
+47,Overcast-Robbery,Robbery,Atlanta-Overcast,1101
+48,Overcast-Violence,Violence,Atlanta-Overcast,1284
+49,Overcast-Burglary,Burglary,Atlanta-Overcast,13868
+50,Overcast-Killing,Killing,Atlanta-Overcast,55
+51,Clear-Auto-Theft,Auto-Theft,Atlanta-Clear,5399
+52,Clear-Robbery,Robbery,Atlanta-Clear,2744
+53,Clear-Violence,Violence,Atlanta-Clear,3099
+54,Clear-Burglary,Burglary,Atlanta-Clear,31429
+55,Clear-Killing,Killing,Atlanta-Clear,140
+56,Light Rain-Auto-Theft,Auto-Theft,Atlanta-Light Rain,502
+57,Light Rain-Robbery,Robbery,Atlanta-Light Rain,213
+58,Light Rain-Violence,Violence,Atlanta-Light Rain,246
+59,Light Rain-Burglary,Burglary,Atlanta-Light Rain,2826
+60,Light Rain-Killing,Killing,Atlanta-Light Rain,11
+61,Drizzle-Auto-Theft,Auto-Theft,Atlanta-Drizzle,221
+62,Drizzle-Robbery,Robbery,Atlanta-Drizzle,109
+63,Drizzle-Violence,Violence,Atlanta-Drizzle,96
+64,Drizzle-Burglary,Burglary,Atlanta-Drizzle,1299
+65,Drizzle-Killing,Killing,Atlanta-Drizzle,3
+66,Foggy-Auto-Theft,Auto-Theft,Atlanta-Foggy,298
+67,Foggy-Robbery,Robbery,Atlanta-Foggy,152
+68,Foggy-Violence,Violence,Atlanta-Foggy,158
+69,Foggy-Burglary,Burglary,Atlanta-Foggy,2129
+70,Foggy-Killing,Killing,Atlanta-Foggy,5
+71,Rain-Auto-Theft,Auto-Theft,Atlanta-Rain,176
+72,Rain-Robbery,Robbery,Atlanta-Rain,67
+73,Rain-Violence,Violence,Atlanta-Rain,75
+74,Rain-Burglary,Burglary,Atlanta-Rain,919
+75,Rain-Killing,Killing,Atlanta-Rain,1
+76,Possible Light Rain-Auto-Theft,Auto-Theft,Atlanta-Possible Light Rain,97
+77,Possible Light Rain-Robbery,Robbery,Atlanta-Possible Light Rain,46
+78,Possible Light Rain-Violence,Violence,Atlanta-Possible Light Rain,41
+79,Possible Light Rain-Burglary,Burglary,Atlanta-Possible Light Rain,426
+80,Possible Light Rain-Killing,Killing,Atlanta-Possible Light Rain,4
+81,Humid and Partly Cloudy-Auto-Theft,Auto-Theft,Atlanta-Humid and Partly Cloudy,461
+82,Humid and Partly Cloudy-Robbery,Robbery,Atlanta-Humid and Partly Cloudy,200
+83,Humid and Partly Cloudy-Violence,Violence,Atlanta-Humid and Partly Cloudy,243
+84,Humid and Partly Cloudy-Burglary,Burglary,Atlanta-Humid and Partly Cloudy,2274
+85,Humid and Partly Cloudy-Killing,Killing,Atlanta-Humid and Partly Cloudy,9
+86,Possible Drizzle and Humid-Auto-Theft,Auto-Theft,Atlanta-Possible Drizzle and Humid,65
+87,Possible Drizzle and Humid-Robbery,Robbery,Atlanta-Possible Drizzle and Humid,26
+88,Possible Drizzle and Humid-Violence,Violence,Atlanta-Possible Drizzle and Humid,36
+89,Possible Drizzle and Humid-Burglary,Burglary,Atlanta-Possible Drizzle and Humid,291
+90,Possible Drizzle and Humid-Killing,Killing,Atlanta-Possible Drizzle and Humid,6
+91,Humid and Mostly Cloudy-Auto-Theft,Auto-Theft,Atlanta-Humid and Mostly Cloudy,570
+92,Humid and Mostly Cloudy-Robbery,Robbery,Atlanta-Humid and Mostly Cloudy,210
+93,Humid and Mostly Cloudy-Violence,Violence,Atlanta-Humid and Mostly Cloudy,300
+94,Humid and Mostly Cloudy-Burglary,Burglary,Atlanta-Humid and Mostly Cloudy,2919
+95,Humid and Mostly Cloudy-Killing,Killing,Atlanta-Humid and Mostly Cloudy,13
+96,Humid and Overcast-Auto-Theft,Auto-Theft,Atlanta-Humid and Overcast,83
+97,Humid and Overcast-Robbery,Robbery,Atlanta-Humid and Overcast,28
+98,Humid and Overcast-Violence,Violence,Atlanta-Humid and Overcast,55
+99,Humid and Overcast-Burglary,Burglary,Atlanta-Humid and Overcast,630
+100,Humid and Overcast-Killing,Killing,Atlanta-Humid and Overcast,2
+101,Humid-Auto-Theft,Auto-Theft,Atlanta-Humid,108
+102,Humid-Robbery,Robbery,Atlanta-Humid,71
+103,Humid-Violence,Violence,Atlanta-Humid,91
+104,Humid-Burglary,Burglary,Atlanta-Humid,837
+105,Humid-Killing,Killing,Atlanta-Humid,7
+106,Light Rain and Humid-Auto-Theft,Auto-Theft,Atlanta-Light Rain and Humid,39
+107,Light Rain and Humid-Robbery,Robbery,Atlanta-Light Rain and Humid,9
+108,Light Rain and Humid-Violence,Violence,Atlanta-Light Rain and Humid,9
+109,Light Rain and Humid-Burglary,Burglary,Atlanta-Light Rain and Humid,149
+110,Light Rain and Humid-Killing,Killing,Atlanta-Light Rain and Humid,1
+111,Possible Light Rain and Humid-Auto-Theft,Auto-Theft,Atlanta-Possible Light Rain and Humid,22
+112,Possible Light Rain and Humid-Robbery,Robbery,Atlanta-Possible Light Rain and Humid,16
+113,Possible Light Rain and Humid-Violence,Violence,Atlanta-Possible Light Rain and Humid,15
+114,Possible Light Rain and Humid-Burglary,Burglary,Atlanta-Possible Light Rain and Humid,145
+115,Possible Light Rain and Humid-Killing,,Atlanta-Possible Light Rain and Humid,0
+116,Rain and Humid-Auto-Theft,Auto-Theft,Atlanta-Rain and Humid,11
+117,Rain and Humid-Robbery,Robbery,Atlanta-Rain and Humid,2
+118,Rain and Humid-Violence,Violence,Atlanta-Rain and Humid,6
+119,Rain and Humid-Burglary,Burglary,Atlanta-Rain and Humid,42
+120,Rain and Humid-Killing,,Atlanta-Rain and Humid,0
+121,Possible Light Sleet-Auto-Theft,,Atlanta-Possible Light Sleet,0
+122,Possible Light Sleet-Robbery,Robbery,Atlanta-Possible Light Sleet,1
+123,Possible Light Sleet-Violence,Violence,Atlanta-Possible Light Sleet,1
+124,Possible Light Sleet-Burglary,Burglary,Atlanta-Possible Light Sleet,9
+125,Possible Light Sleet-Killing,,Atlanta-Possible Light Sleet,0
+126,Humid and Foggy-Auto-Theft,Auto-Theft,Atlanta-Humid and Foggy,10
+127,Humid and Foggy-Robbery,Robbery,Atlanta-Humid and Foggy,6
+128,Humid and Foggy-Violence,Violence,Atlanta-Humid and Foggy,5
+129,Humid and Foggy-Burglary,Burglary,Atlanta-Humid and Foggy,71
+130,Humid and Foggy-Killing,Killing,Atlanta-Humid and Foggy,1
+131,Possible Flurries-Auto-Theft,Auto-Theft,Atlanta-Possible Flurries,2
+132,Possible Flurries-Robbery,Robbery,Atlanta-Possible Flurries,3
+133,Possible Flurries-Violence,Violence,Atlanta-Possible Flurries,3
+134,Possible Flurries-Burglary,Burglary,Atlanta-Possible Flurries,38
+135,Possible Flurries-Killing,Killing,Atlanta-Possible Flurries,1
+136,Heavy Rain-Auto-Theft,Auto-Theft,Atlanta-Heavy Rain,3
+137,Heavy Rain-Robbery,Robbery,Atlanta-Heavy Rain,1
+138,Heavy Rain-Violence,Violence,Atlanta-Heavy Rain,2
+139,Heavy Rain-Burglary,Burglary,Atlanta-Heavy Rain,18
+140,Heavy Rain-Killing,Killing,Atlanta-Heavy Rain,1
+141,Drizzle and Humid-Auto-Theft,Auto-Theft,Atlanta-Drizzle and Humid,4
+142,Drizzle and Humid-Robbery,Robbery,Atlanta-Drizzle and Humid,1
+143,Drizzle and Humid-Violence,Violence,Atlanta-Drizzle and Humid,4
+144,Drizzle and Humid-Burglary,Burglary,Atlanta-Drizzle and Humid,44
+145,Drizzle and Humid-Killing,,Atlanta-Drizzle and Humid,0
+146,Light Snow-Auto-Theft,Auto-Theft,Atlanta-Light Snow,6
+147,Light Snow-Robbery,Robbery,Atlanta-Light Snow,2
+148,Light Snow-Violence,Violence,Atlanta-Light Snow,1
+149,Light Snow-Burglary,Burglary,Atlanta-Light Snow,19
+150,Light Snow-Killing,,Atlanta-Light Snow,0
+151,Light Sleet-Auto-Theft,Auto-Theft,Atlanta-Light Sleet,2
+152,Light Sleet-Robbery,Robbery,Atlanta-Light Sleet,1
+153,Light Sleet-Violence,,Atlanta-Light Sleet,0
+154,Light Sleet-Burglary,Burglary,Atlanta-Light Sleet,16
+155,Light Sleet-Killing,,Atlanta-Light Sleet,0
+156,Possible Light Snow-Auto-Theft,,Atlanta-Possible Light Snow,0
+157,Possible Light Snow-Robbery,,Atlanta-Possible Light Snow,0
+158,Possible Light Snow-Violence,,Atlanta-Possible Light Snow,0
+159,Possible Light Snow-Burglary,Burglary,Atlanta-Possible Light Snow,3
+160,Possible Light Snow-Killing,,Atlanta-Possible Light Snow,0
+161,Boston-Mostly Cloudy,Mostly Cloudy,Weather-Boston,48212
+162,Boston-Possible Light Rain,Possible Light Rain,Weather-Boston,1060
+163,Boston-Overcast,Overcast,Weather-Boston,62898
+164,Boston-Partly Cloudy,Partly Cloudy,Weather-Boston,58490
+165,Boston-Clear,Clear,Weather-Boston,118053
+166,Boston-Light Rain,Light Rain,Weather-Boston,11129
+167,Boston-Drizzle,Drizzle,Weather-Boston,6003
+168,Boston-Possible Drizzle,Possible Drizzle,Weather-Boston,9638
+169,Boston-Rain,Rain,Weather-Boston,2202
+170,Boston-Humid and Partly Cloudy,Humid and Partly Cloudy,Weather-Boston,1365
+171,Boston-Flurries,Flurries,Weather-Boston,174
+172,Boston-Foggy,Foggy,Weather-Boston,4180
+173,Boston-Humid and Mostly Cloudy,Humid and Mostly Cloudy,Weather-Boston,2020
+174,Boston-Humid,Humid,Weather-Boston,1253
+175,Boston-Light Rain and Humid,Light Rain and Humid,Weather-Boston,58
+176,Boston-Humid and Overcast,Humid and Overcast,Weather-Boston,467
+177,Boston-Possible Drizzle and Humid,Possible Drizzle and Humid,Weather-Boston,264
+178,Boston-Drizzle and Humid,Drizzle and Humid,Weather-Boston,53
+179,Boston-Light Sleet,Light Sleet,Weather-Boston,199
+180,Boston-Possible Flurries,Possible Flurries,Weather-Boston,1252
+181,Boston-Light Snow,Light Snow,Weather-Boston,370
+182,Boston-Rain and Humid,Rain and Humid,Weather-Boston,70
+183,Boston-Possible Light Snow,Possible Light Snow,Weather-Boston,47
+184,Boston-Possible Light Sleet,Possible Light Sleet,Weather-Boston,191
+185,Boston-Possible Light Rain and Humid,Possible Light Rain and Humid,Weather-Boston,101
+186,Boston-Heavy Rain,Heavy Rain,Weather-Boston,13
+187,Mostly Cloudy-Fraud,Fraud,Boston-Mostly Cloudy,1652
+188,Mostly Cloudy-Burglary,Burglary,Boston-Mostly Cloudy,7167
+189,Mostly Cloudy-Other,Other,Boston-Mostly Cloudy,11418
+190,Mostly Cloudy-Property,Property,Boston-Mostly Cloudy,2258
+191,Mostly Cloudy-Verbal,Verbal,Boston-Mostly Cloudy,988
+192,Mostly Cloudy-Investigate ,Investigate ,Boston-Mostly Cloudy,4680
+193,Mostly Cloudy-Violence,Violence,Boston-Mostly Cloudy,3577
+194,Mostly Cloudy-Medical,Medical,Boston-Mostly Cloudy,3629
+195,Mostly Cloudy-Vandalism,Vandalism,Boston-Mostly Cloudy,2403
+196,Mostly Cloudy-M/V,M/V,Boston-Mostly Cloudy,4790
+197,Mostly Cloudy-Auto-Theft,Auto-Theft,Boston-Mostly Cloudy,885
+198,Mostly Cloudy-Warrant,Warrant,Boston-Mostly Cloudy,1345
+199,Mostly Cloudy-Robbery,Robbery,Boston-Mostly Cloudy,666
+200,Mostly Cloudy-VAL,VAL,Boston-Mostly Cloudy,76
+201,Mostly Cloudy-Drugs,Drugs,Boston-Mostly Cloudy,2628
+202,Mostly Cloudy-Killing,Killing,Boston-Mostly Cloudy,37
+203,Mostly Cloudy-Arson,Arson,Boston-Mostly Cloudy,10
+204,Mostly Cloudy-Towed,Towed,Boston-Mostly Cloudy,3
+205,Possible Light Rain-Fraud,Fraud,Boston-Possible Light Rain,32
+206,Possible Light Rain-Burglary,Burglary,Boston-Possible Light Rain,164
+207,Possible Light Rain-Other,Other,Boston-Possible Light Rain,273
+208,Possible Light Rain-Property,Property,Boston-Possible Light Rain,39
+209,Possible Light Rain-Verbal,Verbal,Boston-Possible Light Rain,18
+210,Possible Light Rain-Investigate ,Investigate ,Boston-Possible Light Rain,84
+211,Possible Light Rain-Violence,Violence,Boston-Possible Light Rain,85
+212,Possible Light Rain-Medical,Medical,Boston-Possible Light Rain,73
+213,Possible Light Rain-Vandalism,Vandalism,Boston-Possible Light Rain,71
+214,Possible Light Rain-M/V,M/V,Boston-Possible Light Rain,108
+215,Possible Light Rain-Auto-Theft,Auto-Theft,Boston-Possible Light Rain,17
+216,Possible Light Rain-Warrant,Warrant,Boston-Possible Light Rain,26
+217,Possible Light Rain-Robbery,Robbery,Boston-Possible Light Rain,17
+218,Possible Light Rain-VAL,,Boston-Possible Light Rain,0
+219,Possible Light Rain-Drugs,Drugs,Boston-Possible Light Rain,53
+220,Possible Light Rain-Killing,,Boston-Possible Light Rain,0
+221,Possible Light Rain-Arson,,Boston-Possible Light Rain,0
+222,Possible Light Rain-Towed,,Boston-Possible Light Rain,0
+223,Overcast-Fraud,Fraud,Boston-Overcast,2380
+224,Overcast-Burglary,Burglary,Boston-Overcast,9251
+225,Overcast-Other,Other,Boston-Overcast,15099
+226,Overcast-Property,Property,Boston-Overcast,2902
+227,Overcast-Verbal,Verbal,Boston-Overcast,1309
+228,Overcast-Investigate ,Investigate ,Boston-Overcast,6040
+229,Overcast-Violence,Violence,Boston-Overcast,4590
+230,Overcast-Medical,Medical,Boston-Overcast,4810
+231,Overcast-Vandalism,Vandalism,Boston-Overcast,2981
+232,Overcast-M/V,M/V,Boston-Overcast,6723
+233,Overcast-Auto-Theft,Auto-Theft,Boston-Overcast,1074
+234,Overcast-Warrant,Warrant,Boston-Overcast,1702
+235,Overcast-Robbery,Robbery,Boston-Overcast,853
+236,Overcast-VAL,VAL,Boston-Overcast,90
+237,Overcast-Drugs,Drugs,Boston-Overcast,3036
+238,Overcast-Killing,Killing,Boston-Overcast,38
+239,Overcast-Arson,Arson,Boston-Overcast,13
+240,Overcast-Towed,Towed,Boston-Overcast,7
+241,Partly Cloudy-Fraud,Fraud,Boston-Partly Cloudy,1972
+242,Partly Cloudy-Burglary,Burglary,Boston-Partly Cloudy,8719
+243,Partly Cloudy-Other,Other,Boston-Partly Cloudy,13768
+244,Partly Cloudy-Property,Property,Boston-Partly Cloudy,2660
+245,Partly Cloudy-Verbal,Verbal,Boston-Partly Cloudy,1164
+246,Partly Cloudy-Investigate ,Investigate ,Boston-Partly Cloudy,5496
+247,Partly Cloudy-Violence,Violence,Boston-Partly Cloudy,4718
+248,Partly Cloudy-Medical,Medical,Boston-Partly Cloudy,4264
+249,Partly Cloudy-Vandalism,Vandalism,Boston-Partly Cloudy,2930
+250,Partly Cloudy-M/V,M/V,Boston-Partly Cloudy,6013
+251,Partly Cloudy-Auto-Theft,Auto-Theft,Boston-Partly Cloudy,1103
+252,Partly Cloudy-Warrant,Warrant,Boston-Partly Cloudy,1560
+253,Partly Cloudy-Robbery,Robbery,Boston-Partly Cloudy,896
+254,Partly Cloudy-VAL,VAL,Boston-Partly Cloudy,94
+255,Partly Cloudy-Drugs,Drugs,Boston-Partly Cloudy,3071
+256,Partly Cloudy-Killing,Killing,Boston-Partly Cloudy,38
+257,Partly Cloudy-Arson,Arson,Boston-Partly Cloudy,20
+258,Partly Cloudy-Towed,Towed,Boston-Partly Cloudy,4
+259,Clear-Fraud,Fraud,Boston-Clear,4410
+260,Clear-Burglary,Burglary,Boston-Clear,17225
+261,Clear-Other,Other,Boston-Clear,29279
+262,Clear-Property,Property,Boston-Clear,5375
+263,Clear-Verbal,Verbal,Boston-Clear,2370
+264,Clear-Investigate ,Investigate ,Boston-Clear,11153
+265,Clear-Violence,Violence,Boston-Clear,8835
+266,Clear-Medical,Medical,Boston-Clear,8882
+267,Clear-Vandalism,Vandalism,Boston-Clear,5812
+268,Clear-M/V,M/V,Boston-Clear,12048
+269,Clear-Auto-Theft,Auto-Theft,Boston-Clear,2154
+270,Clear-Warrant,Warrant,Boston-Clear,3129
+271,Clear-Robbery,Robbery,Boston-Clear,1591
+272,Clear-VAL,VAL,Boston-Clear,190
+273,Clear-Drugs,Drugs,Boston-Clear,5455
+274,Clear-Killing,Killing,Boston-Clear,91
+275,Clear-Arson,Arson,Boston-Clear,41
+276,Clear-Towed,Towed,Boston-Clear,13
+277,Light Rain-Fraud,Fraud,Boston-Light Rain,395
+278,Light Rain-Burglary,Burglary,Boston-Light Rain,1622
+279,Light Rain-Other,Other,Boston-Light Rain,2646
+280,Light Rain-Property,Property,Boston-Light Rain,550
+281,Light Rain-Verbal,Verbal,Boston-Light Rain,247
+282,Light Rain-Investigate ,Investigate ,Boston-Light Rain,1065
+283,Light Rain-Violence,Violence,Boston-Light Rain,804
+284,Light Rain-Medical,Medical,Boston-Light Rain,880
+285,Light Rain-Vandalism,Vandalism,Boston-Light Rain,565
+286,Light Rain-M/V,M/V,Boston-Light Rain,1170
+287,Light Rain-Auto-Theft,Auto-Theft,Boston-Light Rain,205
+288,Light Rain-Warrant,Warrant,Boston-Light Rain,293
+289,Light Rain-Robbery,Robbery,Boston-Light Rain,167
+290,Light Rain-VAL,VAL,Boston-Light Rain,18
+291,Light Rain-Drugs,Drugs,Boston-Light Rain,498
+292,Light Rain-Killing,Killing,Boston-Light Rain,3
+293,Light Rain-Arson,Arson,Boston-Light Rain,1
+294,Light Rain-Towed,,Boston-Light Rain,0
+295,Drizzle-Fraud,Fraud,Boston-Drizzle,249
+296,Drizzle-Burglary,Burglary,Boston-Drizzle,923
+297,Drizzle-Other,Other,Boston-Drizzle,1384
+298,Drizzle-Property,Property,Boston-Drizzle,263
+299,Drizzle-Verbal,Verbal,Boston-Drizzle,127
+300,Drizzle-Investigate ,Investigate ,Boston-Drizzle,582
+301,Drizzle-Violence,Violence,Boston-Drizzle,407
+302,Drizzle-Medical,Medical,Boston-Drizzle,487
+303,Drizzle-Vandalism,Vandalism,Boston-Drizzle,298
+304,Drizzle-M/V,M/V,Boston-Drizzle,651
+305,Drizzle-Auto-Theft,Auto-Theft,Boston-Drizzle,109
+306,Drizzle-Warrant,Warrant,Boston-Drizzle,152
+307,Drizzle-Robbery,Robbery,Boston-Drizzle,82
+308,Drizzle-VAL,VAL,Boston-Drizzle,6
+309,Drizzle-Drugs,Drugs,Boston-Drizzle,277
+310,Drizzle-Killing,Killing,Boston-Drizzle,5
+311,Drizzle-Arson,Arson,Boston-Drizzle,1
+312,Drizzle-Towed,,Boston-Drizzle,0
+313,Possible Drizzle-Fraud,Fraud,Boston-Possible Drizzle,339
+314,Possible Drizzle-Burglary,Burglary,Boston-Possible Drizzle,1474
+315,Possible Drizzle-Other,Other,Boston-Possible Drizzle,2224
+316,Possible Drizzle-Property,Property,Boston-Possible Drizzle,415
+317,Possible Drizzle-Verbal,Verbal,Boston-Possible Drizzle,180
+318,Possible Drizzle-Investigate ,Investigate ,Boston-Possible Drizzle,945
+319,Possible Drizzle-Violence,Violence,Boston-Possible Drizzle,712
+320,Possible Drizzle-Medical,Medical,Boston-Possible Drizzle,806
+321,Possible Drizzle-Vandalism,Vandalism,Boston-Possible Drizzle,521
+322,Possible Drizzle-M/V,M/V,Boston-Possible Drizzle,1018
+323,Possible Drizzle-Auto-Theft,Auto-Theft,Boston-Possible Drizzle,178
+324,Possible Drizzle-Warrant,Warrant,Boston-Possible Drizzle,252
+325,Possible Drizzle-Robbery,Robbery,Boston-Possible Drizzle,130
+326,Possible Drizzle-VAL,VAL,Boston-Possible Drizzle,19
+327,Possible Drizzle-Drugs,Drugs,Boston-Possible Drizzle,417
+328,Possible Drizzle-Killing,Killing,Boston-Possible Drizzle,6
+329,Possible Drizzle-Arson,Arson,Boston-Possible Drizzle,2
+330,Possible Drizzle-Towed,,Boston-Possible Drizzle,0
+331,Rain-Fraud,Fraud,Boston-Rain,65
+332,Rain-Burglary,Burglary,Boston-Rain,332
+333,Rain-Other,Other,Boston-Rain,544
+334,Rain-Property,Property,Boston-Rain,132
+335,Rain-Verbal,Verbal,Boston-Rain,52
+336,Rain-Investigate ,Investigate ,Boston-Rain,187
+337,Rain-Violence,Violence,Boston-Rain,133
+338,Rain-Medical,Medical,Boston-Rain,176
+339,Rain-Vandalism,Vandalism,Boston-Rain,108
+340,Rain-M/V,M/V,Boston-Rain,284
+341,Rain-Auto-Theft,Auto-Theft,Boston-Rain,29
+342,Rain-Warrant,Warrant,Boston-Rain,43
+343,Rain-Robbery,Robbery,Boston-Rain,28
+344,Rain-VAL,VAL,Boston-Rain,3
+345,Rain-Drugs,Drugs,Boston-Rain,83
+346,Rain-Killing,Killing,Boston-Rain,3
+347,Rain-Arson,,Boston-Rain,0
+348,Rain-Towed,,Boston-Rain,0
+349,Humid and Partly Cloudy-Fraud,Fraud,Boston-Humid and Partly Cloudy,44
+350,Humid and Partly Cloudy-Burglary,Burglary,Boston-Humid and Partly Cloudy,208
+351,Humid and Partly Cloudy-Other,Other,Boston-Humid and Partly Cloudy,323
+352,Humid and Partly Cloudy-Property,Property,Boston-Humid and Partly Cloudy,51
+353,Humid and Partly Cloudy-Verbal,Verbal,Boston-Humid and Partly Cloudy,29
+354,Humid and Partly Cloudy-Investigate ,Investigate ,Boston-Humid and Partly Cloudy,131
+355,Humid and Partly Cloudy-Violence,Violence,Boston-Humid and Partly Cloudy,95
+356,Humid and Partly Cloudy-Medical,Medical,Boston-Humid and Partly Cloudy,96
+357,Humid and Partly Cloudy-Vandalism,Vandalism,Boston-Humid and Partly Cloudy,74
+358,Humid and Partly Cloudy-M/V,M/V,Boston-Humid and Partly Cloudy,154
+359,Humid and Partly Cloudy-Auto-Theft,Auto-Theft,Boston-Humid and Partly Cloudy,27
+360,Humid and Partly Cloudy-Warrant,Warrant,Boston-Humid and Partly Cloudy,34
+361,Humid and Partly Cloudy-Robbery,Robbery,Boston-Humid and Partly Cloudy,21
+362,Humid and Partly Cloudy-VAL,VAL,Boston-Humid and Partly Cloudy,1
+363,Humid and Partly Cloudy-Drugs,Drugs,Boston-Humid and Partly Cloudy,74
+364,Humid and Partly Cloudy-Killing,Killing,Boston-Humid and Partly Cloudy,2
+365,Humid and Partly Cloudy-Arson,Arson,Boston-Humid and Partly Cloudy,1
+366,Humid and Partly Cloudy-Towed,,Boston-Humid and Partly Cloudy,0
+367,Flurries-Fraud,Fraud,Boston-Flurries,4
+368,Flurries-Burglary,Burglary,Boston-Flurries,26
+369,Flurries-Other,Other,Boston-Flurries,45
+370,Flurries-Property,Property,Boston-Flurries,8
+371,Flurries-Verbal,Verbal,Boston-Flurries,4
+372,Flurries-Investigate ,Investigate ,Boston-Flurries,22
+373,Flurries-Violence,Violence,Boston-Flurries,14
+374,Flurries-Medical,Medical,Boston-Flurries,12
+375,Flurries-Vandalism,Vandalism,Boston-Flurries,4
+376,Flurries-M/V,M/V,Boston-Flurries,21
+377,Flurries-Auto-Theft,Auto-Theft,Boston-Flurries,1
+378,Flurries-Warrant,Warrant,Boston-Flurries,2
+379,Flurries-Robbery,Robbery,Boston-Flurries,1
+380,Flurries-VAL,VAL,Boston-Flurries,1
+381,Flurries-Drugs,Drugs,Boston-Flurries,9
+382,Flurries-Killing,,Boston-Flurries,0
+383,Flurries-Arson,,Boston-Flurries,0
+384,Flurries-Towed,,Boston-Flurries,0
+385,Foggy-Fraud,Fraud,Boston-Foggy,165
+386,Foggy-Burglary,Burglary,Boston-Foggy,560
+387,Foggy-Other,Other,Boston-Foggy,1135
+388,Foggy-Property,Property,Boston-Foggy,195
+389,Foggy-Verbal,Verbal,Boston-Foggy,78
+390,Foggy-Investigate ,Investigate ,Boston-Foggy,365
+391,Foggy-Violence,Violence,Boston-Foggy,283
+392,Foggy-Medical,Medical,Boston-Foggy,345
+393,Foggy-Vandalism,Vandalism,Boston-Foggy,179
+394,Foggy-M/V,M/V,Boston-Foggy,492
+395,Foggy-Auto-Theft,Auto-Theft,Boston-Foggy,67
+396,Foggy-Warrant,Warrant,Boston-Foggy,115
+397,Foggy-Robbery,Robbery,Boston-Foggy,53
+398,Foggy-VAL,VAL,Boston-Foggy,6
+399,Foggy-Drugs,Drugs,Boston-Foggy,136
+400,Foggy-Killing,Killing,Boston-Foggy,4
+401,Foggy-Arson,Arson,Boston-Foggy,1
+402,Foggy-Towed,Towed,Boston-Foggy,1
+403,Humid and Mostly Cloudy-Fraud,Fraud,Boston-Humid and Mostly Cloudy,61
+404,Humid and Mostly Cloudy-Burglary,Burglary,Boston-Humid and Mostly Cloudy,301
+405,Humid and Mostly Cloudy-Other,Other,Boston-Humid and Mostly Cloudy,449
+406,Humid and Mostly Cloudy-Property,Property,Boston-Humid and Mostly Cloudy,93
+407,Humid and Mostly Cloudy-Verbal,Verbal,Boston-Humid and Mostly Cloudy,40
+408,Humid and Mostly Cloudy-Investigate ,Investigate ,Boston-Humid and Mostly Cloudy,202
+409,Humid and Mostly Cloudy-Violence,Violence,Boston-Humid and Mostly Cloudy,172
+410,Humid and Mostly Cloudy-Medical,Medical,Boston-Humid and Mostly Cloudy,139
+411,Humid and Mostly Cloudy-Vandalism,Vandalism,Boston-Humid and Mostly Cloudy,105
+412,Humid and Mostly Cloudy-M/V,M/V,Boston-Humid and Mostly Cloudy,209
+413,Humid and Mostly Cloudy-Auto-Theft,Auto-Theft,Boston-Humid and Mostly Cloudy,42
+414,Humid and Mostly Cloudy-Warrant,Warrant,Boston-Humid and Mostly Cloudy,59
+415,Humid and Mostly Cloudy-Robbery,Robbery,Boston-Humid and Mostly Cloudy,20
+416,Humid and Mostly Cloudy-VAL,VAL,Boston-Humid and Mostly Cloudy,2
+417,Humid and Mostly Cloudy-Drugs,Drugs,Boston-Humid and Mostly Cloudy,120
+418,Humid and Mostly Cloudy-Killing,Killing,Boston-Humid and Mostly Cloudy,4
+419,Humid and Mostly Cloudy-Arson,Arson,Boston-Humid and Mostly Cloudy,1
+420,Humid and Mostly Cloudy-Towed,Towed,Boston-Humid and Mostly Cloudy,1
+421,Humid-Fraud,Fraud,Boston-Humid,52
+422,Humid-Burglary,Burglary,Boston-Humid,183
+423,Humid-Other,Other,Boston-Humid,304
+424,Humid-Property,Property,Boston-Humid,64
+425,Humid-Verbal,Verbal,Boston-Humid,27
+426,Humid-Investigate ,Investigate ,Boston-Humid,142
+427,Humid-Violence,Violence,Boston-Humid,80
+428,Humid-Medical,Medical,Boston-Humid,103
+429,Humid-Vandalism,Vandalism,Boston-Humid,56
+430,Humid-M/V,M/V,Boston-Humid,126
+431,Humid-Auto-Theft,Auto-Theft,Boston-Humid,20
+432,Humid-Warrant,Warrant,Boston-Humid,31
+433,Humid-Robbery,Robbery,Boston-Humid,13
+434,Humid-VAL,VAL,Boston-Humid,3
+435,Humid-Drugs,Drugs,Boston-Humid,49
+436,Humid-Killing,,Boston-Humid,0
+437,Humid-Arson,,Boston-Humid,0
+438,Humid-Towed,,Boston-Humid,0
+439,Light Rain and Humid-Fraud,Fraud,Boston-Light Rain and Humid,3
+440,Light Rain and Humid-Burglary,Burglary,Boston-Light Rain and Humid,6
+441,Light Rain and Humid-Other,Other,Boston-Light Rain and Humid,10
+442,Light Rain and Humid-Property,Property,Boston-Light Rain and Humid,1
+443,Light Rain and Humid-Verbal,Verbal,Boston-Light Rain and Humid,1
+444,Light Rain and Humid-Investigate ,Investigate ,Boston-Light Rain and Humid,12
+445,Light Rain and Humid-Violence,Violence,Boston-Light Rain and Humid,6
+446,Light Rain and Humid-Medical,Medical,Boston-Light Rain and Humid,7
+447,Light Rain and Humid-Vandalism,Vandalism,Boston-Light Rain and Humid,3
+448,Light Rain and Humid-M/V,M/V,Boston-Light Rain and Humid,6
+449,Light Rain and Humid-Auto-Theft,,Boston-Light Rain and Humid,0
+450,Light Rain and Humid-Warrant,Warrant,Boston-Light Rain and Humid,1
+451,Light Rain and Humid-Robbery,,Boston-Light Rain and Humid,0
+452,Light Rain and Humid-VAL,,Boston-Light Rain and Humid,0
+453,Light Rain and Humid-Drugs,Drugs,Boston-Light Rain and Humid,2
+454,Light Rain and Humid-Killing,,Boston-Light Rain and Humid,0
+455,Light Rain and Humid-Arson,,Boston-Light Rain and Humid,0
+456,Light Rain and Humid-Towed,,Boston-Light Rain and Humid,0
+457,Humid and Overcast-Fraud,Fraud,Boston-Humid and Overcast,24
+458,Humid and Overcast-Burglary,Burglary,Boston-Humid and Overcast,72
+459,Humid and Overcast-Other,Other,Boston-Humid and Overcast,108
+460,Humid and Overcast-Property,Property,Boston-Humid and Overcast,19
+461,Humid and Overcast-Verbal,Verbal,Boston-Humid and Overcast,14
+462,Humid and Overcast-Investigate ,Investigate ,Boston-Humid and Overcast,54
+463,Humid and Overcast-Violence,Violence,Boston-Humid and Overcast,20
+464,Humid and Overcast-Medical,Medical,Boston-Humid and Overcast,25
+465,Humid and Overcast-Vandalism,Vandalism,Boston-Humid and Overcast,19
+466,Humid and Overcast-M/V,M/V,Boston-Humid and Overcast,52
+467,Humid and Overcast-Auto-Theft,Auto-Theft,Boston-Humid and Overcast,10
+468,Humid and Overcast-Warrant,Warrant,Boston-Humid and Overcast,11
+469,Humid and Overcast-Robbery,Robbery,Boston-Humid and Overcast,6
+470,Humid and Overcast-VAL,VAL,Boston-Humid and Overcast,1
+471,Humid and Overcast-Drugs,Drugs,Boston-Humid and Overcast,32
+472,Humid and Overcast-Killing,,Boston-Humid and Overcast,0
+473,Humid and Overcast-Arson,,Boston-Humid and Overcast,0
+474,Humid and Overcast-Towed,,Boston-Humid and Overcast,0
+475,Possible Drizzle and Humid-Fraud,Fraud,Boston-Possible Drizzle and Humid,10
+476,Possible Drizzle and Humid-Burglary,Burglary,Boston-Possible Drizzle and Humid,49
+477,Possible Drizzle and Humid-Other,Other,Boston-Possible Drizzle and Humid,56
+478,Possible Drizzle and Humid-Property,Property,Boston-Possible Drizzle and Humid,12
+479,Possible Drizzle and Humid-Verbal,Verbal,Boston-Possible Drizzle and Humid,2
+480,Possible Drizzle and Humid-Investigate ,Investigate ,Boston-Possible Drizzle and Humid,16
+481,Possible Drizzle and Humid-Violence,Violence,Boston-Possible Drizzle and Humid,21
+482,Possible Drizzle and Humid-Medical,Medical,Boston-Possible Drizzle and Humid,23
+483,Possible Drizzle and Humid-Vandalism,Vandalism,Boston-Possible Drizzle and Humid,17
+484,Possible Drizzle and Humid-M/V,M/V,Boston-Possible Drizzle and Humid,34
+485,Possible Drizzle and Humid-Auto-Theft,Auto-Theft,Boston-Possible Drizzle and Humid,5
+486,Possible Drizzle and Humid-Warrant,Warrant,Boston-Possible Drizzle and Humid,1
+487,Possible Drizzle and Humid-Robbery,Robbery,Boston-Possible Drizzle and Humid,2
+488,Possible Drizzle and Humid-VAL,,Boston-Possible Drizzle and Humid,0
+489,Possible Drizzle and Humid-Drugs,Drugs,Boston-Possible Drizzle and Humid,16
+490,Possible Drizzle and Humid-Killing,,Boston-Possible Drizzle and Humid,0
+491,Possible Drizzle and Humid-Arson,,Boston-Possible Drizzle and Humid,0
+492,Possible Drizzle and Humid-Towed,,Boston-Possible Drizzle and Humid,0
+493,Drizzle and Humid-Fraud,Fraud,Boston-Drizzle and Humid,5
+494,Drizzle and Humid-Burglary,Burglary,Boston-Drizzle and Humid,4
+495,Drizzle and Humid-Other,Other,Boston-Drizzle and Humid,14
+496,Drizzle and Humid-Property,Property,Boston-Drizzle and Humid,5
+497,Drizzle and Humid-Verbal,,Boston-Drizzle and Humid,0
+498,Drizzle and Humid-Investigate ,Investigate ,Boston-Drizzle and Humid,5
+499,Drizzle and Humid-Violence,Violence,Boston-Drizzle and Humid,5
+500,Drizzle and Humid-Medical,,Boston-Drizzle and Humid,0
+501,Drizzle and Humid-Vandalism,Vandalism,Boston-Drizzle and Humid,2
+502,Drizzle and Humid-M/V,M/V,Boston-Drizzle and Humid,5
+503,Drizzle and Humid-Auto-Theft,Auto-Theft,Boston-Drizzle and Humid,2
+504,Drizzle and Humid-Warrant,,Boston-Drizzle and Humid,0
+505,Drizzle and Humid-Robbery,,Boston-Drizzle and Humid,0
+506,Drizzle and Humid-VAL,,Boston-Drizzle and Humid,0
+507,Drizzle and Humid-Drugs,Drugs,Boston-Drizzle and Humid,6
+508,Drizzle and Humid-Killing,,Boston-Drizzle and Humid,0
+509,Drizzle and Humid-Arson,,Boston-Drizzle and Humid,0
+510,Drizzle and Humid-Towed,,Boston-Drizzle and Humid,0
+511,Light Sleet-Fraud,Fraud,Boston-Light Sleet,4
+512,Light Sleet-Burglary,Burglary,Boston-Light Sleet,28
+513,Light Sleet-Other,Other,Boston-Light Sleet,64
+514,Light Sleet-Property,Property,Boston-Light Sleet,8
+515,Light Sleet-Verbal,Verbal,Boston-Light Sleet,4
+516,Light Sleet-Investigate ,Investigate ,Boston-Light Sleet,18
+517,Light Sleet-Violence,Violence,Boston-Light Sleet,16
+518,Light Sleet-Medical,Medical,Boston-Light Sleet,10
+519,Light Sleet-Vandalism,Vandalism,Boston-Light Sleet,6
+520,Light Sleet-M/V,M/V,Boston-Light Sleet,25
+521,Light Sleet-Auto-Theft,Auto-Theft,Boston-Light Sleet,3
+522,Light Sleet-Warrant,Warrant,Boston-Light Sleet,4
+523,Light Sleet-Robbery,Robbery,Boston-Light Sleet,4
+524,Light Sleet-VAL,,Boston-Light Sleet,0
+525,Light Sleet-Drugs,Drugs,Boston-Light Sleet,5
+526,Light Sleet-Killing,,Boston-Light Sleet,0
+527,Light Sleet-Arson,,Boston-Light Sleet,0
+528,Light Sleet-Towed,,Boston-Light Sleet,0
+529,Possible Flurries-Fraud,Fraud,Boston-Possible Flurries,34
+530,Possible Flurries-Burglary,Burglary,Boston-Possible Flurries,148
+531,Possible Flurries-Other,Other,Boston-Possible Flurries,333
+532,Possible Flurries-Property,Property,Boston-Possible Flurries,68
+533,Possible Flurries-Verbal,Verbal,Boston-Possible Flurries,21
+534,Possible Flurries-Investigate ,Investigate ,Boston-Possible Flurries,128
+535,Possible Flurries-Violence,Violence,Boston-Possible Flurries,81
+536,Possible Flurries-Medical,Medical,Boston-Possible Flurries,101
+537,Possible Flurries-Vandalism,Vandalism,Boston-Possible Flurries,63
+538,Possible Flurries-M/V,M/V,Boston-Possible Flurries,140
+539,Possible Flurries-Auto-Theft,Auto-Theft,Boston-Possible Flurries,15
+540,Possible Flurries-Warrant,Warrant,Boston-Possible Flurries,34
+541,Possible Flurries-Robbery,Robbery,Boston-Possible Flurries,18
+542,Possible Flurries-VAL,,Boston-Possible Flurries,0
+543,Possible Flurries-Drugs,Drugs,Boston-Possible Flurries,67
+544,Possible Flurries-Killing,,Boston-Possible Flurries,0
+545,Possible Flurries-Arson,Arson,Boston-Possible Flurries,1
+546,Possible Flurries-Towed,,Boston-Possible Flurries,0
+547,Light Snow-Fraud,Fraud,Boston-Light Snow,15
+548,Light Snow-Burglary,Burglary,Boston-Light Snow,44
+549,Light Snow-Other,Other,Boston-Light Snow,91
+550,Light Snow-Property,Property,Boston-Light Snow,20
+551,Light Snow-Verbal,Verbal,Boston-Light Snow,9
+552,Light Snow-Investigate ,Investigate ,Boston-Light Snow,44
+553,Light Snow-Violence,Violence,Boston-Light Snow,19
+554,Light Snow-Medical,Medical,Boston-Light Snow,29
+555,Light Snow-Vandalism,Vandalism,Boston-Light Snow,20
+556,Light Snow-M/V,M/V,Boston-Light Snow,46
+557,Light Snow-Auto-Theft,Auto-Theft,Boston-Light Snow,6
+558,Light Snow-Warrant,Warrant,Boston-Light Snow,8
+559,Light Snow-Robbery,Robbery,Boston-Light Snow,4
+560,Light Snow-VAL,VAL,Boston-Light Snow,1
+561,Light Snow-Drugs,Drugs,Boston-Light Snow,14
+562,Light Snow-Killing,,Boston-Light Snow,0
+563,Light Snow-Arson,,Boston-Light Snow,0
+564,Light Snow-Towed,,Boston-Light Snow,0
+565,Rain and Humid-Fraud,Fraud,Boston-Rain and Humid,1
+566,Rain and Humid-Burglary,Burglary,Boston-Rain and Humid,11
+567,Rain and Humid-Other,Other,Boston-Rain and Humid,11
+568,Rain and Humid-Property,Property,Boston-Rain and Humid,5
+569,Rain and Humid-Verbal,Verbal,Boston-Rain and Humid,2
+570,Rain and Humid-Investigate ,Investigate ,Boston-Rain and Humid,3
+571,Rain and Humid-Violence,Violence,Boston-Rain and Humid,11
+572,Rain and Humid-Medical,Medical,Boston-Rain and Humid,4
+573,Rain and Humid-Vandalism,,Boston-Rain and Humid,0
+574,Rain and Humid-M/V,M/V,Boston-Rain and Humid,9
+575,Rain and Humid-Auto-Theft,Auto-Theft,Boston-Rain and Humid,3
+576,Rain and Humid-Warrant,Warrant,Boston-Rain and Humid,2
+577,Rain and Humid-Robbery,,Boston-Rain and Humid,0
+578,Rain and Humid-VAL,,Boston-Rain and Humid,0
+579,Rain and Humid-Drugs,Drugs,Boston-Rain and Humid,8
+580,Rain and Humid-Killing,,Boston-Rain and Humid,0
+581,Rain and Humid-Arson,,Boston-Rain and Humid,0
+582,Rain and Humid-Towed,,Boston-Rain and Humid,0
+583,Possible Light Snow-Fraud,Fraud,Boston-Possible Light Snow,1
+584,Possible Light Snow-Burglary,Burglary,Boston-Possible Light Snow,10
+585,Possible Light Snow-Other,Other,Boston-Possible Light Snow,7
+586,Possible Light Snow-Property,Property,Boston-Possible Light Snow,2
+587,Possible Light Snow-Verbal,,Boston-Possible Light Snow,0
+588,Possible Light Snow-Investigate ,Investigate ,Boston-Possible Light Snow,5
+589,Possible Light Snow-Violence,Violence,Boston-Possible Light Snow,2
+590,Possible Light Snow-Medical,Medical,Boston-Possible Light Snow,2
+591,Possible Light Snow-Vandalism,Vandalism,Boston-Possible Light Snow,1
+592,Possible Light Snow-M/V,M/V,Boston-Possible Light Snow,11
+593,Possible Light Snow-Auto-Theft,,Boston-Possible Light Snow,0
+594,Possible Light Snow-Warrant,Warrant,Boston-Possible Light Snow,2
+595,Possible Light Snow-Robbery,Robbery,Boston-Possible Light Snow,2
+596,Possible Light Snow-VAL,,Boston-Possible Light Snow,0
+597,Possible Light Snow-Drugs,Drugs,Boston-Possible Light Snow,2
+598,Possible Light Snow-Killing,,Boston-Possible Light Snow,0
+599,Possible Light Snow-Arson,,Boston-Possible Light Snow,0
+600,Possible Light Snow-Towed,,Boston-Possible Light Snow,0
+601,Possible Light Sleet-Fraud,,Boston-Possible Light Sleet,0
+602,Possible Light Sleet-Burglary,Burglary,Boston-Possible Light Sleet,30
+603,Possible Light Sleet-Other,Other,Boston-Possible Light Sleet,45
+604,Possible Light Sleet-Property,Property,Boston-Possible Light Sleet,7
+605,Possible Light Sleet-Verbal,Verbal,Boston-Possible Light Sleet,6
+606,Possible Light Sleet-Investigate ,Investigate ,Boston-Possible Light Sleet,22
+607,Possible Light Sleet-Violence,Violence,Boston-Possible Light Sleet,8
+608,Possible Light Sleet-Medical,Medical,Boston-Possible Light Sleet,9
+609,Possible Light Sleet-Vandalism,Vandalism,Boston-Possible Light Sleet,10
+610,Possible Light Sleet-M/V,M/V,Boston-Possible Light Sleet,37
+611,Possible Light Sleet-Auto-Theft,Auto-Theft,Boston-Possible Light Sleet,5
+612,Possible Light Sleet-Warrant,Warrant,Boston-Possible Light Sleet,3
+613,Possible Light Sleet-Robbery,Robbery,Boston-Possible Light Sleet,1
+614,Possible Light Sleet-VAL,,Boston-Possible Light Sleet,0
+615,Possible Light Sleet-Drugs,Drugs,Boston-Possible Light Sleet,8
+616,Possible Light Sleet-Killing,,Boston-Possible Light Sleet,0
+617,Possible Light Sleet-Arson,,Boston-Possible Light Sleet,0
+618,Possible Light Sleet-Towed,,Boston-Possible Light Sleet,0
+619,Possible Light Rain and Humid-Fraud,Fraud,Boston-Possible Light Rain and Humid,2
+620,Possible Light Rain and Humid-Burglary,Burglary,Boston-Possible Light Rain and Humid,22
+621,Possible Light Rain and Humid-Other,Other,Boston-Possible Light Rain and Humid,16
+622,Possible Light Rain and Humid-Property,Property,Boston-Possible Light Rain and Humid,10
+623,Possible Light Rain and Humid-Verbal,Verbal,Boston-Possible Light Rain and Humid,1
+624,Possible Light Rain and Humid-Investigate ,Investigate ,Boston-Possible Light Rain and Humid,11
+625,Possible Light Rain and Humid-Violence,Violence,Boston-Possible Light Rain and Humid,4
+626,Possible Light Rain and Humid-Medical,Medical,Boston-Possible Light Rain and Humid,7
+627,Possible Light Rain and Humid-Vandalism,Vandalism,Boston-Possible Light Rain and Humid,9
+628,Possible Light Rain and Humid-M/V,M/V,Boston-Possible Light Rain and Humid,8
+629,Possible Light Rain and Humid-Auto-Theft,Auto-Theft,Boston-Possible Light Rain and Humid,2
+630,Possible Light Rain and Humid-Warrant,Warrant,Boston-Possible Light Rain and Humid,1
+631,Possible Light Rain and Humid-Robbery,Robbery,Boston-Possible Light Rain and Humid,1
+632,Possible Light Rain and Humid-VAL,,Boston-Possible Light Rain and Humid,0
+633,Possible Light Rain and Humid-Drugs,Drugs,Boston-Possible Light Rain and Humid,7
+634,Possible Light Rain and Humid-Killing,,Boston-Possible Light Rain and Humid,0
+635,Possible Light Rain and Humid-Arson,,Boston-Possible Light Rain and Humid,0
+636,Possible Light Rain and Humid-Towed,,Boston-Possible Light Rain and Humid,0
+637,Heavy Rain-Fraud,,Boston-Heavy Rain,0
+638,Heavy Rain-Burglary,Burglary,Boston-Heavy Rain,2
+639,Heavy Rain-Other,Other,Boston-Heavy Rain,4
+640,Heavy Rain-Property,,Boston-Heavy Rain,0
+641,Heavy Rain-Verbal,,Boston-Heavy Rain,0
+642,Heavy Rain-Investigate ,Investigate ,Boston-Heavy Rain,3
+643,Heavy Rain-Violence,,Boston-Heavy Rain,0
+644,Heavy Rain-Medical,Medical,Boston-Heavy Rain,2
+645,Heavy Rain-Vandalism,Vandalism,Boston-Heavy Rain,1
+646,Heavy Rain-M/V,M/V,Boston-Heavy Rain,1
+647,Heavy Rain-Auto-Theft,,Boston-Heavy Rain,0
+648,Heavy Rain-Warrant,,Boston-Heavy Rain,0
+649,Heavy Rain-Robbery,,Boston-Heavy Rain,0
+650,Heavy Rain-VAL,,Boston-Heavy Rain,0
+651,Heavy Rain-Drugs,,Boston-Heavy Rain,0
+652,Heavy Rain-Killing,,Boston-Heavy Rain,0
+653,Heavy Rain-Arson,,Boston-Heavy Rain,0
+654,Heavy Rain-Towed,,Boston-Heavy Rain,0
+655,Denver-Clear,Clear,Weather-Denver,75985
+656,Denver-Mostly Cloudy,Mostly Cloudy,Weather-Denver,142890
+657,Denver-Partly Cloudy,Partly Cloudy,Weather-Denver,160170
+658,Denver-Overcast,Overcast,Weather-Denver,33006
+659,Denver-Foggy,Foggy,Weather-Denver,16210
+660,Denver-Possible Drizzle,Possible Drizzle,Weather-Denver,7987
+661,Denver-Possible Light Rain,Possible Light Rain,Weather-Denver,1186
+662,Denver-Light Snow,Light Snow,Weather-Denver,504
+663,Denver-Light Rain,Light Rain,Weather-Denver,3825
+664,Denver-Possible Flurries,Possible Flurries,Weather-Denver,2555
+665,Denver-Drizzle,Drizzle,Weather-Denver,1317
+666,Denver-Flurries,Flurries,Weather-Denver,215
+667,Denver-Possible Light Sleet,Possible Light Sleet,Weather-Denver,84
+668,Denver-Light Sleet,Light Sleet,Weather-Denver,73
+669,Denver-Possible Light Snow,Possible Light Snow,Weather-Denver,139
+670,Denver-Rain,Rain,Weather-Denver,121
+671,Denver-Windy and Partly Cloudy,Windy and Partly Cloudy,Weather-Denver,16
+672,Clear-Other,Other,Denver-Clear,12403
+673,Clear-Auto-Theft,Auto-Theft,Denver-Clear,8570
+674,Clear-Burglary,Burglary,Denver-Clear,12568
+675,Clear-M/V,M/V,Denver-Clear,23190
+676,Clear-Drugs,Drugs,Denver-Clear,4804
+677,Clear-Fraud,Fraud,Denver-Clear,1350
+678,Clear-Verbal,Verbal,Denver-Clear,7272
+679,Clear-Violence,Violence,Denver-Clear,4910
+680,Clear-Robbery,Robbery,Denver-Clear,812
+681,Clear-Killing,Killing,Denver-Clear,28
+682,Clear-Arson,Arson,Denver-Clear,78
+683,Mostly Cloudy-Other,Other,Denver-Mostly Cloudy,29060
+684,Mostly Cloudy-Auto-Theft,Auto-Theft,Denver-Mostly Cloudy,15703
+685,Mostly Cloudy-Burglary,Burglary,Denver-Mostly Cloudy,24478
+686,Mostly Cloudy-M/V,M/V,Denver-Mostly Cloudy,32322
+687,Mostly Cloudy-Drugs,Drugs,Denver-Mostly Cloudy,9767
+688,Mostly Cloudy-Fraud,Fraud,Denver-Mostly Cloudy,1598
+689,Mostly Cloudy-Verbal,Verbal,Denver-Mostly Cloudy,16313
+690,Mostly Cloudy-Violence,Violence,Denver-Mostly Cloudy,11160
+691,Mostly Cloudy-Robbery,Robbery,Denver-Mostly Cloudy,2174
+692,Mostly Cloudy-Killing,Killing,Denver-Mostly Cloudy,92
+693,Mostly Cloudy-Arson,Arson,Denver-Mostly Cloudy,223
+694,Partly Cloudy-Other,Other,Denver-Partly Cloudy,29457
+695,Partly Cloudy-Auto-Theft,Auto-Theft,Denver-Partly Cloudy,17695
+696,Partly Cloudy-Burglary,Burglary,Denver-Partly Cloudy,26745
+697,Partly Cloudy-M/V,M/V,Denver-Partly Cloudy,41545
+698,Partly Cloudy-Drugs,Drugs,Denver-Partly Cloudy,11220
+699,Partly Cloudy-Fraud,Fraud,Denver-Partly Cloudy,2093
+700,Partly Cloudy-Verbal,Verbal,Denver-Partly Cloudy,17159
+701,Partly Cloudy-Violence,Violence,Denver-Partly Cloudy,11980
+702,Partly Cloudy-Robbery,Robbery,Denver-Partly Cloudy,1969
+703,Partly Cloudy-Killing,Killing,Denver-Partly Cloudy,105
+704,Partly Cloudy-Arson,Arson,Denver-Partly Cloudy,202
+705,Overcast-Other,Other,Denver-Overcast,5989
+706,Overcast-Auto-Theft,Auto-Theft,Denver-Overcast,3563
+707,Overcast-Burglary,Burglary,Denver-Overcast,5411
+708,Overcast-M/V,M/V,Denver-Overcast,9641
+709,Overcast-Drugs,Drugs,Denver-Overcast,2110
+710,Overcast-Fraud,Fraud,Denver-Overcast,555
+711,Overcast-Verbal,Verbal,Denver-Overcast,3216
+712,Overcast-Violence,Violence,Denver-Overcast,2073
+713,Overcast-Robbery,Robbery,Denver-Overcast,399
+714,Overcast-Killing,Killing,Denver-Overcast,13
+715,Overcast-Arson,Arson,Denver-Overcast,36
+716,Foggy-Other,Other,Denver-Foggy,2682
+717,Foggy-Auto-Theft,Auto-Theft,Denver-Foggy,1634
+718,Foggy-Burglary,Burglary,Denver-Foggy,2597
+719,Foggy-M/V,M/V,Denver-Foggy,5532
+720,Foggy-Drugs,Drugs,Denver-Foggy,934
+721,Foggy-Fraud,Fraud,Denver-Foggy,258
+722,Foggy-Verbal,Verbal,Denver-Foggy,1394
+723,Foggy-Violence,Violence,Denver-Foggy,945
+724,Foggy-Robbery,Robbery,Denver-Foggy,212
+725,Foggy-Killing,Killing,Denver-Foggy,11
+726,Foggy-Arson,Arson,Denver-Foggy,11
+727,Possible Drizzle-Other,Other,Denver-Possible Drizzle,1603
+728,Possible Drizzle-Auto-Theft,Auto-Theft,Denver-Possible Drizzle,881
+729,Possible Drizzle-Burglary,Burglary,Denver-Possible Drizzle,1398
+730,Possible Drizzle-M/V,M/V,Denver-Possible Drizzle,1888
+731,Possible Drizzle-Drugs,Drugs,Denver-Possible Drizzle,479
+732,Possible Drizzle-Fraud,Fraud,Denver-Possible Drizzle,105
+733,Possible Drizzle-Verbal,Verbal,Denver-Possible Drizzle,894
+734,Possible Drizzle-Violence,Violence,Denver-Possible Drizzle,602
+735,Possible Drizzle-Robbery,Robbery,Denver-Possible Drizzle,120
+736,Possible Drizzle-Killing,Killing,Denver-Possible Drizzle,4
+737,Possible Drizzle-Arson,Arson,Denver-Possible Drizzle,13
+738,Possible Light Rain-Other,Other,Denver-Possible Light Rain,257
+739,Possible Light Rain-Auto-Theft,Auto-Theft,Denver-Possible Light Rain,140
+740,Possible Light Rain-Burglary,Burglary,Denver-Possible Light Rain,175
+741,Possible Light Rain-M/V,M/V,Denver-Possible Light Rain,258
+742,Possible Light Rain-Drugs,Drugs,Denver-Possible Light Rain,77
+743,Possible Light Rain-Fraud,Fraud,Denver-Possible Light Rain,13
+744,Possible Light Rain-Verbal,Verbal,Denver-Possible Light Rain,165
+745,Possible Light Rain-Violence,Violence,Denver-Possible Light Rain,83
+746,Possible Light Rain-Robbery,Robbery,Denver-Possible Light Rain,16
+747,Possible Light Rain-Killing,Killing,Denver-Possible Light Rain,1
+748,Possible Light Rain-Arson,Arson,Denver-Possible Light Rain,1
+749,Light Snow-Other,Other,Denver-Light Snow,116
+750,Light Snow-Auto-Theft,Auto-Theft,Denver-Light Snow,61
+751,Light Snow-Burglary,Burglary,Denver-Light Snow,76
+752,Light Snow-M/V,M/V,Denver-Light Snow,126
+753,Light Snow-Drugs,Drugs,Denver-Light Snow,21
+754,Light Snow-Fraud,Fraud,Denver-Light Snow,8
+755,Light Snow-Verbal,Verbal,Denver-Light Snow,57
+756,Light Snow-Violence,Violence,Denver-Light Snow,31
+757,Light Snow-Robbery,Robbery,Denver-Light Snow,8
+758,Light Snow-Killing,,Denver-Light Snow,0
+759,Light Snow-Arson,,Denver-Light Snow,0
+760,Light Rain-Other,Other,Denver-Light Rain,746
+761,Light Rain-Auto-Theft,Auto-Theft,Denver-Light Rain,389
+762,Light Rain-Burglary,Burglary,Denver-Light Rain,624
+763,Light Rain-M/V,M/V,Denver-Light Rain,1088
+764,Light Rain-Drugs,Drugs,Denver-Light Rain,217
+765,Light Rain-Fraud,Fraud,Denver-Light Rain,33
+766,Light Rain-Verbal,Verbal,Denver-Light Rain,427
+767,Light Rain-Violence,Violence,Denver-Light Rain,244
+768,Light Rain-Robbery,Robbery,Denver-Light Rain,53
+769,Light Rain-Killing,Killing,Denver-Light Rain,1
+770,Light Rain-Arson,Arson,Denver-Light Rain,3
+771,Possible Flurries-Other,Other,Denver-Possible Flurries,501
+772,Possible Flurries-Auto-Theft,Auto-Theft,Denver-Possible Flurries,259
+773,Possible Flurries-Burglary,Burglary,Denver-Possible Flurries,396
+774,Possible Flurries-M/V,M/V,Denver-Possible Flurries,719
+775,Possible Flurries-Drugs,Drugs,Denver-Possible Flurries,153
+776,Possible Flurries-Fraud,Fraud,Denver-Possible Flurries,34
+777,Possible Flurries-Verbal,Verbal,Denver-Possible Flurries,276
+778,Possible Flurries-Violence,Violence,Denver-Possible Flurries,170
+779,Possible Flurries-Robbery,Robbery,Denver-Possible Flurries,42
+780,Possible Flurries-Killing,Killing,Denver-Possible Flurries,2
+781,Possible Flurries-Arson,Arson,Denver-Possible Flurries,3
+782,Drizzle-Other,Other,Denver-Drizzle,263
+783,Drizzle-Auto-Theft,Auto-Theft,Denver-Drizzle,138
+784,Drizzle-Burglary,Burglary,Denver-Drizzle,232
+785,Drizzle-M/V,M/V,Denver-Drizzle,342
+786,Drizzle-Drugs,Drugs,Denver-Drizzle,64
+787,Drizzle-Fraud,Fraud,Denver-Drizzle,17
+788,Drizzle-Verbal,Verbal,Denver-Drizzle,153
+789,Drizzle-Violence,Violence,Denver-Drizzle,87
+790,Drizzle-Robbery,Robbery,Denver-Drizzle,20
+791,Drizzle-Killing,Killing,Denver-Drizzle,1
+792,Drizzle-Arson,,Denver-Drizzle,0
+793,Flurries-Other,Other,Denver-Flurries,47
+794,Flurries-Auto-Theft,Auto-Theft,Denver-Flurries,18
+795,Flurries-Burglary,Burglary,Denver-Flurries,22
+796,Flurries-M/V,M/V,Denver-Flurries,67
+797,Flurries-Drugs,Drugs,Denver-Flurries,13
+798,Flurries-Fraud,Fraud,Denver-Flurries,4
+799,Flurries-Verbal,Verbal,Denver-Flurries,29
+800,Flurries-Violence,Violence,Denver-Flurries,13
+801,Flurries-Robbery,Robbery,Denver-Flurries,2
+802,Flurries-Killing,,Denver-Flurries,0
+803,Flurries-Arson,,Denver-Flurries,0
+804,Possible Light Sleet-Other,Other,Denver-Possible Light Sleet,16
+805,Possible Light Sleet-Auto-Theft,Auto-Theft,Denver-Possible Light Sleet,10
+806,Possible Light Sleet-Burglary,Burglary,Denver-Possible Light Sleet,11
+807,Possible Light Sleet-M/V,M/V,Denver-Possible Light Sleet,20
+808,Possible Light Sleet-Drugs,Drugs,Denver-Possible Light Sleet,3
+809,Possible Light Sleet-Fraud,Fraud,Denver-Possible Light Sleet,4
+810,Possible Light Sleet-Verbal,Verbal,Denver-Possible Light Sleet,17
+811,Possible Light Sleet-Violence,Violence,Denver-Possible Light Sleet,3
+812,Possible Light Sleet-Robbery,,Denver-Possible Light Sleet,0
+813,Possible Light Sleet-Killing,,Denver-Possible Light Sleet,0
+814,Possible Light Sleet-Arson,,Denver-Possible Light Sleet,0
+815,Light Sleet-Other,Other,Denver-Light Sleet,9
+816,Light Sleet-Auto-Theft,Auto-Theft,Denver-Light Sleet,12
+817,Light Sleet-Burglary,Burglary,Denver-Light Sleet,11
+818,Light Sleet-M/V,M/V,Denver-Light Sleet,23
+819,Light Sleet-Drugs,Drugs,Denver-Light Sleet,2
+820,Light Sleet-Fraud,Fraud,Denver-Light Sleet,2
+821,Light Sleet-Verbal,Verbal,Denver-Light Sleet,7
+822,Light Sleet-Violence,Violence,Denver-Light Sleet,6
+823,Light Sleet-Robbery,Robbery,Denver-Light Sleet,1
+824,Light Sleet-Killing,,Denver-Light Sleet,0
+825,Light Sleet-Arson,,Denver-Light Sleet,0
+826,Possible Light Snow-Other,Other,Denver-Possible Light Snow,38
+827,Possible Light Snow-Auto-Theft,Auto-Theft,Denver-Possible Light Snow,15
+828,Possible Light Snow-Burglary,Burglary,Denver-Possible Light Snow,29
+829,Possible Light Snow-M/V,M/V,Denver-Possible Light Snow,20
+830,Possible Light Snow-Drugs,Drugs,Denver-Possible Light Snow,5
+831,Possible Light Snow-Fraud,Fraud,Denver-Possible Light Snow,1
+832,Possible Light Snow-Verbal,Verbal,Denver-Possible Light Snow,13
+833,Possible Light Snow-Violence,Violence,Denver-Possible Light Snow,17
+834,Possible Light Snow-Robbery,Robbery,Denver-Possible Light Snow,1
+835,Possible Light Snow-Killing,,Denver-Possible Light Snow,0
+836,Possible Light Snow-Arson,,Denver-Possible Light Snow,0
+837,Rain-Other,Other,Denver-Rain,32
+838,Rain-Auto-Theft,Auto-Theft,Denver-Rain,9
+839,Rain-Burglary,Burglary,Denver-Rain,15
+840,Rain-M/V,M/V,Denver-Rain,20
+841,Rain-Drugs,Drugs,Denver-Rain,9
+842,Rain-Fraud,Fraud,Denver-Rain,1
+843,Rain-Verbal,Verbal,Denver-Rain,14
+844,Rain-Violence,Violence,Denver-Rain,19
+845,Rain-Robbery,Robbery,Denver-Rain,2
+846,Rain-Killing,,Denver-Rain,0
+847,Rain-Arson,,Denver-Rain,0
+848,Windy and Partly Cloudy-Other,Other,Denver-Windy and Partly Cloudy,3
+849,Windy and Partly Cloudy-Auto-Theft,Auto-Theft,Denver-Windy and Partly Cloudy,5
+850,Windy and Partly Cloudy-Burglary,Burglary,Denver-Windy and Partly Cloudy,3
+851,Windy and Partly Cloudy-M/V,M/V,Denver-Windy and Partly Cloudy,3
+852,Windy and Partly Cloudy-Drugs,,Denver-Windy and Partly Cloudy,0
+853,Windy and Partly Cloudy-Fraud,,Denver-Windy and Partly Cloudy,0
+854,Windy and Partly Cloudy-Verbal,Verbal,Denver-Windy and Partly Cloudy,1
+855,Windy and Partly Cloudy-Violence,Violence,Denver-Windy and Partly Cloudy,1
+856,Windy and Partly Cloudy-Robbery,,Denver-Windy and Partly Cloudy,0
+857,Windy and Partly Cloudy-Killing,,Denver-Windy and Partly Cloudy,0
+858,Windy and Partly Cloudy-Arson,,Denver-Windy and Partly Cloudy,0
+859,Chicago-Clear,Clear,Weather-Chicago,162976
+860,Chicago-Partly Cloudy,Partly Cloudy,Weather-Chicago,201698
+861,Chicago-Overcast,Overcast,Weather-Chicago,192857
+862,Chicago-Light Rain,Light Rain,Weather-Chicago,23798
+863,Chicago-Possible Drizzle,Possible Drizzle,Weather-Chicago,22034
+864,Chicago-Rain,Rain,Weather-Chicago,6364
+865,Chicago-Mostly Cloudy,Mostly Cloudy,Weather-Chicago,210935
+866,Chicago-Light Sleet,Light Sleet,Weather-Chicago,331
+867,Chicago-Drizzle,Drizzle,Weather-Chicago,8975
+868,Chicago-Foggy,Foggy,Weather-Chicago,11274
+869,Chicago-Possible Flurries,Possible Flurries,Weather-Chicago,3128
+870,Chicago-Possible Light Rain,Possible Light Rain,Weather-Chicago,2681
+871,Chicago-Light Snow and Windy,Light Snow and Windy,Weather-Chicago,46
+872,Chicago-Light Snow,Light Snow,Weather-Chicago,374
+873,Chicago-Flurries,Flurries,Weather-Chicago,239
+874,Chicago-Possible Light Sleet,Possible Light Sleet,Weather-Chicago,600
+875,Chicago-Possible Drizzle and Windy,Possible Drizzle and Windy,Weather-Chicago,34
+876,Chicago-Humid and Partly Cloudy,Humid and Partly Cloudy,Weather-Chicago,4513
+877,Chicago-Rain and Humid,Rain and Humid,Weather-Chicago,181
+878,Chicago-Humid and Mostly Cloudy,Humid and Mostly Cloudy,Weather-Chicago,7397
+879,Chicago-Humid,Humid,Weather-Chicago,1453
+880,Chicago-Possible Drizzle and Humid,Possible Drizzle and Humid,Weather-Chicago,665
+881,Chicago-Light Rain and Humid,Light Rain and Humid,Weather-Chicago,287
+882,Chicago-Possible Light Rain and Humid,Possible Light Rain and Humid,Weather-Chicago,246
+883,Chicago-Humid and Overcast,Humid and Overcast,Weather-Chicago,785
+884,Chicago-Drizzle and Humid,Drizzle and Humid,Weather-Chicago,29
+885,Chicago-Windy and Partly Cloudy,Windy and Partly Cloudy,Weather-Chicago,42
+886,Chicago-Possible Light Snow,Possible Light Snow,Weather-Chicago,49
+887,Chicago-Heavy Rain,Heavy Rain,Weather-Chicago,16
+888,Clear-Property,Property,Chicago-Clear,18031
+889,Clear-Fraud,Fraud,Chicago-Clear,11648
+890,Clear-Violence,Violence,Chicago-Clear,43757
+891,Clear-Burglary,Burglary,Chicago-Clear,46501
+892,Clear-B&E,B&E,Chicago-Clear,3996
+893,Clear-Violation,Violation,Chicago-Clear,2582
+894,Clear-Drugs,Drugs,Chicago-Clear,7533
+895,Clear-Robbery,Robbery,Chicago-Clear,6500
+896,Clear-Auto-Theft,Auto-Theft,Chicago-Clear,6592
+897,Clear-Other,Other,Chicago-Clear,12832
+898,Clear-Killing,Killing,Chicago-Clear,418
+899,Clear-Verbal,Verbal,Chicago-Clear,995
+900,Clear-Kidnapping,Kidnapping,Chicago-Clear,124
+901,Clear-Arson,Arson,Chicago-Clear,321
+902,Clear-Sexual,Sexual,Chicago-Clear,546
+903,Clear-Interference,Interference,Chicago-Clear,600
+904,Partly Cloudy-Property,Property,Chicago-Partly Cloudy,22261
+905,Partly Cloudy-Fraud,Fraud,Chicago-Partly Cloudy,12970
+906,Partly Cloudy-Violence,Violence,Chicago-Partly Cloudy,54278
+907,Partly Cloudy-Burglary,Burglary,Chicago-Partly Cloudy,57488
+908,Partly Cloudy-B&E,B&E,Chicago-Partly Cloudy,4960
+909,Partly Cloudy-Violation,Violation,Chicago-Partly Cloudy,3848
+910,Partly Cloudy-Drugs,Drugs,Chicago-Partly Cloudy,10078
+911,Partly Cloudy-Robbery,Robbery,Chicago-Partly Cloudy,8623
+912,Partly Cloudy-Auto-Theft,Auto-Theft,Chicago-Partly Cloudy,8084
+913,Partly Cloudy-Other,Other,Chicago-Partly Cloudy,15152
+914,Partly Cloudy-Killing,Killing,Chicago-Partly Cloudy,552
+915,Partly Cloudy-Verbal,Verbal,Chicago-Partly Cloudy,1335
+916,Partly Cloudy-Kidnapping,Kidnapping,Chicago-Partly Cloudy,128
+917,Partly Cloudy-Arson,Arson,Chicago-Partly Cloudy,354
+918,Partly Cloudy-Sexual,Sexual,Chicago-Partly Cloudy,655
+919,Partly Cloudy-Interference,Interference,Chicago-Partly Cloudy,932
+920,Overcast-Property,Property,Chicago-Overcast,21057
+921,Overcast-Fraud,Fraud,Chicago-Overcast,13299
+922,Overcast-Violence,Violence,Chicago-Overcast,49365
+923,Overcast-Burglary,Burglary,Chicago-Overcast,55899
+924,Overcast-B&E,B&E,Chicago-Overcast,4920
+925,Overcast-Violation,Violation,Chicago-Overcast,3187
+926,Overcast-Drugs,Drugs,Chicago-Overcast,9862
+927,Overcast-Robbery,Robbery,Chicago-Overcast,8384
+928,Overcast-Auto-Theft,Auto-Theft,Chicago-Overcast,8118
+929,Overcast-Other,Other,Chicago-Overcast,15261
+930,Overcast-Killing,Killing,Chicago-Overcast,434
+931,Overcast-Verbal,Verbal,Chicago-Overcast,1200
+932,Overcast-Kidnapping,Kidnapping,Chicago-Overcast,157
+933,Overcast-Arson,Arson,Chicago-Overcast,299
+934,Overcast-Sexual,Sexual,Chicago-Overcast,628
+935,Overcast-Interference,Interference,Chicago-Overcast,787
+936,Light Rain-Property,Property,Chicago-Light Rain,2597
+937,Light Rain-Fraud,Fraud,Chicago-Light Rain,1728
+938,Light Rain-Violence,Violence,Chicago-Light Rain,6035
+939,Light Rain-Burglary,Burglary,Chicago-Light Rain,7039
+940,Light Rain-B&E,B&E,Chicago-Light Rain,594
+941,Light Rain-Violation,Violation,Chicago-Light Rain,328
+942,Light Rain-Drugs,Drugs,Chicago-Light Rain,1171
+943,Light Rain-Robbery,Robbery,Chicago-Light Rain,1027
+944,Light Rain-Auto-Theft,Auto-Theft,Chicago-Light Rain,938
+945,Light Rain-Other,Other,Chicago-Light Rain,1919
+946,Light Rain-Killing,Killing,Chicago-Light Rain,55
+947,Light Rain-Verbal,Verbal,Chicago-Light Rain,135
+948,Light Rain-Kidnapping,Kidnapping,Chicago-Light Rain,20
+949,Light Rain-Arson,Arson,Chicago-Light Rain,38
+950,Light Rain-Sexual,Sexual,Chicago-Light Rain,84
+951,Light Rain-Interference,Interference,Chicago-Light Rain,90
+952,Possible Drizzle-Property,Property,Chicago-Possible Drizzle,2438
+953,Possible Drizzle-Fraud,Fraud,Chicago-Possible Drizzle,1576
+954,Possible Drizzle-Violence,Violence,Chicago-Possible Drizzle,5637
+955,Possible Drizzle-Burglary,Burglary,Chicago-Possible Drizzle,6418
+956,Possible Drizzle-B&E,B&E,Chicago-Possible Drizzle,546
+957,Possible Drizzle-Violation,Violation,Chicago-Possible Drizzle,340
+958,Possible Drizzle-Drugs,Drugs,Chicago-Possible Drizzle,1165
+959,Possible Drizzle-Robbery,Robbery,Chicago-Possible Drizzle,921
+960,Possible Drizzle-Auto-Theft,Auto-Theft,Chicago-Possible Drizzle,876
+961,Possible Drizzle-Other,Other,Chicago-Possible Drizzle,1742
+962,Possible Drizzle-Killing,Killing,Chicago-Possible Drizzle,49
+963,Possible Drizzle-Verbal,Verbal,Chicago-Possible Drizzle,136
+964,Possible Drizzle-Kidnapping,Kidnapping,Chicago-Possible Drizzle,14
+965,Possible Drizzle-Arson,Arson,Chicago-Possible Drizzle,25
+966,Possible Drizzle-Sexual,Sexual,Chicago-Possible Drizzle,65
+967,Possible Drizzle-Interference,Interference,Chicago-Possible Drizzle,86
+968,Rain-Property,Property,Chicago-Rain,685
+969,Rain-Fraud,Fraud,Chicago-Rain,466
+970,Rain-Violence,Violence,Chicago-Rain,1683
+971,Rain-Burglary,Burglary,Chicago-Rain,1877
+972,Rain-B&E,B&E,Chicago-Rain,143
+973,Rain-Violation,Violation,Chicago-Rain,89
+974,Rain-Drugs,Drugs,Chicago-Rain,276
+975,Rain-Robbery,Robbery,Chicago-Rain,248
+976,Rain-Auto-Theft,Auto-Theft,Chicago-Rain,263
+977,Rain-Other,Other,Chicago-Rain,532
+978,Rain-Killing,Killing,Chicago-Rain,10
+979,Rain-Verbal,Verbal,Chicago-Rain,32
+980,Rain-Kidnapping,Kidnapping,Chicago-Rain,8
+981,Rain-Arson,Arson,Chicago-Rain,8
+982,Rain-Sexual,Sexual,Chicago-Rain,19
+983,Rain-Interference,Interference,Chicago-Rain,25
+984,Mostly Cloudy-Property,Property,Chicago-Mostly Cloudy,23837
+985,Mostly Cloudy-Fraud,Fraud,Chicago-Mostly Cloudy,12705
+986,Mostly Cloudy-Violence,Violence,Chicago-Mostly Cloudy,56687
+987,Mostly Cloudy-Burglary,Burglary,Chicago-Mostly Cloudy,59711
+988,Mostly Cloudy-B&E,B&E,Chicago-Mostly Cloudy,5299
+989,Mostly Cloudy-Violation,Violation,Chicago-Mostly Cloudy,4163
+990,Mostly Cloudy-Drugs,Drugs,Chicago-Mostly Cloudy,10448
+991,Mostly Cloudy-Robbery,Robbery,Chicago-Mostly Cloudy,8999
+992,Mostly Cloudy-Auto-Theft,Auto-Theft,Chicago-Mostly Cloudy,8695
+993,Mostly Cloudy-Other,Other,Chicago-Mostly Cloudy,16289
+994,Mostly Cloudy-Killing,Killing,Chicago-Mostly Cloudy,558
+995,Mostly Cloudy-Verbal,Verbal,Chicago-Mostly Cloudy,1409
+996,Mostly Cloudy-Kidnapping,Kidnapping,Chicago-Mostly Cloudy,149
+997,Mostly Cloudy-Arson,Arson,Chicago-Mostly Cloudy,360
+998,Mostly Cloudy-Sexual,Sexual,Chicago-Mostly Cloudy,682
+999,Mostly Cloudy-Interference,Interference,Chicago-Mostly Cloudy,944
+1000,Light Sleet-Property,Property,Chicago-Light Sleet,34
+1001,Light Sleet-Fraud,Fraud,Chicago-Light Sleet,13
+1002,Light Sleet-Violence,Violence,Chicago-Light Sleet,99
+1003,Light Sleet-Burglary,Burglary,Chicago-Light Sleet,83
+1004,Light Sleet-B&E,B&E,Chicago-Light Sleet,8
+1005,Light Sleet-Violation,Violation,Chicago-Light Sleet,3
+1006,Light Sleet-Drugs,Drugs,Chicago-Light Sleet,21
+1007,Light Sleet-Robbery,Robbery,Chicago-Light Sleet,18
+1008,Light Sleet-Auto-Theft,Auto-Theft,Chicago-Light Sleet,13
+1009,Light Sleet-Other,Other,Chicago-Light Sleet,31
+1010,Light Sleet-Killing,Killing,Chicago-Light Sleet,1
+1011,Light Sleet-Verbal,Verbal,Chicago-Light Sleet,1
+1012,Light Sleet-Kidnapping,,Chicago-Light Sleet,0
+1013,Light Sleet-Arson,Arson,Chicago-Light Sleet,1
+1014,Light Sleet-Sexual,,Chicago-Light Sleet,0
+1015,Light Sleet-Interference,Interference,Chicago-Light Sleet,5
+1016,Drizzle-Property,Property,Chicago-Drizzle,996
+1017,Drizzle-Fraud,Fraud,Chicago-Drizzle,628
+1018,Drizzle-Violence,Violence,Chicago-Drizzle,2320
+1019,Drizzle-Burglary,Burglary,Chicago-Drizzle,2568
+1020,Drizzle-B&E,B&E,Chicago-Drizzle,235
+1021,Drizzle-Violation,Violation,Chicago-Drizzle,119
+1022,Drizzle-Drugs,Drugs,Chicago-Drizzle,441
+1023,Drizzle-Robbery,Robbery,Chicago-Drizzle,391
+1024,Drizzle-Auto-Theft,Auto-Theft,Chicago-Drizzle,388
+1025,Drizzle-Other,Other,Chicago-Drizzle,700
+1026,Drizzle-Killing,Killing,Chicago-Drizzle,38
+1027,Drizzle-Verbal,Verbal,Chicago-Drizzle,70
+1028,Drizzle-Kidnapping,Kidnapping,Chicago-Drizzle,8
+1029,Drizzle-Arson,Arson,Chicago-Drizzle,18
+1030,Drizzle-Sexual,Sexual,Chicago-Drizzle,26
+1031,Drizzle-Interference,Interference,Chicago-Drizzle,29
+1032,Foggy-Property,Property,Chicago-Foggy,1119
+1033,Foggy-Fraud,Fraud,Chicago-Foggy,861
+1034,Foggy-Violence,Violence,Chicago-Foggy,2955
+1035,Foggy-Burglary,Burglary,Chicago-Foggy,3297
+1036,Foggy-B&E,B&E,Chicago-Foggy,301
+1037,Foggy-Violation,Violation,Chicago-Foggy,141
+1038,Foggy-Drugs,Drugs,Chicago-Foggy,570
+1039,Foggy-Robbery,Robbery,Chicago-Foggy,463
+1040,Foggy-Auto-Theft,Auto-Theft,Chicago-Foggy,464
+1041,Foggy-Other,Other,Chicago-Foggy,926
+1042,Foggy-Killing,Killing,Chicago-Foggy,21
+1043,Foggy-Verbal,Verbal,Chicago-Foggy,77
+1044,Foggy-Kidnapping,Kidnapping,Chicago-Foggy,5
+1045,Foggy-Arson,Arson,Chicago-Foggy,15
+1046,Foggy-Sexual,Sexual,Chicago-Foggy,27
+1047,Foggy-Interference,Interference,Chicago-Foggy,32
+1048,Possible Flurries-Property,Property,Chicago-Possible Flurries,327
+1049,Possible Flurries-Fraud,Fraud,Chicago-Possible Flurries,165
+1050,Possible Flurries-Violence,Violence,Chicago-Possible Flurries,768
+1051,Possible Flurries-Burglary,Burglary,Chicago-Possible Flurries,899
+1052,Possible Flurries-B&E,B&E,Chicago-Possible Flurries,97
+1053,Possible Flurries-Violation,Violation,Chicago-Possible Flurries,48
+1054,Possible Flurries-Drugs,Drugs,Chicago-Possible Flurries,244
+1055,Possible Flurries-Robbery,Robbery,Chicago-Possible Flurries,124
+1056,Possible Flurries-Auto-Theft,Auto-Theft,Chicago-Possible Flurries,132
+1057,Possible Flurries-Other,Other,Chicago-Possible Flurries,270
+1058,Possible Flurries-Killing,Killing,Chicago-Possible Flurries,5
+1059,Possible Flurries-Verbal,Verbal,Chicago-Possible Flurries,21
+1060,Possible Flurries-Kidnapping,,Chicago-Possible Flurries,0
+1061,Possible Flurries-Arson,Arson,Chicago-Possible Flurries,2
+1062,Possible Flurries-Sexual,Sexual,Chicago-Possible Flurries,11
+1063,Possible Flurries-Interference,Interference,Chicago-Possible Flurries,15
+1064,Possible Light Rain-Property,Property,Chicago-Possible Light Rain,295
+1065,Possible Light Rain-Fraud,Fraud,Chicago-Possible Light Rain,166
+1066,Possible Light Rain-Violence,Violence,Chicago-Possible Light Rain,776
+1067,Possible Light Rain-Burglary,Burglary,Chicago-Possible Light Rain,764
+1068,Possible Light Rain-B&E,B&E,Chicago-Possible Light Rain,46
+1069,Possible Light Rain-Violation,Violation,Chicago-Possible Light Rain,35
+1070,Possible Light Rain-Drugs,Drugs,Chicago-Possible Light Rain,116
+1071,Possible Light Rain-Robbery,Robbery,Chicago-Possible Light Rain,126
+1072,Possible Light Rain-Auto-Theft,Auto-Theft,Chicago-Possible Light Rain,111
+1073,Possible Light Rain-Other,Other,Chicago-Possible Light Rain,206
+1074,Possible Light Rain-Killing,Killing,Chicago-Possible Light Rain,4
+1075,Possible Light Rain-Verbal,Verbal,Chicago-Possible Light Rain,14
+1076,Possible Light Rain-Kidnapping,,Chicago-Possible Light Rain,0
+1077,Possible Light Rain-Arson,Arson,Chicago-Possible Light Rain,3
+1078,Possible Light Rain-Sexual,Sexual,Chicago-Possible Light Rain,10
+1079,Possible Light Rain-Interference,Interference,Chicago-Possible Light Rain,9
+1080,Light Snow and Windy-Property,Property,Chicago-Light Snow and Windy,3
+1081,Light Snow and Windy-Fraud,Fraud,Chicago-Light Snow and Windy,10
+1082,Light Snow and Windy-Violence,Violence,Chicago-Light Snow and Windy,14
+1083,Light Snow and Windy-Burglary,Burglary,Chicago-Light Snow and Windy,10
+1084,Light Snow and Windy-B&E,B&E,Chicago-Light Snow and Windy,1
+1085,Light Snow and Windy-Violation,,Chicago-Light Snow and Windy,0
+1086,Light Snow and Windy-Drugs,Drugs,Chicago-Light Snow and Windy,1
+1087,Light Snow and Windy-Robbery,Robbery,Chicago-Light Snow and Windy,3
+1088,Light Snow and Windy-Auto-Theft,,Chicago-Light Snow and Windy,0
+1089,Light Snow and Windy-Other,Other,Chicago-Light Snow and Windy,4
+1090,Light Snow and Windy-Killing,,Chicago-Light Snow and Windy,0
+1091,Light Snow and Windy-Verbal,,Chicago-Light Snow and Windy,0
+1092,Light Snow and Windy-Kidnapping,,Chicago-Light Snow and Windy,0
+1093,Light Snow and Windy-Arson,,Chicago-Light Snow and Windy,0
+1094,Light Snow and Windy-Sexual,,Chicago-Light Snow and Windy,0
+1095,Light Snow and Windy-Interference,,Chicago-Light Snow and Windy,0
+1096,Light Snow-Property,Property,Chicago-Light Snow,40
+1097,Light Snow-Fraud,Fraud,Chicago-Light Snow,14
+1098,Light Snow-Violence,Violence,Chicago-Light Snow,87
+1099,Light Snow-Burglary,Burglary,Chicago-Light Snow,119
+1100,Light Snow-B&E,B&E,Chicago-Light Snow,4
+1101,Light Snow-Violation,Violation,Chicago-Light Snow,4
+1102,Light Snow-Drugs,Drugs,Chicago-Light Snow,25
+1103,Light Snow-Robbery,Robbery,Chicago-Light Snow,27
+1104,Light Snow-Auto-Theft,Auto-Theft,Chicago-Light Snow,23
+1105,Light Snow-Other,Other,Chicago-Light Snow,26
+1106,Light Snow-Killing,,Chicago-Light Snow,0
+1107,Light Snow-Verbal,Verbal,Chicago-Light Snow,2
+1108,Light Snow-Kidnapping,Kidnapping,Chicago-Light Snow,1
+1109,Light Snow-Arson,,Chicago-Light Snow,0
+1110,Light Snow-Sexual,,Chicago-Light Snow,0
+1111,Light Snow-Interference,Interference,Chicago-Light Snow,2
+1112,Flurries-Property,Property,Chicago-Flurries,18
+1113,Flurries-Fraud,Fraud,Chicago-Flurries,19
+1114,Flurries-Violence,Violence,Chicago-Flurries,55
+1115,Flurries-Burglary,Burglary,Chicago-Flurries,80
+1116,Flurries-B&E,B&E,Chicago-Flurries,11
+1117,Flurries-Violation,,Chicago-Flurries,0
+1118,Flurries-Drugs,Drugs,Chicago-Flurries,14
+1119,Flurries-Robbery,Robbery,Chicago-Flurries,12
+1120,Flurries-Auto-Theft,Auto-Theft,Chicago-Flurries,10
+1121,Flurries-Other,Other,Chicago-Flurries,15
+1122,Flurries-Killing,,Chicago-Flurries,0
+1123,Flurries-Verbal,Verbal,Chicago-Flurries,1
+1124,Flurries-Kidnapping,Kidnapping,Chicago-Flurries,1
+1125,Flurries-Arson,,Chicago-Flurries,0
+1126,Flurries-Sexual,Sexual,Chicago-Flurries,2
+1127,Flurries-Interference,Interference,Chicago-Flurries,1
+1128,Possible Light Sleet-Property,Property,Chicago-Possible Light Sleet,65
+1129,Possible Light Sleet-Fraud,Fraud,Chicago-Possible Light Sleet,52
+1130,Possible Light Sleet-Violence,Violence,Chicago-Possible Light Sleet,158
+1131,Possible Light Sleet-Burglary,Burglary,Chicago-Possible Light Sleet,159
+1132,Possible Light Sleet-B&E,B&E,Chicago-Possible Light Sleet,16
+1133,Possible Light Sleet-Violation,Violation,Chicago-Possible Light Sleet,9
+1134,Possible Light Sleet-Drugs,Drugs,Chicago-Possible Light Sleet,38
+1135,Possible Light Sleet-Robbery,Robbery,Chicago-Possible Light Sleet,24
+1136,Possible Light Sleet-Auto-Theft,Auto-Theft,Chicago-Possible Light Sleet,24
+1137,Possible Light Sleet-Other,Other,Chicago-Possible Light Sleet,42
+1138,Possible Light Sleet-Killing,Killing,Chicago-Possible Light Sleet,1
+1139,Possible Light Sleet-Verbal,Verbal,Chicago-Possible Light Sleet,5
+1140,Possible Light Sleet-Kidnapping,,Chicago-Possible Light Sleet,0
+1141,Possible Light Sleet-Arson,Arson,Chicago-Possible Light Sleet,2
+1142,Possible Light Sleet-Sexual,Sexual,Chicago-Possible Light Sleet,2
+1143,Possible Light Sleet-Interference,Interference,Chicago-Possible Light Sleet,3
+1144,Possible Drizzle and Windy-Property,Property,Chicago-Possible Drizzle and Windy,3
+1145,Possible Drizzle and Windy-Fraud,Fraud,Chicago-Possible Drizzle and Windy,3
+1146,Possible Drizzle and Windy-Violence,Violence,Chicago-Possible Drizzle and Windy,11
+1147,Possible Drizzle and Windy-Burglary,Burglary,Chicago-Possible Drizzle and Windy,10
+1148,Possible Drizzle and Windy-B&E,B&E,Chicago-Possible Drizzle and Windy,2
+1149,Possible Drizzle and Windy-Violation,,Chicago-Possible Drizzle and Windy,0
+1150,Possible Drizzle and Windy-Drugs,Drugs,Chicago-Possible Drizzle and Windy,1
+1151,Possible Drizzle and Windy-Robbery,Robbery,Chicago-Possible Drizzle and Windy,2
+1152,Possible Drizzle and Windy-Auto-Theft,Auto-Theft,Chicago-Possible Drizzle and Windy,2
+1153,Possible Drizzle and Windy-Other,,Chicago-Possible Drizzle and Windy,0
+1154,Possible Drizzle and Windy-Killing,,Chicago-Possible Drizzle and Windy,0
+1155,Possible Drizzle and Windy-Verbal,,Chicago-Possible Drizzle and Windy,0
+1156,Possible Drizzle and Windy-Kidnapping,,Chicago-Possible Drizzle and Windy,0
+1157,Possible Drizzle and Windy-Arson,,Chicago-Possible Drizzle and Windy,0
+1158,Possible Drizzle and Windy-Sexual,,Chicago-Possible Drizzle and Windy,0
+1159,Possible Drizzle and Windy-Interference,,Chicago-Possible Drizzle and Windy,0
+1160,Humid and Partly Cloudy-Property,Property,Chicago-Humid and Partly Cloudy,503
+1161,Humid and Partly Cloudy-Fraud,Fraud,Chicago-Humid and Partly Cloudy,275
+1162,Humid and Partly Cloudy-Violence,Violence,Chicago-Humid and Partly Cloudy,1336
+1163,Humid and Partly Cloudy-Burglary,Burglary,Chicago-Humid and Partly Cloudy,1291
+1164,Humid and Partly Cloudy-B&E,B&E,Chicago-Humid and Partly Cloudy,110
+1165,Humid and Partly Cloudy-Violation,Violation,Chicago-Humid and Partly Cloudy,80
+1166,Humid and Partly Cloudy-Drugs,Drugs,Chicago-Humid and Partly Cloudy,168
+1167,Humid and Partly Cloudy-Robbery,Robbery,Chicago-Humid and Partly Cloudy,167
+1168,Humid and Partly Cloudy-Auto-Theft,Auto-Theft,Chicago-Humid and Partly Cloudy,146
+1169,Humid and Partly Cloudy-Other,Other,Chicago-Humid and Partly Cloudy,346
+1170,Humid and Partly Cloudy-Killing,Killing,Chicago-Humid and Partly Cloudy,11
+1171,Humid and Partly Cloudy-Verbal,Verbal,Chicago-Humid and Partly Cloudy,32
+1172,Humid and Partly Cloudy-Kidnapping,Kidnapping,Chicago-Humid and Partly Cloudy,1
+1173,Humid and Partly Cloudy-Arson,Arson,Chicago-Humid and Partly Cloudy,6
+1174,Humid and Partly Cloudy-Sexual,Sexual,Chicago-Humid and Partly Cloudy,16
+1175,Humid and Partly Cloudy-Interference,Interference,Chicago-Humid and Partly Cloudy,25
+1176,Rain and Humid-Property,Property,Chicago-Rain and Humid,29
+1177,Rain and Humid-Fraud,Fraud,Chicago-Rain and Humid,4
+1178,Rain and Humid-Violence,Violence,Chicago-Rain and Humid,55
+1179,Rain and Humid-Burglary,Burglary,Chicago-Rain and Humid,44
+1180,Rain and Humid-B&E,B&E,Chicago-Rain and Humid,3
+1181,Rain and Humid-Violation,Violation,Chicago-Rain and Humid,5
+1182,Rain and Humid-Drugs,Drugs,Chicago-Rain and Humid,5
+1183,Rain and Humid-Robbery,Robbery,Chicago-Rain and Humid,19
+1184,Rain and Humid-Auto-Theft,Auto-Theft,Chicago-Rain and Humid,8
+1185,Rain and Humid-Other,Other,Chicago-Rain and Humid,7
+1186,Rain and Humid-Killing,,Chicago-Rain and Humid,0
+1187,Rain and Humid-Verbal,,Chicago-Rain and Humid,0
+1188,Rain and Humid-Kidnapping,,Chicago-Rain and Humid,0
+1189,Rain and Humid-Arson,,Chicago-Rain and Humid,0
+1190,Rain and Humid-Sexual,,Chicago-Rain and Humid,0
+1191,Rain and Humid-Interference,Interference,Chicago-Rain and Humid,2
+1192,Humid and Mostly Cloudy-Property,Property,Chicago-Humid and Mostly Cloudy,861
+1193,Humid and Mostly Cloudy-Fraud,Fraud,Chicago-Humid and Mostly Cloudy,367
+1194,Humid and Mostly Cloudy-Violence,Violence,Chicago-Humid and Mostly Cloudy,2029
+1195,Humid and Mostly Cloudy-Burglary,Burglary,Chicago-Humid and Mostly Cloudy,2061
+1196,Humid and Mostly Cloudy-B&E,B&E,Chicago-Humid and Mostly Cloudy,182
+1197,Humid and Mostly Cloudy-Violation,Violation,Chicago-Humid and Mostly Cloudy,170
+1198,Humid and Mostly Cloudy-Drugs,Drugs,Chicago-Humid and Mostly Cloudy,377
+1199,Humid and Mostly Cloudy-Robbery,Robbery,Chicago-Humid and Mostly Cloudy,356
+1200,Humid and Mostly Cloudy-Auto-Theft,Auto-Theft,Chicago-Humid and Mostly Cloudy,348
+1201,Humid and Mostly Cloudy-Other,Other,Chicago-Humid and Mostly Cloudy,513
+1202,Humid and Mostly Cloudy-Killing,Killing,Chicago-Humid and Mostly Cloudy,13
+1203,Humid and Mostly Cloudy-Verbal,Verbal,Chicago-Humid and Mostly Cloudy,51
+1204,Humid and Mostly Cloudy-Kidnapping,Kidnapping,Chicago-Humid and Mostly Cloudy,3
+1205,Humid and Mostly Cloudy-Arson,Arson,Chicago-Humid and Mostly Cloudy,4
+1206,Humid and Mostly Cloudy-Sexual,Sexual,Chicago-Humid and Mostly Cloudy,28
+1207,Humid and Mostly Cloudy-Interference,Interference,Chicago-Humid and Mostly Cloudy,34
+1208,Humid-Property,Property,Chicago-Humid,165
+1209,Humid-Fraud,Fraud,Chicago-Humid,97
+1210,Humid-Violence,Violence,Chicago-Humid,416
+1211,Humid-Burglary,Burglary,Chicago-Humid,442
+1212,Humid-B&E,B&E,Chicago-Humid,34
+1213,Humid-Violation,Violation,Chicago-Humid,27
+1214,Humid-Drugs,Drugs,Chicago-Humid,52
+1215,Humid-Robbery,Robbery,Chicago-Humid,42
+1216,Humid-Auto-Theft,Auto-Theft,Chicago-Humid,53
+1217,Humid-Other,Other,Chicago-Humid,103
+1218,Humid-Killing,Killing,Chicago-Humid,3
+1219,Humid-Verbal,Verbal,Chicago-Humid,7
+1220,Humid-Kidnapping,Kidnapping,Chicago-Humid,2
+1221,Humid-Arson,Arson,Chicago-Humid,2
+1222,Humid-Sexual,Sexual,Chicago-Humid,7
+1223,Humid-Interference,Interference,Chicago-Humid,1
+1224,Possible Drizzle and Humid-Property,Property,Chicago-Possible Drizzle and Humid,96
+1225,Possible Drizzle and Humid-Fraud,Fraud,Chicago-Possible Drizzle and Humid,33
+1226,Possible Drizzle and Humid-Violence,Violence,Chicago-Possible Drizzle and Humid,165
+1227,Possible Drizzle and Humid-Burglary,Burglary,Chicago-Possible Drizzle and Humid,208
+1228,Possible Drizzle and Humid-B&E,B&E,Chicago-Possible Drizzle and Humid,15
+1229,Possible Drizzle and Humid-Violation,Violation,Chicago-Possible Drizzle and Humid,5
+1230,Possible Drizzle and Humid-Drugs,Drugs,Chicago-Possible Drizzle and Humid,27
+1231,Possible Drizzle and Humid-Robbery,Robbery,Chicago-Possible Drizzle and Humid,24
+1232,Possible Drizzle and Humid-Auto-Theft,Auto-Theft,Chicago-Possible Drizzle and Humid,31
+1233,Possible Drizzle and Humid-Other,Other,Chicago-Possible Drizzle and Humid,53
+1234,Possible Drizzle and Humid-Killing,Killing,Chicago-Possible Drizzle and Humid,1
+1235,Possible Drizzle and Humid-Verbal,Verbal,Chicago-Possible Drizzle and Humid,3
+1236,Possible Drizzle and Humid-Kidnapping,Kidnapping,Chicago-Possible Drizzle and Humid,1
+1237,Possible Drizzle and Humid-Arson,,Chicago-Possible Drizzle and Humid,0
+1238,Possible Drizzle and Humid-Sexual,,Chicago-Possible Drizzle and Humid,0
+1239,Possible Drizzle and Humid-Interference,Interference,Chicago-Possible Drizzle and Humid,3
+1240,Light Rain and Humid-Property,Property,Chicago-Light Rain and Humid,33
+1241,Light Rain and Humid-Fraud,Fraud,Chicago-Light Rain and Humid,13
+1242,Light Rain and Humid-Violence,Violence,Chicago-Light Rain and Humid,74
+1243,Light Rain and Humid-Burglary,Burglary,Chicago-Light Rain and Humid,78
+1244,Light Rain and Humid-B&E,B&E,Chicago-Light Rain and Humid,8
+1245,Light Rain and Humid-Violation,Violation,Chicago-Light Rain and Humid,7
+1246,Light Rain and Humid-Drugs,Drugs,Chicago-Light Rain and Humid,16
+1247,Light Rain and Humid-Robbery,Robbery,Chicago-Light Rain and Humid,21
+1248,Light Rain and Humid-Auto-Theft,Auto-Theft,Chicago-Light Rain and Humid,11
+1249,Light Rain and Humid-Other,Other,Chicago-Light Rain and Humid,18
+1250,Light Rain and Humid-Killing,Killing,Chicago-Light Rain and Humid,1
+1251,Light Rain and Humid-Verbal,Verbal,Chicago-Light Rain and Humid,4
+1252,Light Rain and Humid-Kidnapping,,Chicago-Light Rain and Humid,0
+1253,Light Rain and Humid-Arson,,Chicago-Light Rain and Humid,0
+1254,Light Rain and Humid-Sexual,Sexual,Chicago-Light Rain and Humid,1
+1255,Light Rain and Humid-Interference,Interference,Chicago-Light Rain and Humid,2
+1256,Possible Light Rain and Humid-Property,Property,Chicago-Possible Light Rain and Humid,30
+1257,Possible Light Rain and Humid-Fraud,Fraud,Chicago-Possible Light Rain and Humid,10
+1258,Possible Light Rain and Humid-Violence,Violence,Chicago-Possible Light Rain and Humid,71
+1259,Possible Light Rain and Humid-Burglary,Burglary,Chicago-Possible Light Rain and Humid,82
+1260,Possible Light Rain and Humid-B&E,B&E,Chicago-Possible Light Rain and Humid,6
+1261,Possible Light Rain and Humid-Violation,Violation,Chicago-Possible Light Rain and Humid,2
+1262,Possible Light Rain and Humid-Drugs,Drugs,Chicago-Possible Light Rain and Humid,8
+1263,Possible Light Rain and Humid-Robbery,Robbery,Chicago-Possible Light Rain and Humid,5
+1264,Possible Light Rain and Humid-Auto-Theft,Auto-Theft,Chicago-Possible Light Rain and Humid,6
+1265,Possible Light Rain and Humid-Other,Other,Chicago-Possible Light Rain and Humid,23
+1266,Possible Light Rain and Humid-Killing,Killing,Chicago-Possible Light Rain and Humid,1
+1267,Possible Light Rain and Humid-Verbal,Verbal,Chicago-Possible Light Rain and Humid,1
+1268,Possible Light Rain and Humid-Kidnapping,,Chicago-Possible Light Rain and Humid,0
+1269,Possible Light Rain and Humid-Arson,,Chicago-Possible Light Rain and Humid,0
+1270,Possible Light Rain and Humid-Sexual,,Chicago-Possible Light Rain and Humid,0
+1271,Possible Light Rain and Humid-Interference,Interference,Chicago-Possible Light Rain and Humid,1
+1272,Humid and Overcast-Property,Property,Chicago-Humid and Overcast,110
+1273,Humid and Overcast-Fraud,Fraud,Chicago-Humid and Overcast,42
+1274,Humid and Overcast-Violence,Violence,Chicago-Humid and Overcast,188
+1275,Humid and Overcast-Burglary,Burglary,Chicago-Humid and Overcast,244
+1276,Humid and Overcast-B&E,B&E,Chicago-Humid and Overcast,18
+1277,Humid and Overcast-Violation,Violation,Chicago-Humid and Overcast,17
+1278,Humid and Overcast-Drugs,Drugs,Chicago-Humid and Overcast,31
+1279,Humid and Overcast-Robbery,Robbery,Chicago-Humid and Overcast,51
+1280,Humid and Overcast-Auto-Theft,Auto-Theft,Chicago-Humid and Overcast,31
+1281,Humid and Overcast-Other,Other,Chicago-Humid and Overcast,42
+1282,Humid and Overcast-Killing,Killing,Chicago-Humid and Overcast,2
+1283,Humid and Overcast-Verbal,Verbal,Chicago-Humid and Overcast,3
+1284,Humid and Overcast-Kidnapping,,Chicago-Humid and Overcast,0
+1285,Humid and Overcast-Arson,Arson,Chicago-Humid and Overcast,1
+1286,Humid and Overcast-Sexual,Sexual,Chicago-Humid and Overcast,4
+1287,Humid and Overcast-Interference,Interference,Chicago-Humid and Overcast,1
+1288,Drizzle and Humid-Property,Property,Chicago-Drizzle and Humid,6
+1289,Drizzle and Humid-Fraud,Fraud,Chicago-Drizzle and Humid,1
+1290,Drizzle and Humid-Violence,Violence,Chicago-Drizzle and Humid,7
+1291,Drizzle and Humid-Burglary,Burglary,Chicago-Drizzle and Humid,7
+1292,Drizzle and Humid-B&E,B&E,Chicago-Drizzle and Humid,2
+1293,Drizzle and Humid-Violation,,Chicago-Drizzle and Humid,0
+1294,Drizzle and Humid-Drugs,Drugs,Chicago-Drizzle and Humid,1
+1295,Drizzle and Humid-Robbery,Robbery,Chicago-Drizzle and Humid,3
+1296,Drizzle and Humid-Auto-Theft,Auto-Theft,Chicago-Drizzle and Humid,1
+1297,Drizzle and Humid-Other,,Chicago-Drizzle and Humid,0
+1298,Drizzle and Humid-Killing,,Chicago-Drizzle and Humid,0
+1299,Drizzle and Humid-Verbal,Verbal,Chicago-Drizzle and Humid,1
+1300,Drizzle and Humid-Kidnapping,,Chicago-Drizzle and Humid,0
+1301,Drizzle and Humid-Arson,,Chicago-Drizzle and Humid,0
+1302,Drizzle and Humid-Sexual,,Chicago-Drizzle and Humid,0
+1303,Drizzle and Humid-Interference,,Chicago-Drizzle and Humid,0
+1304,Windy and Partly Cloudy-Property,Property,Chicago-Windy and Partly Cloudy,6
+1305,Windy and Partly Cloudy-Fraud,Fraud,Chicago-Windy and Partly Cloudy,6
+1306,Windy and Partly Cloudy-Violence,Violence,Chicago-Windy and Partly Cloudy,13
+1307,Windy and Partly Cloudy-Burglary,Burglary,Chicago-Windy and Partly Cloudy,4
+1308,Windy and Partly Cloudy-B&E,,Chicago-Windy and Partly Cloudy,0
+1309,Windy and Partly Cloudy-Violation,Violation,Chicago-Windy and Partly Cloudy,1
+1310,Windy and Partly Cloudy-Drugs,Drugs,Chicago-Windy and Partly Cloudy,3
+1311,Windy and Partly Cloudy-Robbery,Robbery,Chicago-Windy and Partly Cloudy,1
+1312,Windy and Partly Cloudy-Auto-Theft,Auto-Theft,Chicago-Windy and Partly Cloudy,1
+1313,Windy and Partly Cloudy-Other,Other,Chicago-Windy and Partly Cloudy,5
+1314,Windy and Partly Cloudy-Killing,Killing,Chicago-Windy and Partly Cloudy,1
+1315,Windy and Partly Cloudy-Verbal,,Chicago-Windy and Partly Cloudy,0
+1316,Windy and Partly Cloudy-Kidnapping,,Chicago-Windy and Partly Cloudy,0
+1317,Windy and Partly Cloudy-Arson,Arson,Chicago-Windy and Partly Cloudy,1
+1318,Windy and Partly Cloudy-Sexual,,Chicago-Windy and Partly Cloudy,0
+1319,Windy and Partly Cloudy-Interference,,Chicago-Windy and Partly Cloudy,0
+1320,Possible Light Snow-Property,Property,Chicago-Possible Light Snow,4
+1321,Possible Light Snow-Fraud,Fraud,Chicago-Possible Light Snow,7
+1322,Possible Light Snow-Violence,Violence,Chicago-Possible Light Snow,6
+1323,Possible Light Snow-Burglary,Burglary,Chicago-Possible Light Snow,14
+1324,Possible Light Snow-B&E,B&E,Chicago-Possible Light Snow,2
+1325,Possible Light Snow-Violation,,Chicago-Possible Light Snow,0
+1326,Possible Light Snow-Drugs,Drugs,Chicago-Possible Light Snow,7
+1327,Possible Light Snow-Robbery,Robbery,Chicago-Possible Light Snow,2
+1328,Possible Light Snow-Auto-Theft,Auto-Theft,Chicago-Possible Light Snow,2
+1329,Possible Light Snow-Other,Other,Chicago-Possible Light Snow,4
+1330,Possible Light Snow-Killing,,Chicago-Possible Light Snow,0
+1331,Possible Light Snow-Verbal,Verbal,Chicago-Possible Light Snow,1
+1332,Possible Light Snow-Kidnapping,,Chicago-Possible Light Snow,0
+1333,Possible Light Snow-Arson,,Chicago-Possible Light Snow,0
+1334,Possible Light Snow-Sexual,,Chicago-Possible Light Snow,0
+1335,Possible Light Snow-Interference,,Chicago-Possible Light Snow,0
+1336,Heavy Rain-Property,Property,Chicago-Heavy Rain,1
+1337,Heavy Rain-Fraud,,Chicago-Heavy Rain,0
+1338,Heavy Rain-Violence,Violence,Chicago-Heavy Rain,9
+1339,Heavy Rain-Burglary,Burglary,Chicago-Heavy Rain,4
+1340,Heavy Rain-B&E,B&E,Chicago-Heavy Rain,1
+1341,Heavy Rain-Violation,Violation,Chicago-Heavy Rain,1
+1342,Heavy Rain-Drugs,,Chicago-Heavy Rain,0
+1343,Heavy Rain-Robbery,,Chicago-Heavy Rain,0
+1344,Heavy Rain-Auto-Theft,,Chicago-Heavy Rain,0
+1345,Heavy Rain-Other,,Chicago-Heavy Rain,0
+1346,Heavy Rain-Killing,,Chicago-Heavy Rain,0
+1347,Heavy Rain-Verbal,,Chicago-Heavy Rain,0
+1348,Heavy Rain-Kidnapping,,Chicago-Heavy Rain,0
+1349,Heavy Rain-Arson,,Chicago-Heavy Rain,0
+1350,Heavy Rain-Sexual,,Chicago-Heavy Rain,0
+1351,Heavy Rain-Interference,,Chicago-Heavy Rain,0
+1352,Los Angeles-Partly Cloudy,Partly Cloudy,Weather-Los Angeles,173792
+1353,Los Angeles-Clear,Clear,Weather-Los Angeles,624817
+1354,Los Angeles-Overcast,Overcast,Weather-Los Angeles,139351
+1355,Los Angeles-Mostly Cloudy,Mostly Cloudy,Weather-Los Angeles,125833
+1356,Los Angeles-Possible Drizzle,Possible Drizzle,Weather-Los Angeles,10538
+1357,Los Angeles-Drizzle,Drizzle,Weather-Los Angeles,2310
+1358,Los Angeles-Rain,Rain,Weather-Los Angeles,2250
+1359,Los Angeles-Light Rain,Light Rain,Weather-Los Angeles,8458
+1360,Los Angeles-Possible Light Rain,Possible Light Rain,Weather-Los Angeles,1401
+1361,Los Angeles-Foggy,Foggy,Weather-Los Angeles,1665
+1362,Partly Cloudy-Vandalism,Vandalism,Los Angeles-Partly Cloudy,16850
+1363,Partly Cloudy-Violence,Violence,Los Angeles-Partly Cloudy,29238
+1364,Partly Cloudy-Auto-Theft,Auto-Theft,Los Angeles-Partly Cloudy,13925
+1365,Partly Cloudy-Verbal,Verbal,Los Angeles-Partly Cloudy,16317
+1366,Partly Cloudy-Other,Other,Los Angeles-Partly Cloudy,5052
+1367,Partly Cloudy-Burglary,Burglary,Los Angeles-Partly Cloudy,74486
+1368,Partly Cloudy-Rape,Rape,Los Angeles-Partly Cloudy,1580
+1369,Partly Cloudy-Fraud,Fraud,Los Angeles-Partly Cloudy,2248
+1370,Partly Cloudy-B&E,B&E,Los Angeles-Partly Cloudy,1878
+1371,Partly Cloudy-Robbery,Robbery,Los Angeles-Partly Cloudy,6988
+1372,Partly Cloudy-Violation,Violation,Los Angeles-Partly Cloudy,3734
+1373,Partly Cloudy-VAL,VAL,Los Angeles-Partly Cloudy,116
+1374,Partly Cloudy-Sexual,Sexual,Los Angeles-Partly Cloudy,608
+1375,Partly Cloudy-Killing,Killing,Los Angeles-Partly Cloudy,214
+1376,Partly Cloudy-Arson,Arson,Los Angeles-Partly Cloudy,273
+1377,Partly Cloudy-Kidnapping,Kidnapping,Los Angeles-Partly Cloudy,285
+1378,Clear-Vandalism,Vandalism,Los Angeles-Clear,60783
+1379,Clear-Violence,Violence,Los Angeles-Clear,107539
+1380,Clear-Auto-Theft,Auto-Theft,Los Angeles-Clear,50350
+1381,Clear-Verbal,Verbal,Los Angeles-Clear,59695
+1382,Clear-Other,Other,Los Angeles-Clear,18445
+1383,Clear-Burglary,Burglary,Los Angeles-Clear,262399
+1384,Clear-Rape,Rape,Los Angeles-Clear,6161
+1385,Clear-Fraud,Fraud,Los Angeles-Clear,7810
+1386,Clear-B&E,B&E,Los Angeles-Clear,7055
+1387,Clear-Robbery,Robbery,Los Angeles-Clear,25318
+1388,Clear-Violation,Violation,Los Angeles-Clear,13575
+1389,Clear-VAL,VAL,Los Angeles-Clear,475
+1390,Clear-Sexual,Sexual,Los Angeles-Clear,2252
+1391,Clear-Killing,Killing,Los Angeles-Clear,818
+1392,Clear-Arson,Arson,Los Angeles-Clear,1142
+1393,Clear-Kidnapping,Kidnapping,Los Angeles-Clear,1000
+1394,Overcast-Vandalism,Vandalism,Los Angeles-Overcast,12005
+1395,Overcast-Violence,Violence,Los Angeles-Overcast,22592
+1396,Overcast-Auto-Theft,Auto-Theft,Los Angeles-Overcast,9678
+1397,Overcast-Verbal,Verbal,Los Angeles-Overcast,12691
+1398,Overcast-Other,Other,Los Angeles-Overcast,3992
+1399,Overcast-Burglary,Burglary,Los Angeles-Overcast,63874
+1400,Overcast-Rape,Rape,Los Angeles-Overcast,1081
+1401,Overcast-Fraud,Fraud,Los Angeles-Overcast,2346
+1402,Overcast-B&E,B&E,Los Angeles-Overcast,1656
+1403,Overcast-Robbery,Robbery,Los Angeles-Overcast,5039
+1404,Overcast-Violation,Violation,Los Angeles-Overcast,3226
+1405,Overcast-VAL,VAL,Los Angeles-Overcast,73
+1406,Overcast-Sexual,Sexual,Los Angeles-Overcast,536
+1407,Overcast-Killing,Killing,Los Angeles-Overcast,139
+1408,Overcast-Arson,Arson,Los Angeles-Overcast,198
+1409,Overcast-Kidnapping,Kidnapping,Los Angeles-Overcast,225
+1410,Mostly Cloudy-Vandalism,Vandalism,Los Angeles-Mostly Cloudy,11356
+1411,Mostly Cloudy-Violence,Violence,Los Angeles-Mostly Cloudy,20969
+1412,Mostly Cloudy-Auto-Theft,Auto-Theft,Los Angeles-Mostly Cloudy,9483
+1413,Mostly Cloudy-Verbal,Verbal,Los Angeles-Mostly Cloudy,11657
+1414,Mostly Cloudy-Other,Other,Los Angeles-Mostly Cloudy,3650
+1415,Mostly Cloudy-Burglary,Burglary,Los Angeles-Mostly Cloudy,55898
+1416,Mostly Cloudy-Rape,Rape,Los Angeles-Mostly Cloudy,959
+1417,Mostly Cloudy-Fraud,Fraud,Los Angeles-Mostly Cloudy,1775
+1418,Mostly Cloudy-B&E,B&E,Los Angeles-Mostly Cloudy,1433
+1419,Mostly Cloudy-Robbery,Robbery,Los Angeles-Mostly Cloudy,4656
+1420,Mostly Cloudy-Violation,Violation,Los Angeles-Mostly Cloudy,2920
+1421,Mostly Cloudy-VAL,VAL,Los Angeles-Mostly Cloudy,75
+1422,Mostly Cloudy-Sexual,Sexual,Los Angeles-Mostly Cloudy,430
+1423,Mostly Cloudy-Killing,Killing,Los Angeles-Mostly Cloudy,168
+1424,Mostly Cloudy-Arson,Arson,Los Angeles-Mostly Cloudy,185
+1425,Mostly Cloudy-Kidnapping,Kidnapping,Los Angeles-Mostly Cloudy,219
+1426,Possible Drizzle-Vandalism,Vandalism,Los Angeles-Possible Drizzle,958
+1427,Possible Drizzle-Violence,Violence,Los Angeles-Possible Drizzle,1619
+1428,Possible Drizzle-Auto-Theft,Auto-Theft,Los Angeles-Possible Drizzle,916
+1429,Possible Drizzle-Verbal,Verbal,Los Angeles-Possible Drizzle,973
+1430,Possible Drizzle-Other,Other,Los Angeles-Possible Drizzle,255
+1431,Possible Drizzle-Burglary,Burglary,Los Angeles-Possible Drizzle,4730
+1432,Possible Drizzle-Rape,Rape,Los Angeles-Possible Drizzle,83
+1433,Possible Drizzle-Fraud,Fraud,Los Angeles-Possible Drizzle,167
+1434,Possible Drizzle-B&E,B&E,Los Angeles-Possible Drizzle,127
+1435,Possible Drizzle-Robbery,Robbery,Los Angeles-Possible Drizzle,387
+1436,Possible Drizzle-Violation,Violation,Los Angeles-Possible Drizzle,233
+1437,Possible Drizzle-VAL,VAL,Los Angeles-Possible Drizzle,10
+1438,Possible Drizzle-Sexual,Sexual,Los Angeles-Possible Drizzle,37
+1439,Possible Drizzle-Killing,Killing,Los Angeles-Possible Drizzle,15
+1440,Possible Drizzle-Arson,Arson,Los Angeles-Possible Drizzle,17
+1441,Possible Drizzle-Kidnapping,Kidnapping,Los Angeles-Possible Drizzle,11
+1442,Drizzle-Vandalism,Vandalism,Los Angeles-Drizzle,221
+1443,Drizzle-Violence,Violence,Los Angeles-Drizzle,353
+1444,Drizzle-Auto-Theft,Auto-Theft,Los Angeles-Drizzle,222
+1445,Drizzle-Verbal,Verbal,Los Angeles-Drizzle,216
+1446,Drizzle-Other,Other,Los Angeles-Drizzle,73
+1447,Drizzle-Burglary,Burglary,Los Angeles-Drizzle,1025
+1448,Drizzle-Rape,Rape,Los Angeles-Drizzle,11
+1449,Drizzle-Fraud,Fraud,Los Angeles-Drizzle,31
+1450,Drizzle-B&E,B&E,Los Angeles-Drizzle,31
+1451,Drizzle-Robbery,Robbery,Los Angeles-Drizzle,76
+1452,Drizzle-Violation,Violation,Los Angeles-Drizzle,33
+1453,Drizzle-VAL,VAL,Los Angeles-Drizzle,1
+1454,Drizzle-Sexual,Sexual,Los Angeles-Drizzle,11
+1455,Drizzle-Killing,Killing,Los Angeles-Drizzle,3
+1456,Drizzle-Arson,,Los Angeles-Drizzle,0
+1457,Drizzle-Kidnapping,Kidnapping,Los Angeles-Drizzle,3
+1458,Rain-Vandalism,Vandalism,Los Angeles-Rain,194
+1459,Rain-Violence,Violence,Los Angeles-Rain,313
+1460,Rain-Auto-Theft,Auto-Theft,Los Angeles-Rain,202
+1461,Rain-Verbal,Verbal,Los Angeles-Rain,163
+1462,Rain-Other,Other,Los Angeles-Rain,54
+1463,Rain-Burglary,Burglary,Los Angeles-Rain,1104
+1464,Rain-Rape,Rape,Los Angeles-Rain,20
+1465,Rain-Fraud,Fraud,Los Angeles-Rain,22
+1466,Rain-B&E,B&E,Los Angeles-Rain,24
+1467,Rain-Robbery,Robbery,Los Angeles-Rain,81
+1468,Rain-Violation,Violation,Los Angeles-Rain,57
+1469,Rain-VAL,VAL,Los Angeles-Rain,4
+1470,Rain-Sexual,Sexual,Los Angeles-Rain,5
+1471,Rain-Killing,Killing,Los Angeles-Rain,2
+1472,Rain-Arson,Arson,Los Angeles-Rain,2
+1473,Rain-Kidnapping,Kidnapping,Los Angeles-Rain,3
+1474,Light Rain-Vandalism,Vandalism,Los Angeles-Light Rain,779
+1475,Light Rain-Violence,Violence,Los Angeles-Light Rain,1226
+1476,Light Rain-Auto-Theft,Auto-Theft,Los Angeles-Light Rain,721
+1477,Light Rain-Verbal,Verbal,Los Angeles-Light Rain,767
+1478,Light Rain-Other,Other,Los Angeles-Light Rain,234
+1479,Light Rain-Burglary,Burglary,Los Angeles-Light Rain,3862
+1480,Light Rain-Rape,Rape,Los Angeles-Light Rain,85
+1481,Light Rain-Fraud,Fraud,Los Angeles-Light Rain,125
+1482,Light Rain-B&E,B&E,Los Angeles-Light Rain,98
+1483,Light Rain-Robbery,Robbery,Los Angeles-Light Rain,321
+1484,Light Rain-Violation,Violation,Los Angeles-Light Rain,180
+1485,Light Rain-VAL,VAL,Los Angeles-Light Rain,6
+1486,Light Rain-Sexual,Sexual,Los Angeles-Light Rain,23
+1487,Light Rain-Killing,Killing,Los Angeles-Light Rain,11
+1488,Light Rain-Arson,Arson,Los Angeles-Light Rain,8
+1489,Light Rain-Kidnapping,Kidnapping,Los Angeles-Light Rain,12
+1490,Possible Light Rain-Vandalism,Vandalism,Los Angeles-Possible Light Rain,132
+1491,Possible Light Rain-Violence,Violence,Los Angeles-Possible Light Rain,226
+1492,Possible Light Rain-Auto-Theft,Auto-Theft,Los Angeles-Possible Light Rain,108
+1493,Possible Light Rain-Verbal,Verbal,Los Angeles-Possible Light Rain,130
+1494,Possible Light Rain-Other,Other,Los Angeles-Possible Light Rain,18
+1495,Possible Light Rain-Burglary,Burglary,Los Angeles-Possible Light Rain,656
+1496,Possible Light Rain-Rape,Rape,Los Angeles-Possible Light Rain,15
+1497,Possible Light Rain-Fraud,Fraud,Los Angeles-Possible Light Rain,23
+1498,Possible Light Rain-B&E,B&E,Los Angeles-Possible Light Rain,12
+1499,Possible Light Rain-Robbery,Robbery,Los Angeles-Possible Light Rain,42
+1500,Possible Light Rain-Violation,Violation,Los Angeles-Possible Light Rain,33
+1501,Possible Light Rain-VAL,VAL,Los Angeles-Possible Light Rain,1
+1502,Possible Light Rain-Sexual,Sexual,Los Angeles-Possible Light Rain,1
+1503,Possible Light Rain-Killing,Killing,Los Angeles-Possible Light Rain,3
+1504,Possible Light Rain-Arson,Arson,Los Angeles-Possible Light Rain,1
+1505,Possible Light Rain-Kidnapping,,Los Angeles-Possible Light Rain,0
+1506,Foggy-Vandalism,Vandalism,Los Angeles-Foggy,132
+1507,Foggy-Violence,Violence,Los Angeles-Foggy,273
+1508,Foggy-Auto-Theft,Auto-Theft,Los Angeles-Foggy,89
+1509,Foggy-Verbal,Verbal,Los Angeles-Foggy,164
+1510,Foggy-Other,Other,Los Angeles-Foggy,46
+1511,Foggy-Burglary,Burglary,Los Angeles-Foggy,791
+1512,Foggy-Rape,Rape,Los Angeles-Foggy,7
+1513,Foggy-Fraud,Fraud,Los Angeles-Foggy,37
+1514,Foggy-B&E,B&E,Los Angeles-Foggy,14
+1515,Foggy-Robbery,Robbery,Los Angeles-Foggy,61
+1516,Foggy-Violation,Violation,Los Angeles-Foggy,33
+1517,Foggy-VAL,VAL,Los Angeles-Foggy,2
+1518,Foggy-Sexual,Sexual,Los Angeles-Foggy,10
+1519,Foggy-Killing,Killing,Los Angeles-Foggy,1
+1520,Foggy-Arson,Arson,Los Angeles-Foggy,2
+1521,Foggy-Kidnapping,Kidnapping,Los Angeles-Foggy,3
