@@ -1,0 +1,15 @@
+API Template:
+
+ - location
+	- city
+	- latitude
+	- longitude
+ - crime
+	- crime_desc
+	- mapping
+	- code
+ - weather
+ - time
+	- date
+	- hour
+	
