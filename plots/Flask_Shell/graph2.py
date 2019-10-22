@@ -10,7 +10,7 @@ def graph2(sample, db):
     print(sample)
     for i in range(len(weather)):
         if (weather[i] == "base") :
-            stmt1 = "SELECT " + words[1] +", SUM(Count), AVG(Population) FROM crime_pop"
+            stmt1 = "SELECT " + words[1] +", SUM(Count), AVG(Population) FROM sum_crime"
             stmt5 = " GROUP BY " + words[1]
             stmt6 = " ORDER BY " + words[1]
             stmt = stmt1 + stmt5 + stmt6
@@ -20,7 +20,7 @@ def graph2(sample, db):
             data.update({weather[i] : {"xAxis": df.iloc[:,0].tolist(), "yAxis": df.iloc[:,3].tolist()}})
 
         else:
-            stmt1 = "SELECT " + words[1] +", SUM(Count), AVG(Population) FROM crime_pop"
+            stmt1 = "SELECT " + words[1] +", SUM(Count), AVG(Population) FROM sum_crime"
             stmt2 = " WHERE MapWeather = " + "'" + weather[i] + "'"
             
             if (words[2] == "All"):

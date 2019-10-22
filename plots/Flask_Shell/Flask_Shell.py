@@ -22,13 +22,26 @@ app = Flask(__name__)
 #################################################
 
 #app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') or "sqlite:///db/bellybutton.sqlite"
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/crime_pop.sqlite"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/crime.sqlite"
 db = SQLAlchemy(app)
 
 # reflect an existing database into a new model
 Base = automap_base()
 # reflect the tables
 Base.prepare(db.engine, reflect=True)
+
+class Sunburst(db.Model):
+    __tablename__ = 'sunburst'
+
+    id = db.Column(db.Integer, primary_key=True)
+    Ids = db.Column(db.String(50))
+    Labels = db.Column(db.String(50))
+    Parents = db.Column(db.String(50))
+    Values = db.Column(db.String(50))
+
+    def __repr__(self):
+        return '<Sunburst %r>' % (self.name)
+
 
 chart = "Year"
 crime = "All"
@@ -40,7 +53,8 @@ def welcome():
     return (
         f"Available Routes:<br/>"
         f"/plot1<br/>"
-        f"/plot2"
+        f"/plot2<br/>"
+        f"/plot3"
     )
 
 @app.route("/plot1")
@@ -52,6 +66,29 @@ def plot1():
 def plot2():
     """Return the homepage."""
     return render_template("plot2.html")
+
+@app.route("/plot3")
+def plot3():
+    """Return the homepage."""
+    return render_template("plot3.html")
+
+@app.route("/sunburst")
+def Sunny():
+
+    results = db.session.query(Sunburst.Ids, Sunburst.Labels, Sunburst.Parents, Sunburst.Values).all()
+
+    ids = [result[0] for result in results]
+    labels = [result[1] for result in results]
+    parents = [result[2] for result in results]
+    values = [result[3] for result in results]
+
+    sunburst_data = {
+        "ids": ids,
+        "labels": labels,
+        "parents": parents,
+        "values": values}
+
+    return jsonify(sunburst_data)
 
 @app.route("/chartroute")
 def chartroute():
