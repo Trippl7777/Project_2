@@ -103,7 +103,7 @@ def crimeweather():
 
 @app.route("/api/<city>") # City filter test path
 def crimeweather_state(city):
-    result = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
+    results = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
     CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).filter(CrimeWeather.city == city).first()#.all()
 
     # Uncomment these and comment the duplicates below if .all() is selected
@@ -116,14 +116,14 @@ def crimeweather_state(city):
     # mapping = [result[6] for result in results]
     # weather = [result[7] for result in results]
 
-    city = result[0]
-    code = result[1]
-    date = result[2]
-    time = result[3]
-    lat = result[4]
-    lon = result[5]
-    mapping = result[6]
-    weather = result[7]
+    city = results[0]
+    code = results[1]
+    date = results[2]
+    time = results[3]
+    lat = results[4]
+    lon = results[5]
+    mapping = results[6]
+    weather = results[7]
 
     crimeweather_data = [{
         "location":{
