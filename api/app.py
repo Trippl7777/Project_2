@@ -1,4 +1,4 @@
-# import necessary libraries
+# import dependencies
 import os
 from flask import (
     Flask,
@@ -7,11 +7,10 @@ from flask import (
     request,
     redirect)
 import sqlite3
+import numpy as np
 
-# Flask Setup
 app = Flask(__name__)
 
-# Database Setup
 from flask_sqlalchemy import SQLAlchemy
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') or "sqlite:///db.sqlite"
 # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '')
@@ -34,11 +33,9 @@ class CrimeWeather(db.Model):
     def __repr__(self):
         return '<CrimeWeather %r>' % (self.name)
 
-# ========== OLD FLASK TEMPLATE CODE
-
 # create route that renders index.html template
 @app.route("/")
-def welcome():
+def home():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
@@ -46,101 +43,75 @@ def welcome():
         f"/api/[INSERT CITY HERE] for a test api statement specifying city name."
     )
 
-
-# @app.route("/")
-# def home():
-#     return render_template("index.html")
-
-
-# Query the database and send the jsonified results
-@app.route("/send", methods=["GET", "POST"])
-def send():
-    # if request.method == "POST":
-    #     name = request.form["petName"]
-    #     lat = request.form["petLat"]
-    #     lon = request.form["petLon"]
-
-    #     pet = Pet(name=name, lat=lat, lon=lon)
-    #     db.session.add(pet)
-    #     db.session.commit()
-    #     return redirect("/", code=302)
-
-    return render_template("form.html")
-
 # ========== NEW API CODE ==========
 @app.route("/api")
 def crimeweather():
-    result = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
-    CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).first()
+    results = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
+    CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).limit(10).all()
     
-    city = result[0]
-    code = result[1]
-    date = result[2]
-    time = result[3]
-    lat = result[4]
-    lon = result[5]
-    mapping = result[6]
-    weather = result[7]
+    crimeweather_data = []
+    for result in results:
+        city = result[0]
+        code = result[1]
+        date = result[2]
+        time = result[3]
+        lat = result[4]
+        lon = result[5]
+        mapping = result[6]
+        weather = result[7]
 
-    crimeweather_data = [{
-        "location":{
-            "city":city,
-            "lat":lat,
-            "lon":lon
-        },
-        "crime":{
-            "mapping":mapping,
-            "code":code
-        },
-        "time":{
-            "date":date,
-            "hour":time
-        },
-        "weather":weather
-    }]
+        crimeweather_data.append({
+            "location":{
+                "city":city,
+                "lat":lat,
+                "lon":lon
+            },
+            "crime":{
+                "mapping":mapping,
+                "code":code
+            },
+            "time":{
+                "date":date,
+                "hour":time
+            },
+            "weather":weather
+        })
 
     return jsonify(crimeweather_data)
 
 @app.route("/api/<city>") # City filter test path
 def crimeweather_state(city):
     results = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
-    CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).filter(CrimeWeather.city == city).first()#.all()
+    CrimeWeather.latitude,CrimeWeather.longitude,CrimeWeather.mapping,CrimeWeather.weather).filter(CrimeWeather.city == city).limit(5).all()
 
-    # Uncomment these and comment the duplicates below if .all() is selected
-    # city = [result[0] for result in results]
-    # code = [result[1] for result in results]
-    # date = [result[2] for result in results]
-    # time = [result[3] for result in results]
-    # lat = [result[4] for result in results]
-    # lon = [result[5] for result in results]
-    # mapping = [result[6] for result in results]
-    # weather = [result[7] for result in results]
+    crimeweather_data = []
+    for result in results:
 
-    city = results[0]
-    code = results[1]
-    date = results[2]
-    time = results[3]
-    lat = results[4]
-    lon = results[5]
-    mapping = results[6]
-    weather = results[7]
-
-    crimeweather_data = [{
-        "location":{
-            "city":city,
-            "lat":lat,
-            "lon":lon
-        },
-        "crime":{
-            "mapping":mapping,
-            "code":code
-        },
-        "time":{
-            "date":date,
-            "hour":time
-        },
-        "weather":weather
-    }]
+        city = result[0]
+        code = result[1]
+        date = result[2]
+        time = result[3]
+        lat = result[4]
+        lon = result[5]
+        mapping = result[6]
+        weather = result[7]
+       
+        crimeweather_data.append({
+            "location":{
+                "city":city,
+                "lat":lat,
+                "lon":lon
+            },
+            "crime":{
+                "mapping":mapping,
+                "code":code
+            },
+            "time":{
+                "date":date,
+                "hour":time
+            },
+            "weather":weather
+        })
 
     return jsonify(crimeweather_data)
 
@@ -159,23 +130,25 @@ def crimeweather_full():
     lon = [result[5] for result in results]
     mapping = [result[6] for result in results]
     weather = [result[7] for result in results]
+    crimeweather_data = []
 
-    crimeweather_data = [{
-        "location":{
-            "city":city,
-            "lat":lat,
-            "lon":lon
-        },
-        "crime":{
-            "mapping":mapping,
-            "code":code
-        },
-        "time":{
-            "date":date,
-            "hour":time
-        },
-        "weather":weather
-    }]
+    # The following will jsonify all the data. DO NOT UNCOMMENT AND RUN IF YOU NAVIGATE TO THIS PATH
+    # crimeweather_data = [{
+    #     "location":{
+    #         "city":city,
+    #         "lat":lat,
+    #         "lon":lon
+    #     },
+    #     "crime":{
+    #         "mapping":mapping,
+    #         "code":code
+    #     },
+    #     "time":{
+    #         "date":date,
+    #         "hour":time
+    #     },
+    #     "weather":weather
+    # }]
 
     return jsonify(crimeweather_data)
 
