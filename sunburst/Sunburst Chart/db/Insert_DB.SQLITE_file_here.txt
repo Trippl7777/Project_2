@@ -1,1 +1,0 @@
-As the name says, insert the db.sqlite file into local folder.
