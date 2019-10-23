@@ -51,8 +51,8 @@ var data = [
   ];
 
   var layout = {
-    width: document.getElementById("sunburst").offsetWidth,
-    height: document.getElementById("sunburst").offsetWidth*.6,
+    width: Math.max(document.getElementById("sunburst").offsetWidth, 450),
+    height: Math.max(document.getElementById("sunburst").offsetWidth*.6, 450),
     sunburstcolorway:["#866d4f","#c83803","#002244","#b0a3bc","#a71930"],
     extendsunburstcolorway: true
   };  
