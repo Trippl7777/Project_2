@@ -43,7 +43,7 @@ def home():
         f"/api/[INSERT CITY HERE] for a test api statement specifying city name."
     )
 
-# ========== NEW API CODE ==========
+# ========== API CODE ==========
 @app.route("/api")
 def crimeweather():
     results = db.session.query(CrimeWeather.city,CrimeWeather.code,CrimeWeather.startdate,CrimeWeather.starttime,
