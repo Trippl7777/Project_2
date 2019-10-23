@@ -1,0 +1,30 @@
+City,MapWeather,Count
+atlanta,Clear,13190
+atlanta,Mostly Cloudy,8470
+atlanta,Overcast,6832
+atlanta,Partly Cloudy,11004
+atlanta,Rain,5922
+atlanta,Snow,51
+boston,Clear,21583
+boston,Mostly Cloudy,10992
+boston,Overcast,14138
+boston,Partly Cloudy,12223
+boston,Rain,9132
+boston,Snow,670
+chicago,Clear,18546
+chicago,Mostly Cloudy,20188
+chicago,Overcast,19433
+chicago,Partly Cloudy,20437
+chicago,Rain,10073
+chicago,Snow,640
+denver,Clear,19770
+denver,Mostly Cloudy,30497
+denver,Overcast,10521
+denver,Partly Cloudy,33959
+denver,Rain,9948
+denver,Snow,1307
+los_angeles,Clear,53540
+los_angeles,Mostly Cloudy,19571
+los_angeles,Overcast,19010
+los_angeles,Partly Cloudy,26872
+los_angeles,Rain,4724
