@@ -85,6 +85,7 @@ function draw(data) {
       height: document.getElementById('sankey').offsetWidth*.57,
       sankey: {
           node: {
+            interactivity: true,
             label: { 
               fontSize: 12,
               color: 'black',
