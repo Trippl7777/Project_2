@@ -82,7 +82,7 @@ function draw(data) {
 
     var layout = {
       width: document.getElementById('sankey').offsetWidth,
-      height: document.getElementById('sankey').offsetWidth*.6,
+      height: document.getElementById('sankey').offsetWidth*.57,
       sankey: {
           node: {
             label: { 
