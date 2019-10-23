@@ -42,6 +42,18 @@ class Sunburst(db.Model):
     def __repr__(self):
         return '<Sunburst %r>' % (self.name)
 
+class Heatmap(db.Model):
+    __tablename__ = 'heatmap'
+
+    id = db.Column(db.Integer, primary_key=True)
+    Lat = db.Column(db.String(50))
+    Lng = db.Column(db.String(50))
+    Crime = db.Column(db.String(50))
+    Weather = db.Column(db.String(50))
+    Count = db.Column(db.Integer)
+
+    def __repr__(self):
+        return '<Heatmap %r>' % (self.name)
 
 chart = "Year"
 crime = "All"
@@ -54,7 +66,8 @@ def welcome():
         f"Available Routes:<br/>"
         f"/plot1<br/>"
         f"/plot2<br/>"
-        f"/plot3"
+        f"/plot3<br/>"
+        f"/plot4"
     )
 
 @app.route("/plot1")
@@ -71,6 +84,11 @@ def plot2():
 def plot3():
     """Return the homepage."""
     return render_template("plot3.html")
+
+@app.route("/plot4")
+def plot4():
+    """Return the homepage."""
+    return render_template("plot4.html")
 
 @app.route("/sunburst")
 def Sunny():
@@ -89,6 +107,24 @@ def Sunny():
         "values": values}
 
     return jsonify(sunburst_data)
+
+@app.route("/heatmap")
+def Heat():
+    print("Test")
+    results = db.session.query(Heatmap.Lat, Heatmap.Lng, Heatmap.Count).limit(10).all()
+    print(results)
+    lat = [result[0] for result in results]
+    lng = [result[1] for result in results]
+    Count = [result[2] for result in results]
+
+    heatmap_data = {
+        "lat": lat,
+        "lng": lng,
+        "Count": Count}
+
+    print(heatmap_data)
+    return jsonify(heatmap_data)
+
 
 @app.route("/chartroute")
 def chartroute():
@@ -128,10 +164,11 @@ def measureroute():
 @app.route("/samples/<sample>")
 def samples1(sample):
     """Return summarized data by selected sample."""
+
     data = {}
     print(sample)
     words = sample.split("1")
-
+    print(words)
     if (words[0] == "first") :
         data = graph1(sample, db.session)
     else :
