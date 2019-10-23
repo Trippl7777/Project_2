@@ -1,0 +1,31 @@
+﻿Weather,MapWeather
+Clear,Clear
+Drizzle,Rain
+Drizzle and Humid,Rain
+Flurries,Snow
+Foggy,Rain
+Heavy Rain,Rain
+Humid,Rain
+Humid and Foggy,Rain
+Humid and Mostly Cloudy,Mostly Cloudy
+Humid and Overcast,Overcast
+Humid and Partly Cloudy,Partly Cloudy
+Light Rain,Rain
+Light Rain and Humid,Rain
+Light Sleet,Snow
+Light Snow,Snow
+Light Snow and Windy,Snow
+Mostly Cloudy,Mostly Cloudy
+Overcast,Overcast
+Partly Cloudy,Partly Cloudy
+Possible Drizzle,Rain
+Possible Drizzle and Humid,Rain
+Possible Drizzle and Windy,Rain
+Possible Flurries,Snow
+Possible Light Rain,Rain
+Possible Light Rain and Humid,Rain
+Possible Light Sleet,Snow
+Possible Light Snow,Snow
+Rain,Rain
+Rain and Humid,Rain
+Windy and Partly Cloudy,Partly Cloudy
