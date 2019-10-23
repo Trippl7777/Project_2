@@ -1,13 +1,15 @@
 var URL = `/heatmap`;
 
-getdata();
-
-
 var map = L.map('map').setView([38, -89], 4);
 
 var baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
+
+getdata();
+
+
+
 
 function getdata() {
 
@@ -15,6 +17,11 @@ function getdata() {
 
     lat = parseFloat(heat.lat)
     lng = parseFloat(heat.lng)
+    count = heat.Count
+
+
+
+    console.log(lng)
 
     // console.log(lat);
 // new code for GeoJson
@@ -33,26 +40,59 @@ function getdata() {
 
     var geoJson = { type: 'FeatureCollection', features: jsonFeatures };
 
-    console.log(geoJson);
+    console.log("test");
 
     L.geoJson(geoJson).addTo(map);
 
     // Add Heat Map
 
-    var heatArray = [];
+    var coords = [];
 
-    for (var i = 0; i < geoJson.length; i++) {
-      var location = geoJson[i].location;
+    for (var i = 0; i < heat.lng.length; i++) {
+      var location = coords.push([heat.lng[i],heat.lat[i],1])};
 
-      if (location) {
-        heatArray.push([location.coordinates[1], location.coordinates[0]]);
-      }
-    }
+    console.log(coords);
+    return coords;
 
-    var heat = L.heatLayer(heatArray, {
-      radius: 20,
+
+
+
+
+    // var heatArray = [];
+    //
+    // for (var i = 0; i < geoJson.length; i++) {
+    //   var location = geoJson[i].location;
+    //
+    //   if (location) {
+    //     lat.push([location.coordinates[1]]);
+    //     lng.push([location.coordinates[0]]);
+    //
+    //     console.log(heatArray);
+    //   }
+    // }
+
+    var heatMapTest = new L.heatLayer(coords, {
+      radius: 25,
       blur: 35
-    }).addTo(myMap);
+    }).addTo(map);
+
+    // new points
+
+    // var pointStyle = {
+    //   radius: 2,
+    //   fillColor: "#000000",
+    //   color: "#000000",
+    //   weight: 1,
+    //   fillOpacity: 1
+    // };
+    //
+    // var points = new L.GeoJSON.AJAX(coords, {pointToLayer: function (feature, coords) {
+    //     return L.circleMarker(coords, pointStyle);
+    //   }}).addTo(map);
+
+    // console.log(geoJson)
+
+
 
   });
 
