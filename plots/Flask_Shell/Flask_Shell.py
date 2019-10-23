@@ -1,7 +1,7 @@
 import os
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 from graph1 import graph1
 from graph2 import graph2

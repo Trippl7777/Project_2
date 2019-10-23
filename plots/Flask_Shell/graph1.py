@@ -1,6 +1,7 @@
 # Function for plot1
 import pandas as pd
 from flask import jsonify
+from pandas.api.types import CategoricalDtype
 
 def graph1(sample, db):
     """Return summarized data by selected sample."""
@@ -16,7 +17,15 @@ def graph1(sample, db):
             stmt = stmt1 + stmt5 + stmt6
 
             df = pd.read_sql_query(stmt, db.bind)
+            
             df["ratio"] = df.iloc[:,1] * 0
+
+            if (words[1] == "DayofWeek") :
+                cats = [ 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+                cat_type = CategoricalDtype(categories=cats, ordered=True)
+                df['DayofWeek'] = df['DayofWeek'].astype(cat_type)
+                df = df.sort_values(by='DayofWeek', ascending=True)
+
             data.update({cities[i] : {"xAxis": df.iloc[:,0].tolist(), "yAxis": df.iloc[:,3].tolist()}})
 
         else:
@@ -48,6 +57,13 @@ def graph1(sample, db):
                 divisor = 1
  
             df["ratio"] = df.iloc[:,1] / divisor            
+
+            if (words[1] == "DayofWeek") :
+                cats = [ 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+                cat_type = CategoricalDtype(categories=cats, ordered=True)
+                df['DayofWeek'] = df['DayofWeek'].astype(cat_type)
+                df = df.sort_values(by='DayofWeek', ascending=True)
+
             data.update({cities[i] : {"xAxis": df.iloc[:,0].tolist(), "yAxis": df.iloc[:,3].tolist()}})
     
     return jsonify(data)

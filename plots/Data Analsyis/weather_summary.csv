@@ -1,0 +1,697 @@
+city,MapWeather,time,Count
+atlanta,Clear,0,527
+atlanta,Clear,1,614
+atlanta,Clear,2,674
+atlanta,Clear,3,719
+atlanta,Clear,4,885
+atlanta,Clear,5,958
+atlanta,Clear,6,933
+atlanta,Clear,7,937
+atlanta,Clear,8,920
+atlanta,Clear,9,908
+atlanta,Clear,10,897
+atlanta,Clear,11,674
+atlanta,Clear,12,558
+atlanta,Clear,13,537
+atlanta,Clear,14,534
+atlanta,Clear,15,528
+atlanta,Clear,16,476
+atlanta,Clear,17,424
+atlanta,Clear,18,389
+atlanta,Clear,19,375
+atlanta,Clear,20,366
+atlanta,Clear,21,384
+atlanta,Clear,22,393
+atlanta,Clear,23,434
+atlanta,Mostly Cloudy,0,265
+atlanta,Mostly Cloudy,1,253
+atlanta,Mostly Cloudy,2,245
+atlanta,Mostly Cloudy,3,227
+atlanta,Mostly Cloudy,4,186
+atlanta,Mostly Cloudy,5,167
+atlanta,Mostly Cloudy,6,176
+atlanta,Mostly Cloudy,7,162
+atlanta,Mostly Cloudy,8,178
+atlanta,Mostly Cloudy,9,170
+atlanta,Mostly Cloudy,10,159
+atlanta,Mostly Cloudy,11,208
+atlanta,Mostly Cloudy,12,273
+atlanta,Mostly Cloudy,13,261
+atlanta,Mostly Cloudy,14,273
+atlanta,Mostly Cloudy,15,288
+atlanta,Mostly Cloudy,16,372
+atlanta,Mostly Cloudy,17,506
+atlanta,Mostly Cloudy,18,589
+atlanta,Mostly Cloudy,19,602
+atlanta,Mostly Cloudy,20,588
+atlanta,Mostly Cloudy,21,479
+atlanta,Mostly Cloudy,22,405
+atlanta,Mostly Cloudy,23,354
+atlanta,Overcast,0,225
+atlanta,Overcast,1,223
+atlanta,Overcast,2,222
+atlanta,Overcast,3,218
+atlanta,Overcast,4,218
+atlanta,Overcast,5,225
+atlanta,Overcast,6,256
+atlanta,Overcast,7,253
+atlanta,Overcast,8,263
+atlanta,Overcast,9,278
+atlanta,Overcast,10,302
+atlanta,Overcast,11,292
+atlanta,Overcast,12,282
+atlanta,Overcast,13,307
+atlanta,Overcast,14,304
+atlanta,Overcast,15,315
+atlanta,Overcast,16,287
+atlanta,Overcast,17,269
+atlanta,Overcast,18,242
+atlanta,Overcast,19,217
+atlanta,Overcast,20,192
+atlanta,Overcast,21,206
+atlanta,Overcast,22,201
+atlanta,Overcast,23,202
+atlanta,Partly Cloudy,0,621
+atlanta,Partly Cloudy,1,521
+atlanta,Partly Cloudy,2,474
+atlanta,Partly Cloudy,3,444
+atlanta,Partly Cloudy,4,300
+atlanta,Partly Cloudy,5,226
+atlanta,Partly Cloudy,6,224
+atlanta,Partly Cloudy,7,213
+atlanta,Partly Cloudy,8,194
+atlanta,Partly Cloudy,9,205
+atlanta,Partly Cloudy,10,206
+atlanta,Partly Cloudy,11,390
+atlanta,Partly Cloudy,12,449
+atlanta,Partly Cloudy,13,466
+atlanta,Partly Cloudy,14,452
+atlanta,Partly Cloudy,15,473
+atlanta,Partly Cloudy,16,505
+atlanta,Partly Cloudy,17,464
+atlanta,Partly Cloudy,18,444
+atlanta,Partly Cloudy,19,457
+atlanta,Partly Cloudy,20,492
+atlanta,Partly Cloudy,21,568
+atlanta,Partly Cloudy,22,627
+atlanta,Partly Cloudy,23,641
+atlanta,Rain,0,182
+atlanta,Rain,1,208
+atlanta,Rain,2,204
+atlanta,Rain,3,211
+atlanta,Rain,4,231
+atlanta,Rain,5,244
+atlanta,Rain,6,231
+atlanta,Rain,7,253
+atlanta,Rain,8,264
+atlanta,Rain,9,257
+atlanta,Rain,10,255
+atlanta,Rain,11,256
+atlanta,Rain,12,258
+atlanta,Rain,13,248
+atlanta,Rain,14,257
+atlanta,Rain,15,213
+atlanta,Rain,16,176
+atlanta,Rain,17,152
+atlanta,Rain,18,154
+atlanta,Rain,19,169
+atlanta,Rain,20,182
+atlanta,Rain,21,181
+atlanta,Rain,22,194
+atlanta,Rain,23,187
+atlanta,Snow,0,1
+atlanta,Snow,1,2
+atlanta,Snow,2,2
+atlanta,Snow,3,1
+atlanta,Snow,4,1
+atlanta,Snow,5,1
+atlanta,Snow,6,1
+atlanta,Snow,7,3
+atlanta,Snow,8,1
+atlanta,Snow,9,2
+atlanta,Snow,10,1
+atlanta,Snow,11,1
+atlanta,Snow,12,1
+atlanta,Snow,13,2
+atlanta,Snow,14,1
+atlanta,Snow,15,3
+atlanta,Snow,16,2
+atlanta,Snow,17,3
+atlanta,Snow,18,3
+atlanta,Snow,19,1
+atlanta,Snow,20,1
+atlanta,Snow,21,2
+atlanta,Snow,22,1
+atlanta,Snow,23,3
+boston,Clear,0,720
+boston,Clear,1,820
+boston,Clear,2,818
+boston,Clear,3,831
+boston,Clear,4,851
+boston,Clear,5,858
+boston,Clear,6,852
+boston,Clear,7,851
+boston,Clear,8,860
+boston,Clear,9,832
+boston,Clear,10,805
+boston,Clear,11,727
+boston,Clear,12,677
+boston,Clear,13,676
+boston,Clear,14,670
+boston,Clear,15,647
+boston,Clear,16,567
+boston,Clear,17,501
+boston,Clear,18,464
+boston,Clear,19,461
+boston,Clear,20,498
+boston,Clear,21,517
+boston,Clear,22,585
+boston,Clear,23,654
+boston,Mostly Cloudy,0,213
+boston,Mostly Cloudy,1,214
+boston,Mostly Cloudy,2,196
+boston,Mostly Cloudy,3,207
+boston,Mostly Cloudy,4,205
+boston,Mostly Cloudy,5,186
+boston,Mostly Cloudy,6,200
+boston,Mostly Cloudy,7,206
+boston,Mostly Cloudy,8,194
+boston,Mostly Cloudy,9,205
+boston,Mostly Cloudy,10,207
+boston,Mostly Cloudy,11,236
+boston,Mostly Cloudy,12,241
+boston,Mostly Cloudy,13,240
+boston,Mostly Cloudy,14,262
+boston,Mostly Cloudy,15,266
+boston,Mostly Cloudy,16,301
+boston,Mostly Cloudy,17,302
+boston,Mostly Cloudy,18,353
+boston,Mostly Cloudy,19,376
+boston,Mostly Cloudy,20,362
+boston,Mostly Cloudy,21,327
+boston,Mostly Cloudy,22,284
+boston,Mostly Cloudy,23,253
+boston,Overcast,0,314
+boston,Overcast,1,312
+boston,Overcast,2,325
+boston,Overcast,3,331
+boston,Overcast,4,336
+boston,Overcast,5,365
+boston,Overcast,6,373
+boston,Overcast,7,380
+boston,Overcast,8,389
+boston,Overcast,9,399
+boston,Overcast,10,388
+boston,Overcast,11,382
+boston,Overcast,12,396
+boston,Overcast,13,395
+boston,Overcast,14,379
+boston,Overcast,15,350
+boston,Overcast,16,349
+boston,Overcast,17,360
+boston,Overcast,18,332
+boston,Overcast,19,316
+boston,Overcast,20,295
+boston,Overcast,21,315
+boston,Overcast,22,319
+boston,Overcast,23,313
+boston,Partly Cloudy,0,356
+boston,Partly Cloudy,1,249
+boston,Partly Cloudy,2,263
+boston,Partly Cloudy,3,249
+boston,Partly Cloudy,4,233
+boston,Partly Cloudy,5,213
+boston,Partly Cloudy,6,199
+boston,Partly Cloudy,7,180
+boston,Partly Cloudy,8,172
+boston,Partly Cloudy,9,178
+boston,Partly Cloudy,10,203
+boston,Partly Cloudy,11,245
+boston,Partly Cloudy,12,290
+boston,Partly Cloudy,13,278
+boston,Partly Cloudy,14,290
+boston,Partly Cloudy,15,325
+boston,Partly Cloudy,16,369
+boston,Partly Cloudy,17,417
+boston,Partly Cloudy,18,426
+boston,Partly Cloudy,19,413
+boston,Partly Cloudy,20,419
+boston,Partly Cloudy,21,431
+boston,Partly Cloudy,22,402
+boston,Partly Cloudy,23,373
+boston,Rain,0,211
+boston,Rain,1,221
+boston,Rain,2,209
+boston,Rain,3,192
+boston,Rain,4,188
+boston,Rain,5,190
+boston,Rain,6,190
+boston,Rain,7,196
+boston,Rain,8,196
+boston,Rain,9,197
+boston,Rain,10,209
+boston,Rain,11,220
+boston,Rain,12,207
+boston,Rain,13,220
+boston,Rain,14,210
+boston,Rain,15,221
+boston,Rain,16,217
+boston,Rain,17,218
+boston,Rain,18,218
+boston,Rain,19,228
+boston,Rain,20,221
+boston,Rain,21,207
+boston,Rain,22,212
+boston,Rain,23,213
+boston,Snow,0,6
+boston,Snow,1,5
+boston,Snow,2,10
+boston,Snow,3,11
+boston,Snow,4,8
+boston,Snow,5,9
+boston,Snow,6,7
+boston,Snow,7,8
+boston,Snow,8,9
+boston,Snow,9,9
+boston,Snow,10,7
+boston,Snow,11,11
+boston,Snow,12,10
+boston,Snow,13,12
+boston,Snow,14,10
+boston,Snow,15,11
+boston,Snow,16,15
+boston,Snow,17,20
+boston,Snow,18,28
+boston,Snow,19,27
+boston,Snow,20,26
+boston,Snow,21,23
+boston,Snow,22,18
+boston,Snow,23,15
+chicago,Clear,0,258
+chicago,Clear,1,304
+chicago,Clear,2,369
+chicago,Clear,3,438
+chicago,Clear,4,540
+chicago,Clear,5,579
+chicago,Clear,6,587
+chicago,Clear,7,579
+chicago,Clear,8,600
+chicago,Clear,9,591
+chicago,Clear,10,503
+chicago,Clear,11,409
+chicago,Clear,12,334
+chicago,Clear,13,274
+chicago,Clear,14,279
+chicago,Clear,15,273
+chicago,Clear,16,239
+chicago,Clear,17,197
+chicago,Clear,18,190
+chicago,Clear,19,165
+chicago,Clear,20,171
+chicago,Clear,21,185
+chicago,Clear,22,196
+chicago,Clear,23,212
+chicago,Mostly Cloudy,0,516
+chicago,Mostly Cloudy,1,485
+chicago,Mostly Cloudy,2,389
+chicago,Mostly Cloudy,3,345
+chicago,Mostly Cloudy,4,262
+chicago,Mostly Cloudy,5,252
+chicago,Mostly Cloudy,6,262
+chicago,Mostly Cloudy,7,269
+chicago,Mostly Cloudy,8,266
+chicago,Mostly Cloudy,9,274
+chicago,Mostly Cloudy,10,302
+chicago,Mostly Cloudy,11,371
+chicago,Mostly Cloudy,12,410
+chicago,Mostly Cloudy,13,421
+chicago,Mostly Cloudy,14,433
+chicago,Mostly Cloudy,15,451
+chicago,Mostly Cloudy,16,500
+chicago,Mostly Cloudy,17,544
+chicago,Mostly Cloudy,18,580
+chicago,Mostly Cloudy,19,610
+chicago,Mostly Cloudy,20,633
+chicago,Mostly Cloudy,21,618
+chicago,Mostly Cloudy,22,574
+chicago,Mostly Cloudy,23,558
+chicago,Overcast,0,403
+chicago,Overcast,1,423
+chicago,Overcast,2,430
+chicago,Overcast,3,426
+chicago,Overcast,4,443
+chicago,Overcast,5,434
+chicago,Overcast,6,430
+chicago,Overcast,7,426
+chicago,Overcast,8,423
+chicago,Overcast,9,423
+chicago,Overcast,10,436
+chicago,Overcast,11,427
+chicago,Overcast,12,439
+chicago,Overcast,13,451
+chicago,Overcast,14,442
+chicago,Overcast,15,434
+chicago,Overcast,16,440
+chicago,Overcast,17,431
+chicago,Overcast,18,420
+chicago,Overcast,19,415
+chicago,Overcast,20,413
+chicago,Overcast,21,407
+chicago,Overcast,22,423
+chicago,Overcast,23,402
+chicago,Partly Cloudy,0,464
+chicago,Partly Cloudy,1,439
+chicago,Partly Cloudy,2,458
+chicago,Partly Cloudy,3,425
+chicago,Partly Cloudy,4,400
+chicago,Partly Cloudy,5,370
+chicago,Partly Cloudy,6,348
+chicago,Partly Cloudy,7,344
+chicago,Partly Cloudy,8,328
+chicago,Partly Cloudy,9,330
+chicago,Partly Cloudy,10,376
+chicago,Partly Cloudy,11,396
+chicago,Partly Cloudy,12,423
+chicago,Partly Cloudy,13,482
+chicago,Partly Cloudy,14,475
+chicago,Partly Cloudy,15,482
+chicago,Partly Cloudy,16,470
+chicago,Partly Cloudy,17,467
+chicago,Partly Cloudy,18,455
+chicago,Partly Cloudy,19,455
+chicago,Partly Cloudy,20,432
+chicago,Partly Cloudy,21,439
+chicago,Partly Cloudy,22,463
+chicago,Partly Cloudy,23,478
+chicago,Rain,0,174
+chicago,Rain,1,165
+chicago,Rain,2,169
+chicago,Rain,3,182
+chicago,Rain,4,168
+chicago,Rain,5,179
+chicago,Rain,6,190
+chicago,Rain,7,199
+chicago,Rain,8,196
+chicago,Rain,9,196
+chicago,Rain,10,196
+chicago,Rain,11,209
+chicago,Rain,12,208
+chicago,Rain,13,189
+chicago,Rain,14,189
+chicago,Rain,15,174
+chicago,Rain,16,159
+chicago,Rain,17,164
+chicago,Rain,18,159
+chicago,Rain,19,158
+chicago,Rain,20,150
+chicago,Rain,21,149
+chicago,Rain,22,153
+chicago,Rain,23,162
+chicago,Snow,0,6
+chicago,Snow,1,5
+chicago,Snow,2,6
+chicago,Snow,3,5
+chicago,Snow,4,8
+chicago,Snow,5,7
+chicago,Snow,6,4
+chicago,Snow,7,4
+chicago,Snow,8,7
+chicago,Snow,9,6
+chicago,Snow,10,7
+chicago,Snow,11,9
+chicago,Snow,12,7
+chicago,Snow,13,4
+chicago,Snow,14,3
+chicago,Snow,15,6
+chicago,Snow,16,10
+chicago,Snow,17,15
+chicago,Snow,18,17
+chicago,Snow,19,18
+chicago,Snow,20,22
+chicago,Snow,21,22
+chicago,Snow,22,12
+chicago,Snow,23,9
+denver,Clear,0,118
+denver,Clear,1,145
+denver,Clear,2,207
+denver,Clear,3,262
+denver,Clear,4,349
+denver,Clear,5,530
+denver,Clear,6,602
+denver,Clear,7,652
+denver,Clear,8,692
+denver,Clear,9,708
+denver,Clear,10,726
+denver,Clear,11,657
+denver,Clear,12,507
+denver,Clear,13,351
+denver,Clear,14,245
+denver,Clear,15,220
+denver,Clear,16,188
+denver,Clear,17,181
+denver,Clear,18,131
+denver,Clear,19,106
+denver,Clear,20,96
+denver,Clear,21,90
+denver,Clear,22,102
+denver,Clear,23,120
+denver,Mostly Cloudy,0,891
+denver,Mostly Cloudy,1,854
+denver,Mostly Cloudy,2,788
+denver,Mostly Cloudy,3,682
+denver,Mostly Cloudy,4,592
+denver,Mostly Cloudy,5,402
+denver,Mostly Cloudy,6,332
+denver,Mostly Cloudy,7,294
+denver,Mostly Cloudy,8,262
+denver,Mostly Cloudy,9,261
+denver,Mostly Cloudy,10,240
+denver,Mostly Cloudy,11,258
+denver,Mostly Cloudy,12,297
+denver,Mostly Cloudy,13,430
+denver,Mostly Cloudy,14,526
+denver,Mostly Cloudy,15,576
+denver,Mostly Cloudy,16,606
+denver,Mostly Cloudy,17,637
+denver,Mostly Cloudy,18,658
+denver,Mostly Cloudy,19,711
+denver,Mostly Cloudy,20,757
+denver,Mostly Cloudy,21,849
+denver,Mostly Cloudy,22,863
+denver,Mostly Cloudy,23,903
+denver,Overcast,0,102
+denver,Overcast,1,116
+denver,Overcast,2,131
+denver,Overcast,3,148
+denver,Overcast,4,151
+denver,Overcast,5,181
+denver,Overcast,6,191
+denver,Overcast,7,189
+denver,Overcast,8,171
+denver,Overcast,9,160
+denver,Overcast,10,169
+denver,Overcast,11,167
+denver,Overcast,12,167
+denver,Overcast,13,153
+denver,Overcast,14,143
+denver,Overcast,15,140
+denver,Overcast,16,133
+denver,Overcast,17,122
+denver,Overcast,18,127
+denver,Overcast,19,120
+denver,Overcast,20,119
+denver,Overcast,21,113
+denver,Overcast,22,102
+denver,Overcast,23,107
+denver,Partly Cloudy,0,557
+denver,Partly Cloudy,1,571
+denver,Partly Cloudy,2,553
+denver,Partly Cloudy,3,583
+denver,Partly Cloudy,4,576
+denver,Partly Cloudy,5,572
+denver,Partly Cloudy,6,560
+denver,Partly Cloudy,7,555
+denver,Partly Cloudy,8,549
+denver,Partly Cloudy,9,545
+denver,Partly Cloudy,10,545
+denver,Partly Cloudy,11,597
+denver,Partly Cloudy,12,707
+denver,Partly Cloudy,13,729
+denver,Partly Cloudy,14,738
+denver,Partly Cloudy,15,735
+denver,Partly Cloudy,16,746
+denver,Partly Cloudy,17,750
+denver,Partly Cloudy,18,774
+denver,Partly Cloudy,19,739
+denver,Partly Cloudy,20,701
+denver,Partly Cloudy,21,626
+denver,Partly Cloudy,22,592
+denver,Partly Cloudy,23,533
+denver,Rain,0,135
+denver,Rain,1,121
+denver,Rain,2,130
+denver,Rain,3,139
+denver,Rain,4,147
+denver,Rain,5,131
+denver,Rain,6,125
+denver,Rain,7,126
+denver,Rain,8,143
+denver,Rain,9,140
+denver,Rain,10,131
+denver,Rain,11,140
+denver,Rain,12,143
+denver,Rain,13,159
+denver,Rain,14,167
+denver,Rain,15,143
+denver,Rain,16,135
+denver,Rain,17,117
+denver,Rain,18,109
+denver,Rain,19,126
+denver,Rain,20,116
+denver,Rain,21,112
+denver,Rain,22,137
+denver,Rain,23,141
+denver,Snow,0,23
+denver,Snow,1,19
+denver,Snow,2,17
+denver,Snow,3,12
+denver,Snow,4,11
+denver,Snow,5,10
+denver,Snow,6,11
+denver,Snow,7,10
+denver,Snow,8,8
+denver,Snow,9,11
+denver,Snow,10,14
+denver,Snow,11,7
+denver,Snow,12,5
+denver,Snow,13,4
+denver,Snow,14,7
+denver,Snow,15,11
+denver,Snow,16,15
+denver,Snow,17,16
+denver,Snow,18,27
+denver,Snow,19,24
+denver,Snow,20,37
+denver,Snow,21,35
+denver,Snow,22,30
+denver,Snow,23,22
+los_angeles,Clear,0,1308
+los_angeles,Clear,1,1318
+los_angeles,Clear,2,1307
+los_angeles,Clear,3,1306
+los_angeles,Clear,4,1223
+los_angeles,Clear,5,1184
+los_angeles,Clear,6,1167
+los_angeles,Clear,7,1130
+los_angeles,Clear,8,1061
+los_angeles,Clear,9,1022
+los_angeles,Clear,10,967
+los_angeles,Clear,11,922
+los_angeles,Clear,12,875
+los_angeles,Clear,13,833
+los_angeles,Clear,14,793
+los_angeles,Clear,15,778
+los_angeles,Clear,16,787
+los_angeles,Clear,17,856
+los_angeles,Clear,18,992
+los_angeles,Clear,19,1096
+los_angeles,Clear,20,1159
+los_angeles,Clear,21,1223
+los_angeles,Clear,22,1248
+los_angeles,Clear,23,1305
+los_angeles,Mostly Cloudy,0,110
+los_angeles,Mostly Cloudy,1,106
+los_angeles,Mostly Cloudy,2,119
+los_angeles,Mostly Cloudy,3,109
+los_angeles,Mostly Cloudy,4,165
+los_angeles,Mostly Cloudy,5,168
+los_angeles,Mostly Cloudy,6,181
+los_angeles,Mostly Cloudy,7,195
+los_angeles,Mostly Cloudy,8,210
+los_angeles,Mostly Cloudy,9,223
+los_angeles,Mostly Cloudy,10,248
+los_angeles,Mostly Cloudy,11,256
+los_angeles,Mostly Cloudy,12,249
+los_angeles,Mostly Cloudy,13,270
+los_angeles,Mostly Cloudy,14,277
+los_angeles,Mostly Cloudy,15,277
+los_angeles,Mostly Cloudy,16,297
+los_angeles,Mostly Cloudy,17,276
+los_angeles,Mostly Cloudy,18,250
+los_angeles,Mostly Cloudy,19,228
+los_angeles,Mostly Cloudy,20,179
+los_angeles,Mostly Cloudy,21,157
+los_angeles,Mostly Cloudy,22,131
+los_angeles,Mostly Cloudy,23,132
+los_angeles,Overcast,0,67
+los_angeles,Overcast,1,69
+los_angeles,Overcast,2,67
+los_angeles,Overcast,3,77
+los_angeles,Overcast,4,102
+los_angeles,Overcast,5,128
+los_angeles,Overcast,6,158
+los_angeles,Overcast,7,180
+los_angeles,Overcast,8,210
+los_angeles,Overcast,9,261
+los_angeles,Overcast,10,305
+los_angeles,Overcast,11,349
+los_angeles,Overcast,12,406
+los_angeles,Overcast,13,425
+los_angeles,Overcast,14,449
+los_angeles,Overcast,15,418
+los_angeles,Overcast,16,367
+los_angeles,Overcast,17,280
+los_angeles,Overcast,18,214
+los_angeles,Overcast,19,151
+los_angeles,Overcast,20,120
+los_angeles,Overcast,21,99
+los_angeles,Overcast,22,84
+los_angeles,Overcast,23,65
+los_angeles,Partly Cloudy,0,299
+los_angeles,Partly Cloudy,1,297
+los_angeles,Partly Cloudy,2,295
+los_angeles,Partly Cloudy,3,295
+los_angeles,Partly Cloudy,4,297
+los_angeles,Partly Cloudy,5,310
+los_angeles,Partly Cloudy,6,282
+los_angeles,Partly Cloudy,7,269
+los_angeles,Partly Cloudy,8,295
+los_angeles,Partly Cloudy,9,270
+los_angeles,Partly Cloudy,10,256
+los_angeles,Partly Cloudy,11,242
+los_angeles,Partly Cloudy,12,240
+los_angeles,Partly Cloudy,13,240
+los_angeles,Partly Cloudy,14,253
+los_angeles,Partly Cloudy,15,292
+los_angeles,Partly Cloudy,16,320
+los_angeles,Partly Cloudy,17,364
+los_angeles,Partly Cloudy,18,332
+los_angeles,Partly Cloudy,19,318
+los_angeles,Partly Cloudy,20,336
+los_angeles,Partly Cloudy,21,312
+los_angeles,Partly Cloudy,22,325
+los_angeles,Partly Cloudy,23,285
+los_angeles,Rain,0,42
+los_angeles,Rain,1,36
+los_angeles,Rain,2,38
+los_angeles,Rain,3,39
+los_angeles,Rain,4,39
+los_angeles,Rain,5,36
+los_angeles,Rain,6,38
+los_angeles,Rain,7,47
+los_angeles,Rain,8,49
+los_angeles,Rain,9,49
+los_angeles,Rain,10,49
+los_angeles,Rain,11,57
+los_angeles,Rain,12,56
+los_angeles,Rain,13,58
+los_angeles,Rain,14,54
+los_angeles,Rain,15,60
+los_angeles,Rain,16,52
+los_angeles,Rain,17,47
+los_angeles,Rain,18,38
+los_angeles,Rain,19,33
+los_angeles,Rain,20,32
+los_angeles,Rain,21,34
+los_angeles,Rain,22,38
+los_angeles,Rain,23,39

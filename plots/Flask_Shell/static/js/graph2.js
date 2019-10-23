@@ -6,10 +6,11 @@ var measure = "Percentage";
 function buildLines(sample) {
   // Use `d3.json` to fetch the data for a sample
   d3.json(`/samples/${sample}`).then(function(d) {
-    console.log(d);
+    
     var weather = ["base", "Clear", "Mostly Cloudy", "Overcast", "Partly Cloudy", "Rain", "Snow"];
-    var cityName = ["Legend", "Clear", "Mostly Cloudy", "Overcast", "Partly Cloudy", "Rain", "Snow"]
-    var cityColors = ["rgb(0,0,0)", "rgb(167,25,48)", "rgb(176,163,188)", "rgb(200,56,3)", "rgb(0,34,68)", "rgb(134,109,79)"]
+    var cityName = ["Legend", "Clear", "Mostly Cloudy", "Overcast", "Partly Cloudy", "Rain", "Snow"];
+    var cityColors = ["black", "red", "orange", "yellow", "green", "blue", "purple"];
+    //["rgb(0,0,0)", "rgb(167,25,48)", "rgb(176,163,188)", "rgb(200,56,3)", "rgb(0,34,68)", "rgb(134,109,79)"]
     var dChart = [];
     
     for(var i=0; i<weather.length;i++) {
