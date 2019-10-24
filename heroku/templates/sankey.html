@@ -101,15 +101,48 @@
           <p></p>
         </div>
     <!-- USED FOR DROPDOWN -->
-    <div class="container">
+    <div class="container mx-auto">
       <div  style="margin-top: 30px; margin-bottom: 50px;" class="row">
         <div  style="margin-bottom: 400px;" class="col-md-2 card">
           <h6 class="text-center">Change City Selection: </h6>
           <select id="citychange" onchange="citychange(this.value)"></select>
         </div>
-      <div class="col-md-9 responsive">
+      <div class="col-md-10 responsive">
         <div id="sankey"></div>
       </div>
+      <div class="col-md-12 responsive mr-auto">
+          <p style="float: right; font-size: 10px; text-align: right">
+            <u>Made With <a href="https://developers.google.com/chart">Google Charts</a> Javascript Library</p></u>
+        </div>
+      </div>
+      <div class="container">
+        <hr>
+        <div class="row col-md-10 mx-auto">
+        <div style="margin-top: 10px; margin: 10px; margin-bottom: 4%;" class="col-md-5 responsive mx-auto border">
+          <br>
+          <h4>Description:</h4>
+          <hr>
+          <p>
+              In this chart, the user can view how certain cities' crime related to the time of day. 
+              This is shown by the both the size of the nodes and size of the paths. 
+              The larger each one is visually; the greater number of records were found relating between those two nodes. 
+              This aids in determining if there is any correlation between times of day and certain types of crime, 
+              and what times of day certain crimes are the most prevalent.
+          </p>
+        </div>
+        <div style="margin-top: 10px; margin: 10px; margin-bottom: 4%;" class="col-md-5 responsive mx-auto border">
+            <br>
+            <h4>Interactive Guide:</h4>
+            <hr>
+            <p>
+                The Sankey is an interactive chart, allowing the user to match relational proportionallity between varying nodes. To view a 
+                singular node and its connections click on that node to highlight these items. This can very useful for distinguishing particular
+                paths of interest. To un-highlight the node and paths, simply click it again. To view the value of the nodes or paths, hover 
+                the cursor over it. To view certain cities in greater detail click, use the dropdown box to the side of the chart.              
+            </p>
+          </div>
+      </div>
+
     </div>
   </div>
 
