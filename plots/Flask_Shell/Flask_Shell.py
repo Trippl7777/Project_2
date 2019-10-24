@@ -111,7 +111,7 @@ def Sunny():
 @app.route("/heatmap")
 def Heat():
     print("Test")
-    results = db.session.query(Heatmap.Lat, Heatmap.Lng, Heatmap.Count).limit(10).all()
+    results = db.session.query(Heatmap.Lat, Heatmap.Lng, Heatmap.Count).all()
     print(results)
     lat = [result[0] for result in results]
     lng = [result[1] for result in results]
