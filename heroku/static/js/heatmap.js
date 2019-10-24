@@ -125,8 +125,18 @@ d3.json(URL).then(function(heat) {
 });
 
 var heat = L.heatLayer(coords, {
-  radius: 20,
+  radius: 25,
   blur: 25
 }).addTo(map);
 
-
+// var pointStyle = {
+//       radius: 2,
+//       fillColor: "#000000",
+//       color: "#000000",
+//       weight: 1,
+//       fillOpacity: 1
+//     };
+    
+//     var points = new L.GeoJSON.AJAX(coords, {pointToLayer: function (feature, coords) {
+//         return L.circleMarker(coords, pointStyle);
+//       }}).addTo(map);
