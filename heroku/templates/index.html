@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8", content="width=device-width">
-    <title>Jason Ree</title>
+    <title>Crime Weather Project</title>
+    <link rel="icon" href="../static/applefavicon.ico">
     <!--  CSS Bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -17,10 +18,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+   
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary stationary">
-        <a class="navbar-brand" style="margin-left: 10px;" href="https://https://crime-weather.herokuapp.com">菠萝苹果笔 | Pineapple Apple Pen</a>
+        <a class="navbar-brand" style="margin-left: 10px;" href="https://crime-weather.herokuapp.com"><img style="height:30px;" src="/../static/pineapple-01.svg">Pineapple Apple Pen</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,35 +30,120 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="https://https://crime-weather.herokuapp.com">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="https://https://crime-weather.herokuapp.com">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Interactive Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callsunburst">Sunburst</a>
+                  <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callsankey">Sankey (City, Crime, Time)</a>
+                  <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callheatmap">Heatmap</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Analytic Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://crime-weather.herokuapp.com/plot1">Linear - City</a>
+                    <a class="dropdown-item" href="https://crime-weather.herokuapp.com/plot2">Linear - Weather</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    API Examples
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://crime-weather.herokuapp.com/api">Basic API Call</a>
+                    <a class="dropdown-item" href="https://crime-weather.herokuapp.com/api/denver">API Call w/ City (Denver)</a>
+                </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://crime-weather.herokuapp.com/callsunburst">Sunburst</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://crime-weather.herokuapp.com/plot1">Plot1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://crime-weather.herokuapp.com/plot2">Plot2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://crime-weather.herokuapp.com/api">API Example</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://crime-weather.herokuapp.com/api/atlanta">API City Example</a>
+                <a class="nav-link" href="https://crime-weather.herokuapp.com/data">Our Data<span class="sr-only">(current)</span></a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#"></a>
             </li> -->
           </ul>
         </div>
-      </nav>
+    </nav>
+
 
     <div class="text-center hero">
-      <h1>菠萝苹果笔</h1>
-      <p>Crime Weather Project</p>
+      <h1 style="color: blanchedalmond;">Crime Weather Project</h1>
+
+      <p></p>
     </div>
 
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-md-1"></div> -->
+        <div class="col-md-12 text-center">
+          <h3><br><br><br><br>Are you more likely to become victim to crime when it's raining?</h3><hr>
+          <h5><br><br><br>We can all recall a dark, rainy crime scene investigation from the movies.</h5>
+          <h5><br>Do more crimes happen during darker or stormy days, where criminals are able to hide in the shadows and elude justice?</h5>
+          <h5>Our team dove into millions of crime reports from 5 major cities across the continental U.S. to analyze whether crimes occur more frequently under certain weather conditions.<br><br><br><br><br></h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h5><strong> Cities - Sample API</strong></h5>
+          <h6> | <a style="color: black" href="https://crime-weather.herokuapp.com/api/atlanta">Atlanta</a> | <a style="color: black" href="https://crime-weather.herokuapp.com/api/boston">Boston</a> | <a style="color: black" href="https://crime-weather.herokuapp.com/api/chicago">Chicago</a> | <a style="color: black" href="https://crime-weather.herokuapp.com/api/denver">Denver</a> | <a style="color: black" href="https://crime-weather.herokuapp.com/api/los_angeles">Los Angeles</a> |<br><br></h6>
+
+          <hr>
+          <h5><strong>Our Findings</strong><br></h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <a href="https://crime-weather.herokuapp.com/callsunburst">
+            <img style="margin:5px; height: 250px;" src="/../static/sunburst_demo.png">
+            <p style="color: black;">Sunburst Chart</p>
+          </a>
+        </div>
+        <div class="col-md-6 text-center">
+          <a href="https://crime-weather.herokuapp.com/callsankey">
+            <img style="margin:5px; height: 250px;" src="/../static/sankey_demo.png">
+            <p style="color: black;"">Sankey Chart</p>
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col-md-6 text-center">
+            <a href="https://crime-weather.herokuapp.com/plot1">
+              <img style="margin:5px; height: 250px;"  src="/../static/plot1_demo.png">
+              <p style="color: black;">Linear Plot - City</p>
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <a href="https://crime-weather.herokuapp.com/plot2">
+              <img style="margin:5px; height: 250px;" src="/../static/plot2_demo.png">
+              <p style="color: black;">Linear Plot - Weather</p>
+            </a>
+          </div>
+        </div><hr>
+        <div class="row">
+            <div class="col-md-6 text-center">
+              <a href="https://crime-weather.herokuapp.com/callheatmap">
+                <img style="margin:5px; height: 250px;"  src="/../static/heatmap_demo.png">
+                <p style="color: black;">Crime Heatmap</p>
+              </a>
+            </div>
+            <div class="col-md-6 text-center">
+              <!-- <a href="https://crime-weather.herokuapp.com/plot2">
+                <img style="margin:5px; height: 250px;" src="/../static/plot2_demo.png">
+                <p style="color: black;">Linear Plot - Weather</p>
+              </a> -->
+            </div>
+          </div>
+    </div>
     
 
 </body>

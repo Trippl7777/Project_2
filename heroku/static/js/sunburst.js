@@ -6,7 +6,6 @@ function init() {
 
 // Define input variables
 var par, lbl, ids, val
-// var weat;
 
 // If window is resized, resize chart accordingly
 window.onresize = function() {
@@ -30,35 +29,11 @@ function getdata() {
   val = (sunnyb.values).map(Number)
   weat = sunnyb.weather
 
-  //Ignore this if still uncommented. Attempt to add checkboxes to already interatve chart
-
-  // console.log("IDS", ids, "Labels", lbl,"Parents", par, "Values", val);
-  // var checks = d3.select("#checkers");
-  // checks.html('')
-  // console.log("Working")
-  
-  // for(i=0; i<weat.length; i++) {
-  //   checks.append("li")
-  //     .append("input")
-  //     .attr("type","checkbox")
-  //     .property("value", weat[i])
-  //     .attr("onchange","act(this.value)")
-  //     .attr("checked")
-  //     .text(weat[i])
-  // }
-
   draw();
 })
 }
 
-// function init(weat) {
 
-//   };
-
-// function act(value) {
-//   console.log(value)
-// }
- 
 //Here comes the sun doo, doo, doo
 function draw() {
   
@@ -76,8 +51,8 @@ var data = [
   ];
 
   var layout = {
-    width: document.getElementById("sunburst").offsetWidth,
-    height: document.getElementById("sunburst").offsetWidth*.8,
+    width: Math.max(document.getElementById("sunburst").offsetWidth, 450),
+    height: Math.max(document.getElementById("sunburst").offsetWidth*.6, 450),
     sunburstcolorway:["#866d4f","#c83803","#002244","#b0a3bc","#a71930"],
     extendsunburstcolorway: true
   };  

@@ -122,6 +122,10 @@ def measureroute():
 
     return jsonify(selectors)
 
+@app.route("/data")
+def data():
+    return render_template("data.html")
+
 @app.route("/samples/<sample>")
 def samples(sample):
     """Return summarized data by selected sample."""

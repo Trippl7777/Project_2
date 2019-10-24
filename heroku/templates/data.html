@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8", content="width=device-width">
-    <title>Jason Ree</title>
+    <title>Crime Weather Project</title>
+    <link rel="icon" href="../static/applefavicon.ico">
     <!--  CSS Bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -17,10 +18,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+   
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary stationary">
-        <a class="navbar-brand" style="margin-left: 10px;" href="https://https://crime-weather.herokuapp.com">菠萝苹果笔 | Pineapple Apple Pen</a>
+        <a class="navbar-brand" style="margin-left: 10px;" href="https://crime-weather.herokuapp.com"><img style="height:30px;" src="/../static/pineapple-01.svg">Pineapple Apple Pen</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,7 +38,9 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callsunburst">Sunburst</a>
-                  <a class="dropdown-item" href="#">Sankey (City, Crime, Time)</a>
+                  <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callsankey">Sankey (City, Crime, Time)</a>
+                  <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callheatmap">Heatmap</a>
+
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -45,8 +48,8 @@
                     Analytic Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="https://crime-weather.herokuapp.com/plot1">Plot1</a>
-                    <a class="dropdown-item" href="https://crime-weather.herokuapp.com/plot2">Plot2</a>
+                    <a class="dropdown-item" href="https://crime-weather.herokuapp.com/plot1">Linear - City</a>
+                    <a class="dropdown-item" href="https://crime-weather.herokuapp.com/plot2">Linear - Weather</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -66,10 +69,14 @@
             </li> -->
           </ul>
         </div>
-      </nav>
+    </nav>
+
 
     <div class="text-center hero">
-      <h1>About Our Data</h1>
+      <h1 style="color: blanchedalmond;">Crime Weather Project</h1>
+      <h2 style="color: blanchedalmond;">About Our Data</h2>
+
+      <p></p>
     </div>
     <br>
     <div class="container">

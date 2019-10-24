@@ -8,6 +8,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -120,15 +121,21 @@ select {
   border-radius: 0%;
 }
 
+.card{
+  padding: 10px;
+  width: 180px;
+}
+
 /* The styles for the parallax */
 .hero {
   position: relative;
-  height: 550px;
+  height: 500px;
   /* width: 100%; */
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../pineapple.jpeg");
+  background-image: url("../hr-crime-scene.jpg");
+  /* background-image: url("../pineapple-01.jpg"); */
   /* background-image: url("static/images/joel-filipe-QwoNAhbmLLo-unsplash.jpg"); */
   background-attachment: fixed;
   background-position: bottom center;

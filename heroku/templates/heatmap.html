@@ -1,0 +1,116 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crime Weather - Heat Map</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <Prevent favicon issue -->
+    <!-- <link rel="icon" href="data:,">
+    <link rel="icon" href="data:;base64,iVBORwOKGO="> -->
+
+<!--    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />-->
+<!--    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>-->
+
+        <!-- Latest compiled and minified CSS & JS -->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.2/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.3.2/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.1/dist/leaflet.timeline.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/style3.css"> -->
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8", content="width=device-width">
+        <title>Crime Weather - Heatmap</title>
+        <link rel="icon" href="../static/applefavicon.ico">
+        <!--  CSS Bootstrap  -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="static/css/style.css" type="text/css" media="screen">
+        <script src="https://kit.fontawesome.com/f1e181a5ee.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.2/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.3.2/dist/leaflet.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.1/dist/leaflet.timeline.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <link rel="stylesheet" type="text/css" href="../static/css/style3.css">
+    </head>
+    
+    <body>
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+       
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary stationary">
+            <a class="navbar-brand" style="margin-left: 10px;" href="https://crime-weather.herokuapp.com"><img style="height:30px;" src="/../static/pineapple-01.svg">Pineapple Apple Pen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+          
+            <div class="collapse navbar-collapse" id="navbarColor01">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="https://https://crime-weather.herokuapp.com">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Interactive Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callsunburst">Sunburst</a>
+                      <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callsankey">Sankey (City, Crime, Time)</a>
+                      <a class="dropdown-item" href="https://crime-weather.herokuapp.com/callheatmap">Heatmap</a>
+    
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Analytic Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://crime-weather.herokuapp.com/plot1">Linear - City</a>
+                            <a class="dropdown-item" href="https://crime-weather.herokuapp.com/plot2">Linear - Weather</a>
+                            </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        API Examples
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://crime-weather.herokuapp.com/api">Basic API Call</a>
+                        <a class="dropdown-item" href="https://crime-weather.herokuapp.com/api/denver">API Call w/ City (Denver)</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://crime-weather.herokuapp.com/data">Our Data<span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li> -->
+              </ul>
+            </div>
+        </nav>
+    
+    
+        <div class="text-center hero">
+          <h1 style="color: blanchedalmond;">Crime Weather</h1>
+          <h2 style="color: blanchedalmond;">Heat Map</h2>
+          <p></p>
+        </div>
+    
+    <div style="margin: 130px; height: 80%" id="map"></div>
+
+    <script src="../static/js/leaflet-heat.js"></script>
+    <script src="../static/js/heatmap.js"></script>
+
+</body>
+</html>
