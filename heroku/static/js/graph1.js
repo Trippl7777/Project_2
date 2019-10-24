@@ -6,10 +6,11 @@ var measure = "Percentage";
 function buildLines(sample) {
   // Use `d3.json` to fetch the data for a sample
   d3.json(`/samples/${sample}`).then(function(d) {
-    console.log(sample);
+    
     var cities = ["base", "atlanta", "boston", "chicago", "denver", "los_angeles"];
-    var cityName = ["Legend", "Atlanta", "Boston", "Chicago", "Denver", "Los Angeles"]
-    var cityColors = ["rgb(0,0,0)", "rgb(167,25,48)", "rgb(176,163,188)", "rgb(200,56,3)", "rgb(0,34,68)", "rgb(134,109,79)"]
+    var cityName = ["Legend", "Atlanta", "Boston", "Chicago", "Denver", "Los Angeles"];
+    var cityColors = ["black", "red", "orange", "yellow", "green", "blue"];
+    //["rgb(0,0,0)", "rgb(167,25,48)", "rgb(176,163,188)", "rgb(200,56,3)", "rgb(0,34,68)", "rgb(134,109,79)"]
     var dChart = [];
     
     for(var i=0; i<cities.length;i++) {

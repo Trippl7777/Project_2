@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="https://https://crime-weather.herokuapp.com">Home</a>
+              <a class="nav-link" href="https://crime-weather.herokuapp.com">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -80,8 +80,8 @@
     </div>
     <br>
     <div class="container">
-      <div class="hero">
-        <h3>Data Collection</h3>
+      <div class="hero" style="height:100px;margin-top: 15px;">
+        <h3 style="color: blanchedalmond;">Data Collection</h3>
       </div>
       <hr>
       <p>Crime data was selcted from 5 cities (Atlanta, Boston, Chicago, Denver, and Los Angeles) for years 2014 - 2018. 
@@ -109,15 +109,15 @@
       <p>Weather data was <a href="https://darksky.net/poweredby/">powered by Dark Sky</a> API calls. Weather data 
       was collected for every hour within our date ranges for each of the 5 cities.</p>
       <br>
-      <div class="hero">
-        <h3>Munging</h3>
+      <div  class="hero" style="height:100px;">
+        <h3 style="color: blanchedalmond;">Munging</h3>
       </div>
       <hr>
       <p>Using Python, the yearly crime data was cleaned and combined. 
         The following fields: city, crime code, date, time, latitude, and longitude. 
         The combined data has over 900 crime codes. For analysis purposes, the crime codes were grouped 
         to 24 categories using the crime descriptions. The weather data was combined 
-        using Python and the weather type was collapsed to 30 cataegories for the anlaysis.
+        using Python and the weather type was collapsed to 30 cataegories for the analysis.
 
         The cleaned crime and weather files were merged on city, date, and time (hour 0-23).
           
@@ -125,7 +125,7 @@
         longitude and collapsing the crimes to the following: 
         Auto-Theft, Other, Property, Theft, Violation, and Violence and the weather to 
         Clear, Mostly Cloudy, Overcast, Partly Cloudy, Rain, and Snow. 
-        Also, the 2104 and 2015 year was excluded for Boston and Chicago since these were inclomplete years. 
+        Also, the 2014 and 2015 year was excluded for Boston and Chicago since these were incomplete years. 
         The population was added and the file was converted to a sqlite database.</p>
       <br>
     </div>
