@@ -120,7 +120,7 @@ d3.json(URL).then(function(heat) {
   count = heat.Count
 
   for (var i = 0; i < heat.lng.length; i++) {
-    coords.push([heat.lat[i],heat.lng[i]])
+    coords.push([heat.lat[i],heat.lng[i],0.1])
   };
 });
 
