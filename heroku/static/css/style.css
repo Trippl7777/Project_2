@@ -126,6 +126,14 @@ select {
   width: 180px;
 }
 
+.othervis{
+  margin:5px; 
+  height: 200px; 
+  width: 180px; 
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 /* The styles for the parallax */
 .hero {
   position: relative;
