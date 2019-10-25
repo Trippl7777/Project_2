@@ -1,0 +1,911 @@
+city,code,crime_desc,mapping
+atlanta,A110,HOMICIDE,Killing
+atlanta,A120,MANSLAUGHTER,Killing
+atlanta,A311,ROBBERY-PEDESTRIAN,Robbery
+atlanta,A312,ROBBERY-COMMERCIAL,Robbery
+atlanta,A313,ROBBERY-COMMERCIAL,Robbery
+atlanta,A314,ROBBERY-COMMERCIAL,Robbery
+atlanta,A315,ROBBERY-RESIDENCE,Robbery
+atlanta,A316,ROBBERY-COMMERCIAL,Robbery
+atlanta,A317,ROBBERY-PEDESTRIAN,Robbery
+atlanta,A321,ROBBERY-PEDESTRIAN,Robbery
+atlanta,A322,ROBBERY-COMMERCIAL,Robbery
+atlanta,A323,ROBBERY-COMMERCIAL,Robbery
+atlanta,A324,ROBBERY-COMMERCIAL,Robbery
+atlanta,A325,ROBBERY-RESIDENCE,Robbery
+atlanta,A326,ROBBERY-COMMERCIAL,Robbery
+atlanta,A327,ROBBERY-PEDESTRIAN,Robbery
+atlanta,A331,ROBBERY-PEDESTRIAN,Robbery
+atlanta,A332,ROBBERY-COMMERCIAL,Robbery
+atlanta,A333,ROBBERY-COMMERCIAL,Robbery
+atlanta,A334,ROBBERY-COMMERCIAL,Robbery
+atlanta,A335,ROBBERY-RESIDENCE,Robbery
+atlanta,A336,ROBBERY-COMMERCIAL,Robbery
+atlanta,A337,ROBBERY-PEDESTRIAN,Robbery
+atlanta,A341,ROBBERY-PEDESTRIAN,Robbery
+atlanta,A342,ROBBERY-COMMERCIAL,Robbery
+atlanta,A343,ROBBERY-COMMERCIAL,Robbery
+atlanta,A344,ROBBERY-COMMERCIAL,Robbery
+atlanta,A345,ROBBERY-RESIDENCE,Robbery
+atlanta,A346,ROBBERY-COMMERCIAL,Robbery
+atlanta,A347,ROBBERY-PEDESTRIAN,Robbery
+atlanta,A410,AGG ASSAULT,Violence
+atlanta,A420,AGG ASSAULT,Violence
+atlanta,A430,AGG ASSAULT,Violence
+atlanta,A440,AGG ASSAULT,Violence
+atlanta,A511,BURGLARY-RESIDENCE,Burglary
+atlanta,A512,BURGLARY-NONRES,Burglary
+atlanta,A521,BURGLARY-RESIDENCE,Burglary
+atlanta,A522,BURGLARY-NONRES,Burglary
+atlanta,A531,BURGLARY-RESIDENCE,Burglary
+atlanta,A532,BURGLARY-NONRES,Burglary
+atlanta,A610,LARCENY-NON VEHICLE,Burglary
+atlanta,A620,LARCENY-NON VEHICLE,Burglary
+atlanta,A630,LARCENY-NON VEHICLE,Burglary
+atlanta,A640,LARCENY-FROM VEHICLE,Burglary
+atlanta,A650,LARCENY-FROM VEHICLE,Burglary
+atlanta,A660,LARCENY-NON VEHICLE,Burglary
+atlanta,A670,LARCENY-NON VEHICLE,Burglary
+atlanta,A680,LARCENY-NON VEHICLE,Burglary
+atlanta,A690,LARCENY-NON VEHICLE,Burglary
+atlanta,A710,AUTO THEFT,Auto-Theft
+atlanta,A720,AUTO THEFT,Auto-Theft
+atlanta,A730,AUTO THEFT,Auto-Theft
+boston,A111,Homicide,Killing
+boston,A112,Manslaughter,Killing
+boston,A121,Manslaughter,Killing
+boston,A123,Manslaughter,Killing
+boston,A301,Robbery,Robbery
+boston,A311,Robbery,Robbery
+boston,A315,Robbery,Robbery
+boston,A335,Robbery,Robbery
+boston,A339,Robbery,Robbery
+boston,A349,Robbery,Robbery
+boston,A351,Robbery,Robbery
+boston,A361,Robbery,Robbery
+boston,A371,Robbery,Robbery
+boston,A381,Robbery,Robbery
+boston,A402,Aggravated Assault,Violence
+boston,A403,Aggravated Assault,Violence
+boston,A404,Aggravated Assault,Violence
+boston,A413,Aggravated Assault,Violence
+boston,A423,Aggravated Assault,Violence
+boston,A432,Aggravated Assault,Violence
+boston,A511,Residential Burglary,Burglary
+boston,A520,Residential Burglary,Burglary
+boston,A521,Residential Burglary,Burglary
+boston,A522,Residential Burglary,Burglary
+boston,A527,Burglary - No Property Taken,Burglary
+boston,A530,Commercial Burglary,Burglary
+boston,A540,Commercial Burglary,Burglary
+boston,A541,Commercial Burglary,Burglary
+boston,A542,Commercial Burglary,Burglary
+boston,A547,Burglary - No Property Taken,Burglary
+boston,A560,Other Burglary,Burglary
+boston,A561,Other Burglary,Burglary
+boston,A562,Other Burglary,Burglary
+boston,A611,Larceny,Burglary
+boston,A612,Larceny,Burglary
+boston,A613,Larceny,Burglary
+boston,A614,Larceny From Motor Vehicle,Burglary
+boston,A615,Larceny From Motor Vehicle,Burglary
+boston,A616,Larceny,Burglary
+boston,A617,Larceny,Burglary
+boston,A618,Larceny,Burglary
+boston,A619,Larceny,Burglary
+boston,A623,Larceny,Burglary
+boston,A624,Larceny From Motor Vehicle,Burglary
+boston,A627,Larceny,Burglary
+boston,A629,Larceny,Burglary
+boston,A633,Larceny,Burglary
+boston,A637,Larceny,Burglary
+boston,A639,Larceny,Burglary
+boston,A670,License Plate Related Incidents,Other
+boston,A706,Auto Theft,Auto-Theft
+boston,A714,Auto Theft,Auto-Theft
+boston,A724,Auto Theft,Auto-Theft
+boston,A727,Auto Theft,Auto-Theft
+boston,A735,Auto Theft Recovery,Auto-Theft
+boston,A770,Auto Theft,Auto-Theft
+boston,A801,Simple Assault,Violence
+boston,A802,Simple Assault,Violence
+boston,A803,Simple Assault,Violence
+boston,A804,Simple Assault,Violence
+boston,A900,Arson,Arson
+boston,A1001,Counterfeiting,Fraud
+boston,A1002,Counterfeiting,Fraud
+boston,A1102,Fraud,Fraud
+boston,A1105,Fraud,Fraud
+boston,A1106,Confidence Games,Fraud
+boston,A1107,Fraud,Fraud
+boston,A1108,Fraud,Fraud
+boston,A1109,Fraud,Fraud
+boston,A1201,Embezzlement,Fraud
+boston,A1300,Recovered Stolen Property,Burglary
+boston,A1302,Recovered Stolen Property,Burglary
+boston,A1304,Recovered Stolen Property,Burglary
+boston,A1402,Vandalism,Vandalism
+boston,A1415,Vandalism,Vandalism
+boston,A1501,Firearm Violations,Other
+boston,A1502,Firearm Violations,Other
+boston,A1503,Firearm Violations,Other
+boston,A1504,Other,Other
+boston,A1510,Firearm Violations,Other
+boston,A1601,Prostitution,Other
+boston,A1602,Prostitution,Other
+boston,A1603,Prostitution,Other
+boston,A1605,Prostitution,Other
+boston,A1610,HUMAN TRAFFICKING,Other
+boston,A1620,HUMAN TRAFFICKING - INVOLUNTARY SERVITUDE,Other
+boston,A1805,Drug Violation,Drugs
+boston,A1806,Drug Violation,Drugs
+boston,A1807,Drug Violation,Drugs
+boston,A1810,Drug Violation,Drugs
+boston,A1815,Drug Violation,Drugs
+boston,A1825,Drug Violation,Drugs
+boston,A1830,Drug Violation,Drugs
+boston,A1831,Drug Violation,Drugs
+boston,A1832,Drug Violation,Drugs
+boston,A1841,Drug Violation,Drugs
+boston,A1842,Drug Violation,Drugs
+boston,A1843,Drug Violation,Drugs
+boston,A1844,Drug Violation,Drugs
+boston,A1845,Drug Violation,Drugs
+boston,A1846,Drug Violation,Drugs
+boston,A1847,Drug Violation,Drugs
+boston,A1848,Drug Violation,Drugs
+boston,A1849,Drug Violation,Drugs
+boston,A1850,Drug Violation,Drugs
+boston,A1863,Drug Violation,Drugs
+boston,A1864,Drug Violation,Drugs
+boston,A1866,Drug Violation,Drugs
+boston,A1870,Drug Violation,Drugs
+boston,A1874,Drug Violation,Drugs
+boston,A1901,Gambling,Other
+boston,A2003,Offenses Against Child / Family,Other
+boston,A2004,Offenses Against Child / Family,Other
+boston,A2005,Offenses Against Child / Family,Other
+boston,A2006,Restraining Order Violations,Other
+boston,A2007,Restraining Order Violations,Other
+boston,A2010,HOME INVASION,Violence
+boston,A2101,Operating Under the Influence,VAL
+boston,A2102,Operating Under the Influence,VAL
+boston,A2204,Liquor Violation,Other
+boston,A2401,Disorderly Conduct,Other
+boston,A2403,Disorderly Conduct,Other
+boston,A2405,Disorderly Conduct,Other
+boston,A2407,Disorderly Conduct,Other
+boston,A2511,Other,Other
+boston,A2604,Other,Other
+boston,A2605,Offenses Against Child / Family,Other
+boston,A2606,Prisoner Related Incidents,Other
+boston,A2608,Offenses Against Child / Family,Other
+boston,A2609,Drug Violation,Drugs
+boston,A2610,Other,Other
+boston,A2611,Other,Other
+boston,A2612,Fire Related Reports,Other
+boston,A2613,Other,Other
+boston,A2616,Other,Other
+boston,A2617,Drug Violation,Drugs
+boston,A2618,Explosives,Other
+boston,A2619,Prisoner Related Incidents,Other
+boston,A2622,Other,Other
+boston,A2623,Other,Other
+boston,A2628,Phone Call Complaints,Verbal
+boston,A2629,Harassment,Verbal
+boston,A2631,Other,Other
+boston,A2632,Evading Fare,Other
+boston,A2636,Prisoner Related Incidents,Other
+boston,A2641,Other,Other
+boston,A2642,Missing Person Reported,Other
+boston,A2646,Liquor Violation,Other
+boston,A2647,Other,Other
+boston,A2648,Bomb Hoax,Other
+boston,A2657,Other,Other
+boston,A2660,Other,Other
+boston,A2662,Ballistics,Other
+boston,A2663,Other,Other
+boston,A2664,Other,Other
+boston,A2670,Criminal Harassment,Verbal
+boston,A2672,Biological Threat,Other
+boston,A2900,Other,Other
+boston,A2905,Violations,Other
+boston,A2906,Violations,Other
+boston,A2907,Violations,Other
+boston,A2910,Violations,Other
+boston,A2914,Violations,Other
+boston,A3001,Medical Assistance,Medical
+boston,A3002,Medical Assistance,Medical
+boston,A3004,Medical Assistance,Medical
+boston,A3006,Medical Assistance,Medical
+boston,A3007,Medical Assistance,Medical
+boston,A3008,Medical Assistance,Medical
+boston,A3016,Medical Assistance,Medical
+boston,A3018,Medical Assistance,Medical
+boston,A3029,Prisoner Related Incidents,Other
+boston,A3102,Other,Other
+boston,A3106,Property Related Damage,Property
+boston,A3108,Fire Related Reports,Other
+boston,A3109,Police Service Incidents,Other
+boston,A3110,Police Service Incidents,Other
+boston,A3111,License Violation,Other
+boston,A3112,Landlord/Tenant Disputes,Verbal
+boston,A3114,Investigate Property,Investigate 
+boston,A3115,INVESTIGATE PERSON,Investigate 
+boston,A3116,Harbor Related Incidents,Other
+boston,A3119,Firearm Discovery,Other
+boston,A3122,Aircraft,Other
+boston,A3123,Explosives,Warrant
+boston,A3125,Warrant Arrests,Warrant
+boston,A3130,Search Warrants,Other
+boston,A3160,Fire Related Reports,Other
+boston,A3170,Other,Property
+boston,A3201,Property Lost,Property
+boston,A3202,Property Found,Other
+boston,A3203,Firearm Discovery,Other
+boston,A3205,License Plate Related Incidents,Property
+boston,A3207,Property Found,Property
+boston,A3208,Property Lost,Verbal
+boston,A3301,Verbal Disputes,Other
+boston,A3302,Assembly or Gathering Violations,Other
+boston,A3303,Assembly or Gathering Violations,Other
+boston,A3304,Assembly or Gathering Violations,Other
+boston,A3305,Assembly or Gathering Violations,Other
+boston,A3402,Service,Other
+boston,A3403,Police Service Incidents,Towed
+boston,A3410,Towed,Other
+boston,A3501,Missing Person Reported,Other
+boston,A3502,Missing Person Located,Other
+boston,A3503,Missing Person Located,Other
+boston,A3620,Other,Other
+boston,A3625,Other,Other
+boston,A3801,Motor Vehicle Accident Response,M/V
+boston,A3802,Motor Vehicle Accident Response,M/V
+boston,A3803,Motor Vehicle Accident Response,M/V
+boston,A3805,Motor Vehicle Accident Response,M/V
+boston,A3807,Motor Vehicle Accident Response,M/V
+boston,A3810,Motor Vehicle Accident Response,M/V
+boston,A3811,Motor Vehicle Accident Response,M/V
+boston,A3820,Motor Vehicle Accident Response,M/V
+boston,A3821,Motor Vehicle Accident Response,M/V
+boston,A3830,Motor Vehicle Accident Response,M/V
+boston,A3831,Motor Vehicle Accident Response,M/V
+chicago,A031A,ROBBERY,Robbery
+chicago,A031B,ROBBERY,Robbery
+chicago,A033A,ROBBERY,Robbery
+chicago,A033B,ROBBERY,Robbery
+chicago,A041A,BATTERY,Violence
+chicago,A041B,BATTERY,Violence
+chicago,A051A,ASSAULT,Violence
+chicago,A051B,ASSAULT,Violence
+chicago,A1010,ARSON,Arson
+chicago,A1020,ARSON,Arson
+chicago,A1025,ARSON,Arson
+chicago,A1030,ARSON,Arson
+chicago,A1035,ARSON,Arson
+chicago,A1050,HUMAN TRAFFICKING,Other
+chicago,A1055,HUMAN TRAFFICKING,Other
+chicago,A1090,ARSON,Arson
+chicago,A110,HOMICIDE,Killing
+chicago,A1110,DECEPTIVE PRACTICE,Fraud
+chicago,A1120,DECEPTIVE PRACTICE,Fraud
+chicago,A1121,DECEPTIVE PRACTICE,Fraud
+chicago,A1122,DECEPTIVE PRACTICE,Fraud
+chicago,A1130,DECEPTIVE PRACTICE,Fraud
+chicago,A1135,DECEPTIVE PRACTICE,Fraud
+chicago,A1140,DECEPTIVE PRACTICE,Fraud
+chicago,A1150,DECEPTIVE PRACTICE,Fraud
+chicago,A1151,DECEPTIVE PRACTICE,Fraud
+chicago,A1152,DECEPTIVE PRACTICE,Fraud
+chicago,A1153,DECEPTIVE PRACTICE,Fraud
+chicago,A1154,DECEPTIVE PRACTICE,Fraud
+chicago,A1155,DECEPTIVE PRACTICE,Fraud
+chicago,A1156,DECEPTIVE PRACTICE,Fraud
+chicago,A1160,DECEPTIVE PRACTICE,Fraud
+chicago,A1170,DECEPTIVE PRACTICE,Fraud
+chicago,A1185,DECEPTIVE PRACTICE,Fraud
+chicago,A1195,DECEPTIVE PRACTICE,Fraud
+chicago,A1200,DECEPTIVE PRACTICE,Fraud
+chicago,A1205,DECEPTIVE PRACTICE,Fraud
+chicago,A1206,DECEPTIVE PRACTICE,Fraud
+chicago,A1210,DECEPTIVE PRACTICE,Fraud
+chicago,A1220,DECEPTIVE PRACTICE,Fraud
+chicago,A1230,DECEPTIVE PRACTICE,Fraud
+chicago,A1235,DECEPTIVE PRACTICE,Fraud
+chicago,A1240,DECEPTIVE PRACTICE,Fraud
+chicago,A1241,DECEPTIVE PRACTICE,Fraud
+chicago,A1242,DECEPTIVE PRACTICE,Fraud
+chicago,A1245,DECEPTIVE PRACTICE,Fraud
+chicago,A1255,DECEPTIVE PRACTICE,Fraud
+chicago,A1260,DECEPTIVE PRACTICE,Fraud
+chicago,A1261,DECEPTIVE PRACTICE,Fraud
+chicago,A1265,CRIMINAL DAMAGE,Property
+chicago,A1305,CRIMINAL DAMAGE,Property
+chicago,A1310,CRIMINAL DAMAGE,Property
+chicago,A1320,CRIMINAL DAMAGE,Property
+chicago,A1330,CRIMINAL TRESPASS,B&E
+chicago,A1335,CRIMINAL TRESPASS,B&E
+chicago,A1340,CRIMINAL DAMAGE,Property
+chicago,A1345,CRIMINAL DAMAGE,Property
+chicago,A1350,CRIMINAL TRESPASS,B&E
+chicago,A1360,CRIMINAL TRESPASS,B&E
+chicago,A1365,CRIMINAL TRESPASS,B&E
+chicago,A1370,CRIMINAL DAMAGE,Property
+chicago,A1375,CRIMINAL DAMAGE,Property
+chicago,A141A,WEAPONS VIOLATION,Violation
+chicago,A141B,WEAPONS VIOLATION,Violation
+chicago,A141C,WEAPONS VIOLATION,Violation
+chicago,A142,HOMICIDE,Killing
+chicago,A142A,WEAPONS VIOLATION,Violation
+chicago,A142B,WEAPONS VIOLATION,Violation
+chicago,A1435,WEAPONS VIOLATION,Violation
+chicago,A143A,WEAPONS VIOLATION,Violation
+chicago,A143B,WEAPONS VIOLATION,Violation
+chicago,A143C,WEAPONS VIOLATION,Violation
+chicago,A1450,WEAPONS VIOLATION,Violation
+chicago,A1460,WEAPONS VIOLATION,Violation
+chicago,A1476,WEAPONS VIOLATION,Violation
+chicago,A1477,WEAPONS VIOLATION,Violation
+chicago,A1478,CONCEALED CARRY LICENSE VIOLATION,Violation
+chicago,A1479,CONCEALED CARRY LICENSE VIOLATION,Violation
+chicago,A1480,CONCEALED CARRY LICENSE VIOLATION,Violation
+chicago,A1481,NON-CRIMINAL,Violation
+chicago,A1505,PROSTITUTION,Other
+chicago,A1506,PROSTITUTION,Other
+chicago,A1507,PROSTITUTION,Other
+chicago,A1510,PROSTITUTION,Other
+chicago,A1512,PROSTITUTION,Other
+chicago,A1513,PROSTITUTION,Other
+chicago,A1515,PROSTITUTION,Other
+chicago,A1520,PROSTITUTION,Other
+chicago,A1525,PROSTITUTION,Other
+chicago,A1526,PROSTITUTION,Other
+chicago,A1530,PROSTITUTION,Other
+chicago,A1535,OBSCENITY,Other
+chicago,A1536,PUBLIC INDECENCY,Other
+chicago,A1537,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1540,OBSCENITY,Other
+chicago,A1541,OBSCENITY,Other
+chicago,A1544,SEX OFFENSE,Other
+chicago,A1549,PROSTITUTION,Other
+chicago,A1562,SEX OFFENSE,Sexual
+chicago,A1563,SEX OFFENSE,Sexual
+chicago,A1564,SEX OFFENSE,Sexual
+chicago,A1565,SEX OFFENSE,Sexual
+chicago,A1566,SEX OFFENSE,Sexual
+chicago,A1570,SEX OFFENSE,Sexual
+chicago,A1580,SEX OFFENSE,Sexual
+chicago,A1581,SEX OFFENSE,Sexual
+chicago,A1582,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1585,SEX OFFENSE,Other
+chicago,A1590,SEX OFFENSE,Other
+chicago,A1651,GAMBLING,Other
+chicago,A1661,GAMBLING,Other
+chicago,A1670,GAMBLING,Other
+chicago,A1680,GAMBLING,Other
+chicago,A1682,OTHER OFFENSE,Other
+chicago,A1710,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1715,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1720,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1725,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1750,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1751,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1752,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1753,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1754,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1755,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1780,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1790,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1791,OFFENSE INVOLVING CHILDREN,Other
+chicago,A1792,KIDNAPPING,Kidnapping
+chicago,A1811,NARCOTICS,Drugs
+chicago,A1812,NARCOTICS,Drugs
+chicago,A1821,NARCOTICS,Drugs
+chicago,A1822,NARCOTICS,Drugs
+chicago,A1840,NARCOTICS,Drugs
+chicago,A1850,NARCOTICS,Drugs
+chicago,A1900,OTHER NARCOTIC VIOLATION,Drugs
+chicago,A2010,NARCOTICS,Drugs
+chicago,A2011,NARCOTICS,Drugs
+chicago,A2012,NARCOTICS,Drugs
+chicago,A2013,NARCOTICS,Drugs
+chicago,A2014,NARCOTICS,Drugs
+chicago,A2015,NARCOTICS,Drugs
+chicago,A2016,NARCOTICS,Drugs
+chicago,A2017,NARCOTICS,Drugs
+chicago,A2018,NARCOTICS,Drugs
+chicago,A2019,NARCOTICS,Drugs
+chicago,A2020,NARCOTICS,Drugs
+chicago,A2021,NARCOTICS,Drugs
+chicago,A2022,NARCOTICS,Drugs
+chicago,A2023,NARCOTICS,Drugs
+chicago,A2024,NARCOTICS,Drugs
+chicago,A2025,NARCOTICS,Drugs
+chicago,A2026,NARCOTICS,Drugs
+chicago,A2027,NARCOTICS,Drugs
+chicago,A2028,NARCOTICS,Drugs
+chicago,A2029,NARCOTICS,Drugs
+chicago,A2030,NARCOTICS,Drugs
+chicago,A2031,NARCOTICS,Drugs
+chicago,A2032,NARCOTICS,Drugs
+chicago,A2033,NARCOTICS,Drugs
+chicago,A2034,NARCOTICS,Drugs
+chicago,A2040,NARCOTICS,Drugs
+chicago,A2050,NARCOTICS,Drugs
+chicago,A2060,NARCOTICS,Drugs
+chicago,A2070,NARCOTICS,Drugs
+chicago,A2080,NARCOTICS,Drugs
+chicago,A2090,NARCOTICS,Drugs
+chicago,A2091,NARCOTICS,Drugs
+chicago,A2092,NARCOTICS,Drugs
+chicago,A2093,NARCOTICS,Drugs
+chicago,A2094,NARCOTICS,Drugs
+chicago,A2095,NARCOTICS,Drugs
+chicago,A2110,NARCOTICS,Drugs
+chicago,A2160,NARCOTICS,Drugs
+chicago,A2170,NARCOTICS,Drugs
+chicago,A2210,LIQUOR LAW VIOLATION,Violation
+chicago,A2220,LIQUOR LAW VIOLATION,Violation
+chicago,A2230,LIQUOR LAW VIOLATION,Violation
+chicago,A2240,LIQUOR LAW VIOLATION,Violation
+chicago,A2250,LIQUOR LAW VIOLATION,Violation
+chicago,A261,CRIM SEXUAL ASSAULT,Violence
+chicago,A262,CRIM SEXUAL ASSAULT,Violence
+chicago,A263,CRIM SEXUAL ASSAULT,Violence
+chicago,A264,CRIM SEXUAL ASSAULT,Violence
+chicago,A265,CRIM SEXUAL ASSAULT,Violence
+chicago,A266,CRIM SEXUAL ASSAULT,Violence
+chicago,A271,CRIM SEXUAL ASSAULT,Violence
+chicago,A272,CRIM SEXUAL ASSAULT,Violence
+chicago,A273,CRIM SEXUAL ASSAULT,Violence
+chicago,A274,CRIM SEXUAL ASSAULT,Violence
+chicago,A275,CRIM SEXUAL ASSAULT,Violence
+chicago,A281,CRIM SEXUAL ASSAULT,Violence
+chicago,A2820,OTHER OFFENSE,Other
+chicago,A2825,OTHER OFFENSE,Other
+chicago,A2826,OTHER OFFENSE,Other
+chicago,A2830,OTHER OFFENSE,Other
+chicago,A2840,PUBLIC PEACE VIOLATION,Verbal
+chicago,A2850,PUBLIC PEACE VIOLATION,Verbal
+chicago,A2851,PUBLIC PEACE VIOLATION,Verbal
+chicago,A2860,PUBLIC PEACE VIOLATION,Verbal
+chicago,A2870,PUBLIC PEACE VIOLATION,Verbal
+chicago,A2890,PUBLIC PEACE VIOLATION,Verbal
+chicago,A2895,PUBLIC PEACE VIOLATION,Verbal
+chicago,A2900,WEAPONS VIOLATION,Other
+chicago,A291,CRIM SEXUAL ASSAULT,Violence
+chicago,A3000,PUBLIC PEACE VIOLATION,Verbal
+chicago,A3100,PUBLIC PEACE VIOLATION,Verbal
+chicago,A312,ROBBERY,Robbery
+chicago,A313,ROBBERY,Robbery
+chicago,A320,ROBBERY,Robbery
+chicago,A325,ROBBERY,Robbery
+chicago,A326,ROBBERY,Robbery
+chicago,A330,ROBBERY,Robbery
+chicago,A3300,PUBLIC PEACE VIOLATION,Verbal
+chicago,A331,ROBBERY,Robbery
+chicago,A334,ROBBERY,Robbery
+chicago,A337,ROBBERY,Robbery
+chicago,A340,ROBBERY,Robbery
+chicago,A3610,OTHER OFFENSE,Other
+chicago,A3710,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3720,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3730,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3731,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3740,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3750,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3760,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3770,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3800,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3910,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3920,INTERFERENCE WITH PUBLIC OFFICER,Interference
+chicago,A3960,INTIMIDATION,Verbal
+chicago,A3961,INTIMIDATION,Verbal
+chicago,A3966,INTIMIDATION,Verbal
+chicago,A3970,INTIMIDATION,Verbal
+chicago,A3975,INTIMIDATION,Verbal
+chicago,A3980,INTIMIDATION,Verbal
+chicago,A420,BATTERY,Violence
+chicago,A4210,KIDNAPPING,Kidnapping
+chicago,A4220,KIDNAPPING,Kidnapping
+chicago,A4230,KIDNAPPING,Kidnapping
+chicago,A4240,KIDNAPPING,Kidnapping
+chicago,A4255,KIDNAPPING,Kidnapping
+chicago,A430,BATTERY,Violence
+chicago,A4310,OTHER OFFENSE,Other
+chicago,A4386,OTHER OFFENSE,Other
+chicago,A4387,OTHER OFFENSE,Other
+chicago,A4388,OTHER OFFENSE,Other
+chicago,A4389,OTHER OFFENSE,Other
+chicago,A440,BATTERY,Violence
+chicago,A450,BATTERY,Violence
+chicago,A451,BATTERY,Violence
+chicago,A4510,OTHER OFFENSE,Other
+chicago,A452,BATTERY,Violence
+chicago,A453,BATTERY,Violence
+chicago,A454,BATTERY,Violence
+chicago,A460,BATTERY,Violence
+chicago,A461,BATTERY,Violence
+chicago,A462,BATTERY,Violence
+chicago,A4625,OTHER OFFENSE,Other
+chicago,A4650,OTHER OFFENSE,Other
+chicago,A4651,OTHER OFFENSE,Other
+chicago,A4652,OTHER OFFENSE,Other
+chicago,A470,PUBLIC PEACE VIOLATION,Verbal
+chicago,A4740,OTHER OFFENSE,Other
+chicago,A475,BATTERY,Violence
+chicago,A479,BATTERY,Violence
+chicago,A4800,OTHER OFFENSE,Other
+chicago,A481,BATTERY,Violence
+chicago,A482,BATTERY,Violence
+chicago,A483,BATTERY,Violence
+chicago,A484,BATTERY,Violence
+chicago,A485,BATTERY,Violence
+chicago,A486,BATTERY,Violence
+chicago,A4860,OTHER OFFENSE,Other
+chicago,A487,BATTERY,Violence
+chicago,A488,BATTERY,Violence
+chicago,A495,BATTERY,Violence
+chicago,A496,BATTERY,Violence
+chicago,A497,BATTERY,Violence
+chicago,A498,BATTERY,Violence
+chicago,A5000,OTHER OFFENSE,Other
+chicago,A5001,OTHER OFFENSE,Other
+chicago,A5002,OTHER OFFENSE,Other
+chicago,A5003,OTHER OFFENSE,Other
+chicago,A5004,SEX OFFENSE,Sexual
+chicago,A5007,OTHER OFFENSE,Other
+chicago,A5009,OTHER OFFENSE,Other
+chicago,A500E,OTHER OFFENSE,Other
+chicago,A500N,OTHER OFFENSE,Other
+chicago,A5011,OTHER OFFENSE,Other
+chicago,A5013,OTHER OFFENSE,Other
+chicago,A501A,OTHER OFFENSE,Other
+chicago,A501H,OTHER OFFENSE,Other
+chicago,A502P,OTHER OFFENSE,Other
+chicago,A502R,OTHER OFFENSE,Other
+chicago,A502T,OTHER OFFENSE,Other
+chicago,A5073,NON-CRIMINAL (SUBJECT SPECIFIED),Other
+chicago,A5093,NON-CRIMINAL,Other
+chicago,A5094,NON-CRIMINAL,Other
+chicago,A5110,OTHER OFFENSE,Other
+chicago,A5111,OTHER OFFENSE,Other
+chicago,A5112,OTHER OFFENSE,Other
+chicago,A5113,NON-CRIMINAL ,Other
+chicago,A5114,NON-CRIMINAL,Other
+chicago,A5120,OTHER OFFENSE,Other
+chicago,A5121,OTHER OFFENSE,Other
+chicago,A5122,OTHER OFFENSE,Other
+chicago,A5130,OTHER OFFENSE,Other
+chicago,A5131,OTHER OFFENSE,Other
+chicago,A5132,OTHER OFFENSE,Other
+chicago,A520,ASSAULT,Violence
+chicago,A530,ASSAULT,Violence
+chicago,A545,ASSAULT,Violence
+chicago,A550,ASSAULT,Violence
+chicago,A551,ASSAULT,Violence
+chicago,A552,ASSAULT,Violence
+chicago,A553,ASSAULT,Violence
+chicago,A554,ASSAULT,Violence
+chicago,A555,ASSAULT,Violence
+chicago,A556,ASSAULT,Violence
+chicago,A557,ASSAULT,Violence
+chicago,A558,ASSAULT,Violence
+chicago,A560,ASSAULT,Violence
+chicago,A580,STALKING,Other
+chicago,A581,STALKING,Other
+chicago,A583,STALKING,Other
+chicago,A584,STALKING,Other
+chicago,A585,NON-CRIMINAL,Other
+chicago,A610,BURGLARY,Burglary
+chicago,A620,BURGLARY,Burglary
+chicago,A630,BURGLARY,Burglary
+chicago,A650,BURGLARY,Burglary
+chicago,A810,THEFT,Burglary
+chicago,A820,THEFT,Burglary
+chicago,A830,THEFT,Burglary
+chicago,A850,THEFT,Burglary
+chicago,A860,THEFT,Burglary
+chicago,A865,THEFT,Burglary
+chicago,A870,THEFT,Burglary
+chicago,A880,THEFT,Burglary
+chicago,A890,THEFT,Burglary
+chicago,A895,THEFT,Burglary
+chicago,A910,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A915,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A917,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A918,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A920,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A925,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A927,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A930,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A935,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A937,MOTOR VEHICLE THEFT,Auto-Theft
+chicago,A938,MOTOR VEHICLE THEFT,Auto-Theft
+denver,A902,murder,Killing
+denver,A910,murder,Killing
+denver,A912,murder,Killing
+denver,A1006,all-other-crimes,Other
+denver,A1099,all-other-crimes,Other
+denver,A1202,robbery,Robbery
+denver,A1205,robbery,Robbery
+denver,A1208,robbery,Robbery
+denver,A1210,robbery,Robbery
+denver,A1211,robbery,Robbery
+denver,A1212,robbery,Robbery
+denver,A1310,all-other-crimes,Other
+denver,A1311,all-other-crimes,Other
+denver,A1313,other-crimes-against-persons,Violence
+denver,A1314,aggravated-assault,Violence
+denver,A1315,aggravated-assault,Violence
+denver,A1316,public-disorder,Verbal
+denver,A2005,arson,Arson
+denver,A2006,arson,Arson
+denver,A2007,arson,Arson
+denver,A2009,arson,Arson
+denver,A2099,arson,Arson
+denver,A2199,all-other-crimes,Other
+denver,A2201,burglary,Burglary
+denver,A2202,burglary,Burglary
+denver,A2203,burglary,Burglary
+denver,A2204,burglary,Burglary
+denver,A2205,burglary,Burglary
+denver,A2206,burglary,Burglary
+denver,A2301,larceny,Burglary
+denver,A2302,larceny,Burglary
+denver,A2303,larceny,Burglary
+denver,A2304,theft-from-motor-vehicle,Burglary
+denver,A2305,theft-from-motor-vehicle,Burglary
+denver,A2307,larceny,Burglary
+denver,A2308,larceny,Burglary
+denver,A2309,larceny,Burglary
+denver,A2310,larceny,Burglary
+denver,A2399,auto-theft,Auto-Theft
+denver,A2404,auto-theft,Auto-Theft
+denver,A2501,white-collar-crime,Fraud
+denver,A2503,white-collar-crime,Fraud
+denver,A2506,white-collar-crime,Fraud
+denver,A2508,white-collar-crime,Fraud
+denver,A2589,white-collar-crime,Fraud
+denver,A2601,white-collar-crime,Fraud
+denver,A2602,white-collar-crime,Fraud
+denver,A2604,white-collar-crime,Fraud
+denver,A2605,white-collar-crime,Fraud
+denver,A2606,white-collar-crime,Fraud
+denver,A2607,white-collar-crime,Fraud
+denver,A2609,white-collar-crime,Fraud
+denver,A2699,drug-alcohol,Other
+denver,A2799,white-collar-crime,Fraud
+denver,A2803,all-other-crimes,Other
+denver,A2999,public-disorder,Verbal
+denver,A3501,drug-alcohol,Drugs
+denver,A3503,drug-alcohol,Drugs
+denver,A3504,drug-alcohol,Drugs
+denver,A3510,drug-alcohol,Drugs
+denver,A3512,drug-alcohol,Drugs
+denver,A3520,drug-alcohol,Drugs
+denver,A3522,drug-alcohol,Drugs
+denver,A3530,drug-alcohol,Drugs
+denver,A3532,drug-alcohol,Drugs
+denver,A3540,drug-alcohol,Drugs
+denver,A3542,drug-alcohol,Drugs
+denver,A3550,drug-alcohol,Drugs
+denver,A3560,drug-alcohol,Drugs
+denver,A3562,drug-alcohol,Drugs
+denver,A3563,drug-alcohol,Drugs
+denver,A3570,drug-alcohol,Drugs
+denver,A3571,drug-alcohol,Drugs
+denver,A3572,drug-alcohol,Drugs
+denver,A3580,drug-alcohol,Drugs
+denver,A3581,drug-alcohol,Drugs
+denver,A3582,drug-alcohol,Drugs
+denver,A3599,drug-alcohol,Drugs
+denver,A3605,other-crimes-against-persons,Violence
+denver,A3611,other-crimes-against-persons,Violence
+denver,A3612,all-other-crimes,Other
+denver,A3613,all-other-crimes,Other
+denver,A3700,other-crimes-against-persons,Violence
+denver,A3701,other-crimes-against-persons,Violence
+denver,A3911,all-other-crimes,Other
+denver,A3990,white-collar-crime,Fraud
+denver,A3991,all-other-crimes,Other
+denver,A4002,public-disorder,Verbal
+denver,A4004,public-disorder,Verbal
+denver,A4099,public-disorder,Verbal
+denver,A4102,drug-alcohol,Drugs
+denver,A4104,drug-alcohol,Drugs
+denver,A4105,drug-alcohol,Drugs
+denver,A4199,drug-alcohol,Drugs
+denver,A4801,all-other-crimes,Other
+denver,A4802,all-other-crimes,Other
+denver,A4803,all-other-crimes,Other
+denver,A4812,all-other-crimes,Other
+denver,A4813,all-other-crimes,Other
+denver,A4899,all-other-crimes,Other
+denver,A4901,all-other-crimes,Other
+denver,A4903,all-other-crimes,Other
+denver,A5006,all-other-crimes,Other
+denver,A5011,all-other-crimes,Other
+denver,A5012,all-other-crimes,Other
+denver,A5015,all-other-crimes,Other
+denver,A5016,all-other-crimes,Other
+denver,A5099,all-other-crimes,Other
+denver,A5104,all-other-crimes,Other
+denver,A5201,all-other-crimes,Other
+denver,A5202,all-other-crimes,Other
+denver,A5203,all-other-crimes,Other
+denver,A5206,all-other-crimes,Other
+denver,A5207,all-other-crimes,Other
+denver,A5211,all-other-crimes,Other
+denver,A5212,all-other-crimes,Other
+denver,A5213,all-other-crimes,Other
+denver,A5214,all-other-crimes,Other
+denver,A5215,all-other-crimes,Other
+denver,A5299,all-other-crimes,Other
+denver,A5302,public-disorder,Verbal
+denver,A5303,public-disorder,Verbal
+denver,A5309,public-disorder,Verbal
+denver,A5310,all-other-crimes,Other
+denver,A5311,all-other-crimes,Other
+denver,A5312,public-disorder,Verbal
+denver,A5313,public-disorder,Verbal
+denver,A5314,public-disorder,Verbal
+denver,A5399,public-disorder,Verbal
+denver,A5401,traffic-accident,M/V
+denver,A5420,traffic-accident,M/V
+denver,A5441,traffic-accident,M/V
+denver,A5444,all-other-crimes,Other
+denver,A5450,murder,Killing
+denver,A5454,all-other-crimes,Other
+denver,A5455,all-other-crimes,Other
+denver,A5499,all-other-crimes,Other
+denver,A5704,all-other-crimes,Other
+denver,A5707,all-other-crimes,Other
+denver,A5799,all-other-crimes,Other
+denver,A5801,all-other-crimes,Other
+denver,A5802,all-other-crimes,Other
+denver,A6201,all-other-crimes,Other
+denver,A6205,all-other-crimes,Other
+denver,A6299,all-other-crimes,Other
+denver,A6300,all-other-crimes,Other
+denver,A7099,all-other-crimes,Other
+denver,A7199,all-other-crimes,Other
+denver,A7399,all-other-crimes,Other
+los_angeles,A110,CRIMINAL HOMICIDE,Killing
+los_angeles,A113,"MANSLAUGHTER, NEGLIGENT",Killing
+los_angeles,A121,"RAPE, FORCIBLE",Rape
+los_angeles,A122,"RAPE, ATTEMPTED",Rape
+los_angeles,A210,ROBBERY,Robbery
+los_angeles,A220,ATTEMPTED ROBBERY,Violence
+los_angeles,A230,"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT",Violence
+los_angeles,A231,ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER,Violence
+los_angeles,A235,CHILD ABUSE (PHYSICAL) - AGGRAVATED ASSAULT,Violence
+los_angeles,A236,INTIMATE PARTNER - AGGRAVATED ASSAULT,Violence
+los_angeles,A237,CHILD NEGLECT (SEE 300 W.I.C.),Other
+los_angeles,A250,"SHOTS FIRED AT MOVING VEHICLE, TRAIN OR AIRCRAFT",Other
+los_angeles,A251,SHOTS FIRED AT INHABITED DWELLING,Other
+los_angeles,A310,BURGLARY,Burglary
+los_angeles,A320,"BURGLARY, ATTEMPTED",Burglary
+los_angeles,A330,BURGLARY FROM VEHICLE,Burglary
+los_angeles,A331,THEFT FROM MOTOR VEHICLE - GRAND ($400 AND OVER),Burglary
+los_angeles,A341,"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD",Burglary
+los_angeles,A343,SHOPLIFTING-GRAND THEFT ($950.01 & OVER),Burglary
+los_angeles,A345,DISHONEST EMPLOYEE - GRAND THEFT,Burglary
+los_angeles,A347,GRAND THEFT / INSURANCE FRAUD,Burglary
+los_angeles,A349,GRAND THEFT / AUTO REPAIR,Burglary
+los_angeles,A350,"THEFT, PERSON",Burglary
+los_angeles,A351,PURSE SNATCHING,Robbery
+los_angeles,A352,PICKPOCKET,Burglary
+los_angeles,A353,DRUNK ROLL,Robbery
+los_angeles,A354,THEFT OF IDENTITY,Burglary
+los_angeles,A410,"BURGLARY FROM VEHICLE, ATTEMPTED",Burglary
+los_angeles,A420,THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER),Burglary
+los_angeles,A421,THEFT FROM MOTOR VEHICLE - ATTEMPT,Burglary
+los_angeles,A432,BLOCKING DOOR INDUCTION CENTER,Other
+los_angeles,A433,DRIVING WITHOUT OWNER CONSENT (DWOC),VAL
+los_angeles,A434,FALSE IMPRISONMENT,Other
+los_angeles,A435,LYNCHING,Violence
+los_angeles,A436,LYNCHING - ATTEMPTED,Violence
+los_angeles,A437,RESISTING ARREST,Violence
+los_angeles,A438,RECKLESS DRIVING,VAL
+los_angeles,A439,FALSE POLICE REPORT,Other
+los_angeles,A440,THEFT PLAIN - PETTY ($950 & UNDER),Burglary
+los_angeles,A441,THEFT PLAIN - ATTEMPT,Burglary
+los_angeles,A442,SHOPLIFTING - PETTY THEFT ($950 & UNDER),Burglary
+los_angeles,A443,SHOPLIFTING - ATTEMPT,Burglary
+los_angeles,A444,DISHONEST EMPLOYEE - PETTY THEFT,Burglary
+los_angeles,A445,DISHONEST EMPLOYEE ATTEMPTED THEFT,Burglary
+los_angeles,A446,PETTY THEFT - AUTO REPAIR,Burglary
+los_angeles,A450,THEFT FROM PERSON - ATTEMPT,Burglary
+los_angeles,A451,PURSE SNATCHING - ATTEMPT,Robbery
+los_angeles,A452,"PICKPOCKET, ATTEMPT",Burglary
+los_angeles,A470,TILL TAP - GRAND THEFT ($950.01 & OVER),Burglary
+los_angeles,A471,TILL TAP - PETTY ($950 & UNDER),Burglary
+los_angeles,A472,TILL TAP - ATTEMPT,Burglary
+los_angeles,A473,"THEFT, COIN MACHINE - GRAND ($950.01 & OVER)",Burglary
+los_angeles,A474,"THEFT, COIN MACHINE - PETTY ($950 & UNDER)",Burglary
+los_angeles,A475,"THEFT, COIN MACHINE - ATTEMPT",Burglary
+los_angeles,A480,BIKE - STOLEN,Burglary
+los_angeles,A485,BIKE - ATTEMPTED STOLEN,Burglary
+los_angeles,A487,BOAT - STOLEN,Auto-Theft
+los_angeles,A510,VEHICLE - STOLEN,Auto-Theft
+los_angeles,A520,VEHICLE - ATTEMPT STOLEN,Auto-Theft
+los_angeles,A622,BATTERY ON A FIREFIGHTER,Violence
+los_angeles,A623,BATTERY POLICE (SIMPLE),Violence
+los_angeles,A624,BATTERY - SIMPLE ASSAULT,Violence
+los_angeles,A625,OTHER ASSAULT,Violence
+los_angeles,A626,INTIMATE PARTNER - SIMPLE ASSAULT,Verbal
+los_angeles,A627,CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT,Violence
+los_angeles,A647,THROWING OBJECT AT MOVING VEHICLE,Violence
+los_angeles,A648,ARSON,Arson
+los_angeles,A649,DOCUMENT FORGERY / STOLEN FELONY,Fraud
+los_angeles,A651,DOCUMENT WORTHLESS ($200.01 & OVER),Fraud
+los_angeles,A652,DOCUMENT WORTHLESS ($200 & UNDER),Fraud
+los_angeles,A653,"CREDIT CARDS, FRAUD USE ($950.01 & OVER)",Fraud
+los_angeles,A654,"CREDIT CARDS, FRAUD USE ($950 & UNDER",Fraud
+los_angeles,A660,COUNTERFEIT,Fraud
+los_angeles,A661,UNAUTHORIZED COMPUTER ACCESS,Fraud
+los_angeles,A662,"BUNCO, GRAND THEFT",Burglary
+los_angeles,A664,"BUNCO, PETTY THEFT",Burglary
+los_angeles,A666,"BUNCO, ATTEMPT",Burglary
+los_angeles,A668,"EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER)",Burglary
+los_angeles,A670,"EMBEZZLEMENT, PETTY THEFT ($950 & UNDER)",Burglary
+los_angeles,A740,"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)",Vandalism
+los_angeles,A745,VANDALISM - MISDEAMEANOR ($399 OR UNDER),Vandalism
+los_angeles,A753,DISCHARGE FIREARMS/SHOTS FIRED,Other
+los_angeles,A755,BOMB SCARE,Other
+los_angeles,A756,WEAPONS POSSESSION/BOMBING,Other
+los_angeles,A760,LEWD/LASCIVIOUS ACTS WITH CHILD,Sexual
+los_angeles,A761,BRANDISH WEAPON,Other
+los_angeles,A762,LEWD CONDUCT,Sexual
+los_angeles,A763,STALKING,Other
+los_angeles,A805,PIMPING,Other
+los_angeles,A806,PANDERING,Other
+los_angeles,A810,"SEX,UNLAWFUL(INC MUTUAL CONSENT, PENETRATION W/ FRGN OBJ",Rape
+los_angeles,A812,CRM AGNST CHLD (13 OR UNDER) (14-15 & SUSP 10 YRS OLDER),Violence
+los_angeles,A813,CHILD ANNOYING (17YRS & UNDER),Other
+los_angeles,A814,CHILD PORNOGRAPHY,Other
+los_angeles,A815,SEXUAL PENETRATION W/FOREIGN OBJECT,Rape
+los_angeles,A820,ORAL COPULATION,Other
+los_angeles,A821,SODOMY/SEXUAL CONTACT B/W PENIS OF ONE PERS TO ANUS OTH,Sexual
+los_angeles,A822,HUMAN TRAFFICKING - COMMERCIAL SEX ACTS,Sexual
+los_angeles,A830,INCEST (SEXUAL ACTS BETWEEN BLOOD RELATIVES),Sexual
+los_angeles,A840,"BEASTIALITY, CRIME AGAINST NATURE SEXUAL ASSLT WITH ANIM",Sexual
+los_angeles,A850,INDECENT EXPOSURE,Sexual
+los_angeles,A860,BATTERY WITH SEXUAL CONTACT,Violence
+los_angeles,A865,"DRUGS, TO A MINOR",Other
+los_angeles,A870,CHILD ABANDONMENT,Other
+los_angeles,A880,DISRUPT SCHOOL,Other
+los_angeles,A882,INCITING A RIOT,Other
+los_angeles,A884,FAILURE TO DISPERSE,Other
+los_angeles,A886,DISTURBING THE PEACE,Verbal
+los_angeles,A888,TRESPASSING,B&E
+los_angeles,A890,FAILURE TO YIELD,VAL
+los_angeles,A900,VIOLATION OF COURT ORDER,Violation
+los_angeles,A901,VIOLATION OF RESTRAINING ORDER,Violation
+los_angeles,A902,VIOLATION OF TEMPORARY RESTRAINING ORDER,Violation
+los_angeles,A903,CONTEMPT OF COURT,Violation
+los_angeles,A906,FIREARMS RESTRAINING ORDER (FIREARMS RO),Other
+los_angeles,A910,KIDNAPPING,Kidnapping
+los_angeles,A920,KIDNAPPING - GRAND ATTEMPT,Kidnapping
+los_angeles,A921,HUMAN TRAFFICKING - INVOLUNTARY SERVITUDE,Other
+los_angeles,A922,CHILD STEALING,Kidnapping
+los_angeles,A924,TELEPHONE PROPERTY - DAMAGE,Verbal
+los_angeles,A926,TRAIN WRECKING,Other
+los_angeles,A928,THREATENING PHONE CALLS/LETTERS,Verbal
+los_angeles,A930,CRIMINAL THREATS - NO WEAPON DISPLAYED,Verbal
+los_angeles,A931,"REPLICA FIREARMS(SALE,DISPLAY,MANUFACTURE OR DISTRIBUTE)",Other
+los_angeles,A932,PEEPING TOM,Other
+los_angeles,A933,PROWLER,Other
+los_angeles,A940,EXTORTION,Verbal
+los_angeles,A942,BRIBERY,Other
+los_angeles,A943,CRUELTY TO ANIMALS,Violence
+los_angeles,A944,CONSPIRACY,Other
+los_angeles,A946,OTHER MISCELLANEOUS CRIME,Other
+los_angeles,A948,BIGAMY,Other
+los_angeles,A949,ILLEGAL DUMPING,Other
+los_angeles,A950,"DEFRAUDING INNKEEPER/THEFT OF SERVICES, OVER $400",Fraud
+los_angeles,A951,"DEFRAUDING INNKEEPER/THEFT OF SERVICES, $400 & UNDER",Fraud
+los_angeles,A952,ABORTION/ILLEGAL,Other
+los_angeles,A954,CONTRIBUTING,Other
+los_angeles,A956,"LETTERS, LEWD  -  TELEPHONE CALLS, LEWD",Verbal
